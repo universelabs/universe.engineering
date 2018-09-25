@@ -36,6 +36,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [Status](#status)
 - [Quick Start](#quick-start)
+- [Repository maintainers](#repository-maintainers)
 
 
 ## Status
@@ -46,7 +47,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Enabled www subdomain forwarding to root domain.
 
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.7-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.8-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/univserse/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/epoberezkin/ajv)
@@ -102,4 +103,11 @@ Start the local client side server and run the app. The app will automatically o
 ```
 $ npm start
 ```
+
+
+## Repository maintainers
+
+**Guy Lepage**
+- <https://twitter.com/guylepage3>
+- <https://github.com/guylepage3>
 
