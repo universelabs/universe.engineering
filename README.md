@@ -37,6 +37,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Status](#status)
 - [Quick Start](#quick-start)
 - [Repository maintainers](#repository-maintainers)
+- [License](#license)
 
 
 ## Status
@@ -47,7 +48,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Enabled www subdomain forwarding to root domain.
 
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.8-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.9-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/univserse/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/epoberezkin/ajv)
@@ -111,3 +112,14 @@ $ npm start
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
 
+
+## License
+
+By contributing your code, you agree to license your contribution under the [
+MIT License](LICENSE.md).
+
+<div align="right">
+  <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
+    <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
+  </a>
+</div>
