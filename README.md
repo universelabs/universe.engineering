@@ -48,10 +48,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Enabled www subdomain forwarding to root domain.
 
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.9-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.10-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/univserse/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/epoberezkin/ajv)
+[![Node Sass Chokidar version](https://img.shields.io/badge/Node_Sass_Chokidar-v1.3.3-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/michaelwayman/node-sass-chokidar)
 [![npm version](https://img.shields.io/badge/npm-v6.4.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/)
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/)
 [![ReactDom version](https://img.shields.io/badge/ReactDom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/docs/react-dom.html)
