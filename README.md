@@ -46,6 +46,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Created [Heroku Buildpack for create-react-app](https://elements.heroku.com/buildpacks/nhutphuongit/create-react-app-buildpack).
 - Installed and setup [Create React App](https://github.com/facebookincubator/create-react-app).
 - Enabled www subdomain forwarding to root domain.
+- Enabled CircleCI build tests.
 
 
 [![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.11-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
