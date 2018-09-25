@@ -35,6 +35,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Table of contents
 
 - [Status](#status)
+- [Quick Start](#quick-start)
 
 
 ## Status
@@ -42,7 +43,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Setup Heroku Universe team account.
 - Created [Heroku Buildpack for create-react-app](https://elements.heroku.com/buildpacks/nhutphuongit/create-react-app-buildpack).
 - Installed and setup [Create React App](https://github.com/facebookincubator/create-react-app).
-- Enabled www. subdomain forwarding to root domain.
+- Enabled www subdomain forwarding to root domain.
+
 
 [![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.3-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/univserse/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
@@ -52,6 +54,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/)
 [![ReactDom version](https://img.shields.io/badge/ReactDom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/docs/react-dom.html)
 [![React Scripts version](https://img.shields.io/badge/React_Scripts-v1.1.5-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/)
+
 
 ```
 universe.engineering
@@ -71,5 +74,32 @@ universe.engineering
    └── index.js
    └── logo.svg
    └── registerServiceWorker.js
+```
+
+
+## Quick start
+
+Quickly start by cloning the repository to your local machine
+
+```
+$ git clone git@github.com:universelabs/universe.engineering.git
+```
+
+Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)
+
+```
+$ brew install node
+```
+
+Add dependencies
+
+```
+$ npm install
+```
+
+Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you
+
+```
+$ npm start
 ```
 
