@@ -13,7 +13,7 @@
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/universelabs/">Explore</a>
     &nbsp;&middot;&nbsp;
-    <a href="https://join.slack.com/t/univserse/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">Slack</a>
+    <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">Slack</a>
     <br/>
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=universelabs">
@@ -48,8 +48,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Enabled www subdomain forwarding to root domain.
 - Enabled CircleCI build tests.
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.12-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
-[![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/univserse/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.1.13-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![CircleCI](https://circleci.com/gh/universelabs/universe.engineering/tree/master.svg?style=svg&circle-token=5e387d047256349a4ce582587ca0a5f3ab5a9d44)](https://circleci.com/gh/universelabs/universe.engineering/tree/master)
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/epoberezkin/ajv)
