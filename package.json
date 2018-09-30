@@ -1,6 +1,6 @@
 {
   "name": "Universe",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Universe is a dApp solution provider",
   "private": true,
   "scripts": {
@@ -18,5 +18,8 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5"
+  },
+  "devDependencies": {
+    "px-rem-reference": "^1.2.2"
   }
 }

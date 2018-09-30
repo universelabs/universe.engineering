@@ -49,7 +49,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Enabled CircleCI build tests.
 - Installed [Bootstrap v4.1.3](https://getbootstrap.com) and peer dependencies.
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.2.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v0.2.1-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![CircleCI](https://circleci.com/gh/universelabs/universe.engineering/tree/master.svg?style=svg&circle-token=5e387d047256349a4ce582587ca0a5f3ab5a9d44)](https://circleci.com/gh/universelabs/universe.engineering/tree/master)
@@ -62,6 +62,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/)
 [![ReactDom version](https://img.shields.io/badge/ReactDom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/docs/react-dom.html)
 [![React Scripts version](https://img.shields.io/badge/React_Scripts-v1.1.5-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/)
+[![px-rem-reference version](https://img.shields.io/badge/PX--REM_Reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 
 
 ```
