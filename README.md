@@ -1,9 +1,9 @@
-<p align="center">
+<div align="center">
 
-  <h3 align="center">Universe website and web app</h3>
+  <h3>Universe website and web app</h3>
 
-  <p align="center">
-    Universe is a blockchain agnostic dApp UX solutions provider
+  <p>
+    Universe is a blockchain agnostic dApp solutions open source community
     <br/>
     <a href="http://universe.engineering"><strong>universe.engineering</strong></a>
     <br/>
@@ -24,9 +24,9 @@
       <img src="https://img.shields.io/github/stars/universelabs/universe.engineering.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
     </a>
   </p>
-</p>
-<br/>
+</div>
 
+<br/>
 <br/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
