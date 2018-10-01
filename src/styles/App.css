@@ -1,28 +1,71 @@
-.App {
-  text-align: center;
+/* App.css */
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+.content-hero {
+  margin-top: -25px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .display-1 {
+    font-size: 5rem;
+  }
+  .lead {
+    font-size: 1.25rem;
+    letter-spacing: 0.025em;
+    margin-bottom: 2rem;
+  }
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .display-1 {
+    font-size: 6rem;
+  }
+  .lead {
+    font-size: 1.35rem;
+    letter-spacing: 0.025em;
+    margin-bottom: 2.5rem;
+  }
+  .content-hero {
+    margin-top: -45px;
+  }
 }
 
-.App-title {
-  font-size: 1.5em;
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .display-1 {
+    font-size: 4rem;
+  }
+  .lead {
+    font-size: 1.125rem;
+    letter-spacing: 0.035em;
+    margin-bottom: 1.5rem;
+  }
 }
 
-.App-intro {
-  font-size: large;
-}
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops)*/
+/* No media query since the extra-large breakpoint has no upper bound on its width */
