@@ -58,6 +58,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [![jQuery version](https://img.shields.io/badge/jQuery-v3.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://jquery.com/)
 [![Node Sass Chokidar version](https://img.shields.io/badge/Node_Sass_Chokidar-v1.3.3-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/michaelwayman/node-sass-chokidar)
 [![npm version](https://img.shields.io/badge/npm-v6.4.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/)
+[![npm Run All version](https://img.shields.io/badge/npm_Run_All-v4.1.3-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/mysticatea/npm-run-all)
 [![Popper version](https://img.shields.io/badge/Popper.js-v1.14.4-blue.svg?colorA=212121&colorB=007BFF)](https://popper.js.org/)
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/)
 [![ReactDom version](https://img.shields.io/badge/ReactDom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://reactjs.org/docs/react-dom.html)

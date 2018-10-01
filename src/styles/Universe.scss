@@ -1,0 +1,18 @@
+// Universe UI (v0.0.1)
+
+// Universe UI is Universe's base theme for the Bootstrap UI framework and is
+// applied to all Universe products requiring a user interface.
+
+// Visit the Bootstrap Theming documentation for information:
+// http://getbootstrap.com/docs/4.1/getting-started/theming/
+
+// Usage
+// To compile Sass run
+// `$ sass src/styles/Universe.scss src/styles/Universe.css`
+
+$theme-colors: (
+);
+
+$text-white: #212121!important;
+ 
+@import "../../node_modules/bootstrap/scss/bootstrap";
