@@ -5,9 +5,7 @@
   font-weight: 400;
   letter-spacing: 0.025em;
 }
-.content-hero {
-  margin-top: -25px;
-}
+
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
@@ -33,9 +31,6 @@
     font-size: 1.35rem;
     letter-spacing: 0.025em;
     margin-bottom: 2.5rem;
-  }
-  .content-hero {
-    margin-top: -45px;
   }
 }
 
