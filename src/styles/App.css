@@ -14,7 +14,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .display-1 {
+  .display-2 {
     font-size: 5rem;
   }
   .lead {
@@ -26,7 +26,7 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .display-1 {
+  .display-2 {
     font-size: 6rem;
   }
   .lead {
@@ -48,7 +48,7 @@
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  .display-1 {
+  .display-2 {
     font-size: 4rem;
   }
   .lead {
