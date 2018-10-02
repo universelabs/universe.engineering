@@ -1,7 +1,7 @@
 {
   "name": "Universe",
-  "version": "0.2.4",
-  "description": "Universe is a dApp solution provider",
+  "version": "0.2.5",
+  "description": "Universe is a dApp solutions community removing blockers that impede growth and adoption.",
   "private": true,
   "scripts": {
     "build-css": "node-sass-chokidar src/styles/ -o src/styles/",
