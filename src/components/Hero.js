@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Hero extends Component {
   render() {
     return (
-      <main role="main" className="mx-auto text-center content-hero"
+      <main role="main" className="mx-auto text-center content-hero mt-auto mb-auto"
         style={{
           maxWidth: '685px'
         }}>
