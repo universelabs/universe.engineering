@@ -5,6 +5,18 @@
   font-weight: 400;
   letter-spacing: 0.025em;
 }
+.btn-lg {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: .875rem 1rem;
+  line-height: 1.25;
+}
+.text-footer {
+  font-size: 80%;
+}
+.btn-hero {
+  max-width: 215px;
+}
 .content-hero {
   animation-name: fadein, slidein;
   animation-duration: 2.3s, 1.3s;
@@ -46,6 +58,12 @@
     font-size: 1.35rem;
     letter-spacing: 0.025em;
     margin-bottom: 2.5rem;
+  }
+  .text-footer {
+    font-size: 85%;
+  }
+  .btn-hero {
+    max-width: 350px;
   }
 }
 

@@ -27,7 +27,7 @@ class Footer extends Component {
             Slack
           </a>
         </div>
-        <div className="text-white-50 font-weight-normal">
+        <div className="text-footer text-white-50 font-weight-normal">
           Universe Labs Inc. &copy; 2018.
         </div>
       </footer>
