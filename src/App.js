@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 import './styles/Universe.css';
 import './styles/App.css';
 
@@ -11,10 +12,11 @@ class App extends Component {
         <Header />
         <div 
           style={{
-            paddingTop: '65px'
+            paddingTop: '95px'
           }}>
         </div>
         <Hero />
+        <Footer />
       </div>
     );
   }
