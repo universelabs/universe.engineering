@@ -11,7 +11,7 @@ class Hero extends Component {
           Universe
         </h1>
         <div className="lead text-white-50">
-          Universe is a blockchain agnostic dApp solutions community
+          Universe's mission is to solve dApp issues that are impeding them from growth and mass adoption.
         </div>
       </main>
     );
