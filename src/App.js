@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Header from './components/Hero';
 import './styles/Universe.css';
 import './styles/App.css';
 
@@ -13,17 +14,7 @@ class App extends Component {
             paddingTop: '65px'
           }}>
         </div>
-        <main role="main" className="mx-auto text-center content-hero"
-          style={{
-            maxWidth: '685px'
-          }}>
-          <h1 className="display-3 text-white font-weight-bold">
-            Universe
-          </h1>
-          <div className="lead text-white-50">
-            Universe is a blockchain agnostic dApp solutions community
-          </div>
-        </main>
+        <Hero />
         <div className="mt-auto">
         </div>
       </div>
