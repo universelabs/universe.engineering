@@ -17,7 +17,7 @@ class App extends Component {
           style={{
             maxWidth: '685px'
           }}>
-          <h1 className="display-2 text-white font-weight-bold">
+          <h1 className="display-3 text-white font-weight-bold">
             Universe
           </h1>
           <div className="lead text-white-50">

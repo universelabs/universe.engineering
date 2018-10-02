@@ -12,9 +12,6 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .display-2 {
-    font-size: 5rem;
-  }
   .lead {
     font-size: 1.25rem;
     letter-spacing: 0.025em;
@@ -24,9 +21,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .display-2 {
-    font-size: 6rem;
-  }
   .lead {
     font-size: 1.35rem;
     letter-spacing: 0.025em;
@@ -38,14 +32,22 @@
 @media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .display-3 {
+    font-size: 5.5rem;
+  }
+}
+
+/* Extra Extra small devices devices */
+@media (max-width:348px) {
+  .display-3 {
+    font-size: 3.75rem;
+  }
+}
 
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  .display-2 {
-    font-size: 4rem;
-  }
   .lead {
     font-size: 1.125rem;
     letter-spacing: 0.035em;
