@@ -5,6 +5,27 @@
   font-weight: 400;
   letter-spacing: 0.025em;
 }
+.content-hero {
+  animation-name: fadein, slidein;
+  animation-duration: 2.3s, 1.3s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slidein {
+  from {
+    padding-top: 55px;
+  }
+  to {
+    padding-top: 0px;
+  }
+}
+
 
 
 /* Extra small devices (portrait phones, less than 576px) */
