@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './../img/universe-wordmark-white.svg';
 
 class Header extends Component {
   render() {
@@ -14,7 +15,10 @@ class Header extends Component {
             lineHeight: '2.5rem',
             fontSize: '1.2rem'
           }}>
-          Universe
+          <img src={logo}
+            alt="Universe"
+            width="125"
+          />
         </a>
       </nav>
     );
