@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App d-flex w-100 h-100 mx-auto p-4 flex-column">
         <Header />
-        <div className=""
+        <div className="mb-auto"
           style={{
             paddingTop: '65px'
           }}>
@@ -24,6 +24,8 @@ class App extends Component {
             Universe is a blockchain agnostic dApp solutions community
           </div>
         </main>
+        <div className="mt-auto">
+        </div>
       </div>
     );
   }
