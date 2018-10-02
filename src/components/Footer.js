@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="mx-auto text-center mb-2">
-        <div className="container-fluid mx-auto mb-4">
+        <div className="container-fluid mx-auto mb-4 d-none d-md-block">
           <img src={logoCluster}
             alt="Universe logo cluster"
             width="60"
