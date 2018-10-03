@@ -14,11 +14,11 @@ class Hero extends Component {
           Universe is a dApp solutions community removing blockers that impede growth and adoption.
         </div>
         <a href="https://goo.gl/forms/Uafi9m8afCbJrubB3" 
-          className="btn btn-lg btn-light btn-block mb-4 mx-auto d-none d-md-block btn-hero"
+          className="btn btn-lg btn-light btn-block mb-4 mx-auto btn-hero"
           role="button">
           Questionnaire
         </a>
-        <div className="mb-44 text-white-50 d-none d-md-block"
+        <div className="mb-44 text-white-50"
           style={{
             fontSize: '90%'
           }}>
