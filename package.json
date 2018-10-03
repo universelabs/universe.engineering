@@ -1,6 +1,6 @@
 {
   "name": "Universe",
-  "version": "0.2.7",
+  "version": "1.1.0",
   "description": "Universe is a dApp solutions community removing blockers that impede growth and adoption.",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "1.1.5"
+    "react-scripts": "2.0.3"
   },
   "devDependencies": {
     "px-rem-reference": "^1.2.2"
