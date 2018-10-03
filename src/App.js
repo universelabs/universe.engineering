@@ -12,7 +12,7 @@ class App extends Component {
         <Header />
         <div 
           style={{
-            paddingTop: '95px'
+            paddingTop: '40px'
           }}>
         </div>
         <Hero />
