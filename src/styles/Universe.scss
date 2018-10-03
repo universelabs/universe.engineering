@@ -10,9 +10,10 @@
 // To compile Sass run
 // `$ sass src/styles/Universe.scss src/styles/Universe.css`
 
-$theme-colors: (
-);
+// Override default variables before the import
 
-$text-white: #212121!important;
- 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+$body-bg: #000;
+
+// Import Bootstrap and its default variables
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
