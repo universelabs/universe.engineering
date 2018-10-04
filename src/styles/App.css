@@ -60,9 +60,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .navbar-brand-img {
-    width: 125px;
-  }
   .lead {
     font-size: 1.35rem;
     letter-spacing: 0.025em;
