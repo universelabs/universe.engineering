@@ -18,7 +18,7 @@ class Hero extends Component {
           role="button">
           Questionnaire
         </a>
-        <div className="mb-44 text-white-50"
+        <div className="mb-4 text-white-50"
           style={{
             fontSize: '90%'
           }}>

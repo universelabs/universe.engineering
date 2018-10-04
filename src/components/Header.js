@@ -15,9 +15,8 @@ class Header extends Component {
             lineHeight: '2.5rem',
             fontSize: '1.2rem'
           }}>
-          <img src={logo}
+          <img src={logo} className="navbar-brand-img"
             alt="Universe"
-            width="125"
           />
         </a>
       </nav>

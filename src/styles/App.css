@@ -1,5 +1,11 @@
 /* App.css */
 
+.navbar-brand-img {
+  width: 120px;
+}
+.display-3 {
+  font-size: 4.25rem;
+}
 .lead {
   font-size: 1.5rem;
   font-weight: 400;
@@ -54,6 +60,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .navbar-brand-img {
+    width: 125px;
+  }
   .lead {
     font-size: 1.35rem;
     letter-spacing: 0.025em;
@@ -80,7 +89,7 @@
 /* Extra Extra small devices devices */
 @media (max-width:348px) {
   .display-3 {
-    font-size: 3.75rem;
+    font-size: 3.5rem;
   }
 }
 
