@@ -50,8 +50,9 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - New v1.0.0 web app design and implementation.
 - Upgraded to `create-react-app` `v2.0.3`.
 - Added Apple Touch icons and favicon.
+- Installed Source Map Explorer for analyzing potential code bloat.
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v1.2.6-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v1.2.7-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![CircleCI](https://circleci.com/gh/universelabs/universe.engineering/tree/master.svg?style=svg&circle-token=5e387d047256349a4ce582587ca0a5f3ab5a9d44)](https://circleci.com/gh/universelabs/universe.engineering/tree/master)
@@ -62,10 +63,11 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 [![npm version](https://img.shields.io/badge/npm-v6.4.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
 [![npm Run All version](https://img.shields.io/badge/npm_Run_All-v4.1.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm-run-all)
 [![Popper version](https://img.shields.io/badge/Popper.js-v1.14.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/popper.js)
+[![px-rem-reference version](https://img.shields.io/badge/PX--REM_Reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react)
 [![ReactDom version](https://img.shields.io/badge/ReactDom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
 [![React Scripts version](https://img.shields.io/badge/React_Scripts-v2.0.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
-[![px-rem-reference version](https://img.shields.io/badge/PX--REM_Reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
+[![source-map-explorer version](https://img.shields.io/badge/Source_Map_Explorer-v1.6.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/source-map-explorer)
 
 
 ```

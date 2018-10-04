@@ -1,9 +1,10 @@
 {
   "name": "Universe",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Universe is a dApp solutions community removing blockers that impede growth and adoption.",
   "private": true,
   "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -18,7 +19,8 @@
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.3"
+    "react-scripts": "2.0.3",
+    "source-map-explorer": "^1.6.0"
   },
   "devDependencies": {
     "px-rem-reference": "^1.2.2"
