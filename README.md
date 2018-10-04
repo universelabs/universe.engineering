@@ -28,7 +28,7 @@
 <br/>
 <p align="center">
   <a href="https://universe.engineering">
-    <img src="http://universe.engineering/thumbnail-v1.2.4.jpg" width="800px" alt="Universe.engineering">
+    <img src="http://storage.googleapis.com/public-014791/img/thumbnail-v1.2.6.png" width="800px" alt="Universe.engineering">
   </a>
 </p>
 
