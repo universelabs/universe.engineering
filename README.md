@@ -51,7 +51,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Upgraded to `create-react-app` `v2.0.3`.
 - Added Apple Touch icons and favicon.
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v1.2.4-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v1.2.5-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![CircleCI](https://circleci.com/gh/universelabs/universe.engineering/tree/master.svg?style=svg&circle-token=5e387d047256349a4ce582587ca0a5f3ab5a9d44)](https://circleci.com/gh/universelabs/universe.engineering/tree/master)
@@ -70,6 +70,8 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 
 ```
 universe.engineering
+├── .circleci
+│  └── config.yml
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
@@ -79,13 +81,19 @@ universe.engineering
 │  └── manifest.json
 ├── README.md
 └── src
-   └── App.css
    └── App.js
    └── App.test.js
-   └── index.css
+   └── components
+   │  └── Footer.js
+   │  └── Header.js
+   │  └── Hero.js
+   └── components
    └── index.js
-   └── logo.svg
    └── registerServiceWorker.js
+   └── styles
+      └── App.css
+      └── index.css
+      └── Universe.scss
 ```
 
 
