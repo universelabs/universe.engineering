@@ -5,7 +5,7 @@
   <p>
     Universe is a blockchain agnostic dApp solutions community
     <br/>
-    <a href="http://universe.engineering"><strong>universe.engineering</strong></a>
+    <a href="https://universe.engineering"><strong>universe.engineering</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/universelabs/universe.engineering/issues/new">
@@ -27,7 +27,7 @@
 </div>
 <br/>
 <p align="center">
-  <a href="http://universe.engineering">
+  <a href="https://universe.engineering">
     <img src="http://universe.engineering/thumbnail-v1.2.4.jpg" width="800px" alt="Universe.engineering">
   </a>
 </p>
@@ -51,7 +51,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Upgraded to `create-react-app` `v2.0.3`.
 - Added Apple Touch icons and favicon.
 
-[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v1.2.5-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![Unverse.engineering version](https://img.shields.io/badge/Universe.engineering-v1.2.6-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![CircleCI](https://circleci.com/gh/universelabs/universe.engineering/tree/master.svg?style=svg&circle-token=5e387d047256349a4ce582587ca0a5f3ab5a9d44)](https://circleci.com/gh/universelabs/universe.engineering/tree/master)
