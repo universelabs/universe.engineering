@@ -33,11 +33,6 @@
       "type": "image/png"
     },
     {
-      "src": "img/universe-cluster-icon-rounded-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
       "src": "img/universe-cluster-icon-rounded.svg",
       "sizes": "72x72",
       "type": "image/svg"
