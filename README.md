@@ -28,7 +28,7 @@
 <br/>
 <p align="center">
   <a href="https://universe.engineering">
-    <img width="800" alt="thumbnail-v1 2 6" src="https://user-images.githubusercontent.com/1711854/46487371-d58fe300-c7cd-11e8-8dcd-6dcaaa2038d5.png">
+    <img width="800" alt="thumbnail-v1 2 6" src="https://storage.googleapis.com/public-014791/img/thumbnail/universe-engineering-v1-2-6.png">
   </a>
 </p>
 
