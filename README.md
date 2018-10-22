@@ -48,6 +48,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 
 - [Status](#status)
 - [Quick Start](#quick-start)
+- [Storybook](#storybook)
 - [Repository maintainers](#repository-maintainers)
 - [License](#license)
 
@@ -132,6 +133,11 @@ Start the local client side server and run the app. The app will automatically o
 $ npm start
 ```
 
+## Storybook
+
+You can develop components independently using [Storybook](https://storybook.js.org/):
+
+- Start storybook by running `npm run storybook`. The exposed port is `9001`.
 
 ## Repository maintainers
 
