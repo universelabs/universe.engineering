@@ -1,4 +1,7 @@
 import { configure } from '@storybook/react';
+import '../src/styles/Universe.scss';
+import '../src/styles/index.css';
+import '../src/styles/App.css';
 
 const req = require.context('../src', true, /\.stories\.js$/)
 
