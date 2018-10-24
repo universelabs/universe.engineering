@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logoCluster from './../img/universe-bug-cluster-white.svg';
+import logoCluster from './../img/universe-mite-icon-rounded.svg';
 
 class Footer extends Component {
   render() {
