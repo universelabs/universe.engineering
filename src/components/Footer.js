@@ -8,9 +8,9 @@ class Footer extends Component {
         <div className="container-fluid mx-auto mb-4 d-none d-md-block">
           <img src={logoCluster}
             alt="Universe logo cluster"
-            width="60"
+            width="45"
             style={{
-              opacity: '0.25'
+              opacity: '0.35'
             }}
           />
         </div>
