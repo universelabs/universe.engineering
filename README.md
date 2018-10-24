@@ -58,8 +58,9 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Upgraded to `create-react-app` `v2.0.3`.
 - Added Apple Touch icons and favicon.
 - Installed Source Map Explorer for analyzing potential code bloat.
+- Upgraded to `create-react-app` `v2.0.5`.
 
-[![universe.engineering version](https://img.shields.io/badge/universe.engineering-v1.2.7-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
+[![universe.engineering version](https://img.shields.io/badge/universe.engineering-v1.3.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/universelabs/universe.engineering)
 [![Universe Community](https://img.shields.io/badge/Universe_Community-Slack-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
 [![CircleCI](https://circleci.com/gh/universelabs/universe.engineering/tree/master.svg?style=svg&circle-token=5e387d047256349a4ce582587ca0a5f3ab5a9d44)](https://circleci.com/gh/universelabs/universe.engineering/tree/master)
