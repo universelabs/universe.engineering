@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logoCluster from './../img/universe-mite-icon-rounded.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Footer extends Component {
@@ -7,13 +6,6 @@ class Footer extends Component {
     return (
       <footer className="container-fluid mx-auto text-center mb-2">
         <div className="text-white-50 text-footer font-weight-bold">
-          <img src={logoCluster}
-            alt="Universe logo cluster"
-            width="45"
-            style={{
-              opacity: '0.35'
-            }}
-          />
         </div>
         <div>
           <ul className="list-inline my-2">
