@@ -7,9 +7,9 @@ class Hero extends Component {
         style={{
           maxWidth: '685px'
         }}>
-        <h1 className="display-3 text-white font-weight-bold">
+        <h2 className="display-3 text-white font-weight-bold">
           Universe
-        </h1>
+        </h2>
         <div className="lead text-white-50">
           Universe is a dApp solutions community removing blockers that impede growth and adoption.
         </div>
