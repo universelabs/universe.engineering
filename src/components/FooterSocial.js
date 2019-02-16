@@ -8,12 +8,12 @@ const ListItem = styled.li`
 
 class FooterSocial extends Component {
   render() {
-    return this.props.footerSocialItems.map((item) => (
-      <ListItem className="list-inline-item mx-2">
+    return this.props.socialItems.map((item) => (
+      <ListItem key={item.id} className={`${this.props.listAlign} mx-2`}>
         <a 
           href={item.href} 
           alt={item.alt}
-          className="text-white">
+          className={`${this.props.className}`}>
           <FontAwesomeIcon 
             className="mr-1" 
             icon={[`fab`, `${item.icon}`]}

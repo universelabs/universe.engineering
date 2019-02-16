@@ -1,42 +1,64 @@
 {
-  "name": "Universe",
+  "name": "client",
   "version": "1.5.6",
-  "description": "Universe is a dApp solutions community removing blockers that impede growth and adoption.",
+  "description": "universe.engineering web client",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/universelabs/universe.engineering.git"
+  },
+  "homepage": ".",
+  "bugs": {
+    "url": "https://github.com/universelabs/universe.engineering/issues/new"
+  },
+  "author": "Guy Lepage <guylepage3@gmail.com> (http://lepage.cc)",
+  "contributors": {
+    "url": "https://github.com/universelabs/universe.engineering/graphs/contributors"
+  },
   "private": true,
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "client"
+  ],
   "scripts": {
-    "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:5000",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.14",
-    "@fortawesome/free-brands-svg-icons": "^5.7.1",
-    "@fortawesome/free-solid-svg-icons": "^5.7.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "ajv": "^6.8.1",
+    "@universelabs/meta": "^1.4.4",
     "bootstrap": "^4.2.1",
     "copyright-update": "^1.3.2",
-    "i": "^0.3.6",
     "jquery": "^3.3.1",
+    "jquery-ui-dist": "^1.12.1",
     "node-sass": "^4.11.0",
-    "npm": "^6.7.0",
-    "npm-run-all": "^4.1.5",
     "popper.js": "^1.14.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "^2.1.3",
-    "source-map-explorer": "^1.6.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.5",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "styled-components": "^4.1.3"
   },
-  "devDependencies": {
-    "px-rem-reference": "^1.3.6"
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "px-rem-reference": "^1.3.6"
+  }
 }

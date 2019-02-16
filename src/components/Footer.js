@@ -13,7 +13,7 @@ const Div = styled.div`
 
 class Footer extends Component {
   state = {
-    footerSocialItems: [
+    socialItems: [
       {
         id: 1,
         href: 'https://github.com/universelabs/',
@@ -51,7 +51,9 @@ class Footer extends Component {
         <Div className="text-white-50 text-footer font-weight-bold">
           <ul className="list-inline my-2">
             <FooterSocial 
-              footerSocialItems={this.state.footerSocialItems} 
+              socialItems={this.state.socialItems}
+              className="text-white"
+              listAlign="list-inline-item"
             />
           </ul>
         </Div>
