@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import Background from './../img/hero-background.png';
+
 
 const Overlay = styled.div`
-  background-color: #0d0075;
+  background: url(${Background});
+  background-size: cover;
+  background-position: center;
+  background-size: 100%;
   height: 565px;
 
   @media (min-width: 768px) {
