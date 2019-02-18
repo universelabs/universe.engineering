@@ -1,6 +1,9 @@
 {
   "name": "server",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "engines": {
+    "node": "11.9.0"
+  }
   "description": "Universe.engineering web server",
   "license": "MIT",
   "repository": {
