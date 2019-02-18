@@ -1,0 +1,124 @@
+/* Subscribe */
+
+.card {
+  border: none;
+  padding-top: 40px;
+  height: 100vh;
+  border-radius: 0;
+}
+
+.brand {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.brand-img {
+  width: 110px;
+}
+
+label {
+  display: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #000;
+  margin-top: 18px;
+  letter-spacing: .03em;
+}
+
+input, .form-control {
+  border-radius: 4px;
+}
+
+.form-control {
+  color: #000;
+  font-weight: 500;
+  letter-spacing: .03em;
+  padding: 25px 20px;
+  background-color: #F5F5F5; /* Light Steel */
+  border: 2px solid #F5F5F5; /* Light Steel */
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.form-control:hover {
+  background-color: #fff;
+  border: 2px solid #F5F5F5;
+  box-shadow: none;
+  transition: all 0.25s ease-in-out;
+}
+.form-control:focus {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: none;
+}
+.form-control::-webkit-input-placeholder {
+  color: #616161;;
+  transition: opacity 0.25s ease-in-out;
+}
+:hover::-webkit-input-placeholder {
+  color: #616161;
+  transition: opacity 0.25s ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+  color: #000;
+  opacity: 0.25;
+  transition: opacity 0.25s ease-in-out;
+  box-shadow: none;
+}
+.btn-subscribe {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: 15px 56px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .card {
+    border: none;
+    padding: 40px;
+    margin-top: 48px;
+    max-width: 550px;
+    height: auto;
+    
+  }
+  .brand {
+    margin-bottom: 40px;
+  }
+  .brand-img {
+    width: 130px;
+    margin-left: -2px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra Extra small devices devices */
+@media (max-width:348px) {}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops)*/
+/* No media query since the extra-large breakpoint has no upper bound on its width */

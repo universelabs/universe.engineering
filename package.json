@@ -1,11 +1,11 @@
 {
-  "name": "client",
-  "version": "1.5.6",
-  "description": "universe.engineering web client",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Universe.engineering web server",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/universelabs/universe.engineering.git"
+    "url": "https://github.com/papriika/papriika.com.git"
   },
   "homepage": ".",
   "bugs": {
@@ -16,49 +16,28 @@
     "url": "https://github.com/universelabs/universe.engineering/graphs/contributors"
   },
   "private": true,
-  "main": "index.js",
+  "main": "server.js",
   "keywords": [
-    "react",
-    "client"
+    "express",
+    "server"
   ],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "client-install": "npm install --prefix client",
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "client-build": "npm run build --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "proxy": "http://localhost:5000",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.15",
-    "@fortawesome/free-brands-svg-icons": "^5.7.2",
-    "@fortawesome/free-solid-svg-icons": "^5.7.2",
-    "@fortawesome/react-fontawesome": "^0.1.4",
-    "@universelabs/meta": "^1.4.4",
-    "bootstrap": "^4.2.1",
-    "copyright-update": "^1.3.2",
-    "jquery": "^3.3.1",
-    "jquery-ui-dist": "^1.12.1",
-    "node-sass": "^4.11.0",
-    "popper.js": "^1.14.7",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-redux": "^6.0.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.5",
-    "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0",
-    "styled-components": "^4.1.3"
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
   "devDependencies": {
-    "px-rem-reference": "^1.3.6"
+    "nodemon": "^1.18.10"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "main.css": "./static/css/main.757b9836.chunk.css",
+  "main.js": "./static/js/main.dd2033bf.chunk.js",
+  "main.js.map": "./static/js/main.dd2033bf.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.9eb600ee.js",
+  "runtime~main.js.map": "./static/js/runtime~main.9eb600ee.js.map",
+  "static/js/2.94468098.chunk.js": "./static/js/2.94468098.chunk.js",
+  "static/js/2.94468098.chunk.js.map": "./static/js/2.94468098.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.19a3356b033251b14e71b04eecf5e75c.js": "./precache-manifest.19a3356b033251b14e71b04eecf5e75c.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/main.757b9836.chunk.css.map": "./static/css/main.757b9836.chunk.css.map",
+  "static/media/universe-wordmark-white.svg": "./static/media/universe-wordmark-white.3223abd0.svg",
+  "static/media/universe-wordmark.svg": "./static/media/universe-wordmark.43494868.svg"
+}
