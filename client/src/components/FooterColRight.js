@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class FooterListProducts extends Component {
+class FooterColRight extends Component {
   state = {
     data : [
       {
-        id: 1,
-        url: "/",
-        text: "Coming soon...",
-        alt: "Coming soon..."
+        "id": 7,
+        "url": "mailto:support@universe.engineering?subject=Mail from Universe.engineering",
+        "text": "Contact",
+        "alt": "Contact"
       }
     ]
   }
@@ -15,16 +15,15 @@ class FooterListProducts extends Component {
   render() {
     return this.state.data.map((item) => (
       <li key={item.id} className="text-white-50">
-        {/* <a 
+        <a 
           href={item.url} 
           alt={item.alt}
           className={this.props.className}>
-        */}
           {item.text}
-        {/*</a>*/}
+        </a>
       </li>
     ));
   }
 }
 
-export default FooterListProducts;
+export default FooterColRight;

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
-import FooterListProducts from '../components/FooterListProducts';
-import FooterListPlatforms from '../components/FooterListPlatforms';
-import FooterListCompany from '../components/FooterListCompany';
-import FooterSocial from '../components/FooterSocial';
+import FooterColLeft from './FooterColLeft';
+import FooterColCenter from './FooterColCenter';
+import FooterColRight from './FooterColRight';
+import FooterSocial from './FooterSocial';
 import logo from './../img/universe-logo-white.svg';
 import '../css/Footer.css';
 
@@ -62,19 +62,19 @@ class Footer extends Component {
               <div className="col-sm-6 col-md-3 mb-4 ml-auto">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Products</li>
-                  <FooterListProducts className="text-white" />
+                  <FooterColLeft className="text-white" />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Platforms</li>
-                  <FooterListPlatforms className="text-white" />
+                  <FooterColCenter className="text-white" />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block text-white mb-3">Community</li>
-                  <FooterListCompany className="text-white" />
+                  <FooterColRight className="text-white" />
                 </ul>
               </div>
             </div>

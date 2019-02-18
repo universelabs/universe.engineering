@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class FooterListPlatforms extends Component {
+class FooterColCenter extends Component {
   state = {
     data : [
       {
@@ -45,4 +45,4 @@ class FooterListPlatforms extends Component {
   }
 }
 
-export default FooterListPlatforms;
+export default FooterColCenter;
