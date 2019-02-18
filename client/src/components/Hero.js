@@ -39,15 +39,18 @@ class Header extends Component {
               style={{
                 maxWidth: '900px'
               }}>
+              <div className="lead-md font-weight-normal text-center mx-auto mb-6">
+                Coming soon...
+              </div>
               <h1 className="text-center">
                 Decentralized Web Accessibility
               </h1>
-              <Lead className="lead font-weight-normal text-center mx-auto mb-4b">
+              <Lead className="lead font-weight-normal text-center mx-auto mb-5">
                 Universe helps users access the decentralized web.
               </Lead>
               <div className="text-center">
                 <a
-                  className="btn btn-lg btn-primary btn-block mx-auto mb-4"
+                  className="btn btn-lg btn-primary btn-block mx-auto mb-4c"
                   style={{
                     fontSize: '14px',
                     fontWeight: '700',
