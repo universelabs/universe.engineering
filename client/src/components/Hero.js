@@ -54,14 +54,15 @@ class Header extends Component {
               </Lead>
               <div className="text-center">
                 <a
-                  className="btn btn-lg btn-primary btn-block mx-auto mb-4c"
+                  className="btn btn-lg btn-light btn-block mx-auto mb-4c text-color-primary"
                   style={{
                     fontSize: '14px',
                     fontWeight: '700',
                     letterSpacing: '.03em',
                     textTransform: 'uppercase',
                     padding: '15px 56px',
-                    maxWidth: '280px'
+                    maxWidth: '280px',
+                    color: '#0d0075'
                   }}
                   href="/subscribe" 
                   role="button"
