@@ -49,13 +49,15 @@ class Footer extends Component {
 
         <div className="container pt-6 pb-6">
           <div className="mb-4b">
-            <img
-              src={logo} 
-              className="navbar-brand-img" 
-              alt="Papriika Logo"
-              style={{
-                marginLeft: '-3px'
-              }}/>
+            <a href="/">
+              <img
+                src={logo} 
+                className="navbar-brand-img" 
+                alt="Universe Logo"
+                style={{
+                  marginLeft: '-3px'
+                }}/>
+            </a>
           </div>
           <div className="">
             <div className="row">
