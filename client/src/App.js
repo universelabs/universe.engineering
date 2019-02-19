@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './containers/Home';
+import NoMatch from './containers/NoMatch';
 import Subscribe from './containers/Subscribe';
 import SubscribeError from './containers/SubscribeError';
 import SubscribeSuccess from './containers/SubscribeSuccess';
@@ -27,6 +28,8 @@ class App extends Component {
           <Route path="/subscribe" component={Subscribe} />
           <Route path="/subscribe-error" component={SubscribeError} />
           <Route path="/subscribe-success" component={SubscribeSuccess} />
+          {/* when none of the above match, <NoMatch> will be rendered */}
+          <Route component={NoMatch} />
         </div>
       </Router>
     );
