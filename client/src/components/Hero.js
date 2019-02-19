@@ -50,7 +50,7 @@ class Header extends Component {
                 Decentralized Web Accessibility
               </h1>
               <Lead className="lead font-weight-normal text-center mx-auto mb-5">
-                Universe helps users access the decentralized web.
+                Universe helps users, on all platforms, access the decentralized web.
               </Lead>
               <div className="text-center">
                 <a
