@@ -4,7 +4,7 @@ import NoMatch from './containers/NoMatch';
 import Subscribe from './containers/Subscribe';
 import SubscribeError from './containers/SubscribeError';
 import SubscribeSuccess from './containers/SubscribeSuccess';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './css/App.css';
 
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <div className="App">
           <Route exact path="/" component={Home} />
           <Route path="/subscribe" component={Subscribe} />
@@ -31,7 +31,7 @@ class App extends Component {
           {/* when none of the above match, <NoMatch> will be rendered */}
           <Route component={NoMatch} />
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
