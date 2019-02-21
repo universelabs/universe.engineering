@@ -14,9 +14,10 @@ class SubscribeForm extends Component {
             id="email"
             className="form-control"
             placeholder="Email address"
-            required="true"
+            required={true}
             autoComplete="off"
             tabIndex="1"
+            autoCapitalize="none"
             aria-invalid="false"
             aria-controls="email"
             aria-label="What is your email address?"

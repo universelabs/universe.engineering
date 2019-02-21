@@ -38,32 +38,32 @@ class Subscribe extends Component {
                   />
                 </a>
                 <p className="lead font-weight-bold">
-                  Universe helps users access the decentralized web.
+                  Universe is a decentralized web accessibility node network.
                 </p>
                 <p>
-                  Receive the latest updates, news, features and more…
+                  Subscribe to our mailing list for upcoming releases, news & more...
                 </p>
               </Div>
               <SubscribeForm />
               <a
-                  className="btn btn-link btn-subscribe btn-block mx-auto"
-                  style={{
-                    textDecoration: 'none',
-                    maxWidth: '280px',
-                    marginTop: '16px'
-                  }}
-                  href="/" 
-                  role="button">
-                  Back
-                </a>
-            </div>
-            <div className="text-center small letter-space mt-9 mb-4">
-              <CopyrightUpdate 
+                className="btn btn-link btn-subscribe btn-block mx-auto"
                 style={{
-                  display: 'inline-block'
+                  textDecoration: 'none',
+                  maxWidth: '280px',
+                  marginTop: '16px'
                 }}
-              />
-              &nbsp;Universe Labs Inc.
+                href="/" 
+                role="button">
+                Back
+              </a>
+              <div className="text-center small letter-space mt-9 mb-4">
+                <CopyrightUpdate 
+                  style={{
+                    display: 'inline-block'
+                  }}
+                />
+                &nbsp;Universe Labs Inc.
+              </div>
             </div>
           </div>
         </div>

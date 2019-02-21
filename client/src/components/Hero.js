@@ -48,7 +48,7 @@ class Header extends Component {
               </h1>
               <Lead 
                 className="lead font-weight-normal text-center mx-auto mb-5">
-                Universe is a blockchain agnostic, decentralized web accessibility platform.
+                Universe is a blockchain agnostic, decentralized web accessibility node network.
               </Lead>
               <div className="text-center">
                 <a
