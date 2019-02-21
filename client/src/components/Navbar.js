@@ -65,6 +65,11 @@ class Navbar extends Component {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/roadmap" >
+                  Roadmap
+                </a>
+              </li>
+              <li className="nav-item">
                 <a 
                   className="nav-link" 
                   href="mailto:support@universe.engineering?subject=Mail from Universe.engineering">
