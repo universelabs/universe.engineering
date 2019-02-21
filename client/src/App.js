@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './containers/Home';
+import Roadmap from './containers/Roadmap';
 import NoMatch from './containers/NoMatch';
 import Subscribe from './containers/Subscribe';
 import SubscribeError from './containers/SubscribeError';
@@ -26,6 +27,7 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/roadmap" component={Roadmap} />
             <Route path="/subscribe" component={Subscribe} />
             <Route path="/subscribe-error" component={SubscribeError} />
             <Route path="/subscribe-success" component={SubscribeSuccess} />

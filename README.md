@@ -74,7 +74,7 @@
 [![Repository Size](https://img.shields.io/github/repo-size/universelabs/universe.engineering.svg?label=Repository+Size&colorA=%23212121&colorB=%23007BFF)](https://github.com/universelabs/universe.engineering)
 
 
-## Quick start
+## Getting started
 
 Quickly start by cloning the repository to your local machine
 
@@ -119,17 +119,17 @@ The app will and automatically start the Node/Express server on port http://loca
 
 ## Contributing
 
-Please read through our [contributing guidelines](CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 Moreover, if your pull request contains JavaScript patches or features, you
-must include relevant unit tests. All code should conform to the [Code Guidelines](CONTRIBUTING.md#code-guidelines).
+must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md#code-guidelines).
 
 
 ## Roadmap
 
 Universe Labs' mission is to become the largest open source node and key management network.
 
-[› Universe Roadmap page](https://github.com/universelabs/universe/blob/master/ROADMAP.md)
+[› Universe Roadmap](https://github.com/universelabs/universe/blob/master/ROADMAP.md)
 
 View the Universe Roadmap to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
 
@@ -139,6 +139,7 @@ View the Universe Roadmap to learn more about project overview, goals, execution
 Get updates on Universe's development and chat with the project maintainers and community members.
 
 - Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
+- [Star this repo](https://github.com/universelabs/universe/stargazers)
 - Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
 - Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE).
 
