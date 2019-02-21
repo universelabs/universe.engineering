@@ -48,7 +48,6 @@
 
 - [Quick start](#quick-start)
 - [Status](#status)
-- [What's included](#whats-included)
 - [Getting started](#getting-started)
 - [Contributing](#contributing)
 - [Community](#community)
@@ -60,68 +59,26 @@
 
 1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/universe.engineering.git`.
 2. Ensure you have [`npm`](https://www.npmjs.com/get-npm) installed. `npm` comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/). `brew install node`.
-3. Add dependencies `npm install`.
-4. Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm start`.
+3. Add dependencies for both the back-end and client servers `npm install`.
+4. Start the local back-end and client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm run dev`.
 
 
 ## Status
 
-- New v1.0.0 web app design and implementation.
-- Upgraded to `create-react-app` `v2.0.3`.
-- Added Apple Touch icons and favicon.
-- Installed Source Map Explorer for analyzing potential code bloat.
-- Upgraded to `create-react-app` `v2.0.5`.
-- Upgraded to `create-react-app` `v2.1.1` to resolve `merge` security vulnerability.
-- Defined colors to Universe UI `v0.1.0`.
-- Installed Font Awesome fonts.
-
-
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
-[![universe.engineering version](https://img.shields.io/badge/dynamic/json.svg?label=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering)
+[![universe.engineering version](https://img.shields.io/badge/dynamic/json.svg?label=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fclient%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering)
 [![Build status](https://img.shields.io/circleci/project/github/universelabs/universe.engineering.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/universelabs/universe.engineering)
 [![dependencies status](https://img.shields.io/david/universelabs/universe.engineering.svg?label=dependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe.engineering)
 [![devDependencies status](https://img.shields.io/david/dev/universelabs/universe.engineering.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe.engineering?type=dev)
 [![Repository Size](https://img.shields.io/github/repo-size/universelabs/universe.engineering.svg?label=Repository+Size&colorA=%23212121&colorB=%23007BFF)](https://github.com/universelabs/universe.engineering)
 
 
-## What's included
+## Quick start
 
-Within the download you'll find the following directories and files:
-
-```text
-universe.engineering/
-├── .circleci/
-│   └── config.yml
-├── .gitignore
-├── package-lock.json
-├── package.json
-├── public/
-│   └── favicon.ico
-│   └── index.html
-│   └── manifest.json
-├── README.md
-└── src/
-    └── App.js
-    └── App.test.js
-    └── components/
-    │   └── Footer.js
-    │   └── Header.js
-    │   └── Hero.js
-    └── index.js
-    └── registerServiceWorker.js
-    └── styles/
-        └── App.css
-        └── index.css
-        └── Universe.scss
-```
-
-
-## Getting started
-
-Get started by cloning the repository to your local machine
+Quickly start by cloning the repository to your local machine
 
 ```
-$ git clone git@github.com:universelabs/universe.engineering.git
+$ git clone git@github.com:guylepage3/lepage.cc.git
 ```
 
 Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)
@@ -130,17 +87,33 @@ Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bun
 $ brew install node
 ```
 
-Add dependencies
+Add dependencies for the [Express.js](https://expressjs.com/) server
 
 ```
+$ cd lepage.cc
 $ npm install
 ```
 
-Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you
+Add dependencies for the [React.js](https://reactjs.org/)/[create-react-app](https://github.com/facebook/create-react-app) client
 
 ```
-$ npm start
+$ cd client
+$ npm install
 ```
+
+Go back to the server 
+
+```
+$ cd ../
+```
+
+Start both the server and client by running...
+
+```
+$ npm run dev
+```
+
+The app will and automatically start the Node/Express server on port http://localhost:5000/ as well as the client side server on port http://localhost:3000/. The app will also listen for changes and update automatically.
 
 
 ## Contributing
