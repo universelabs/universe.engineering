@@ -129,9 +129,9 @@ must include relevant unit tests. All code should conform to the [Code Guideline
 
 Universe Labs' mission is to become the largest open source node and key management network.
 
-View the Universe Roadmap to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
-
 [› Universe Roadmap page](https://github.com/universelabs/universe/blob/master/ROADMAP.md)
+
+View the Universe Roadmap to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
 
 
 ## Community
