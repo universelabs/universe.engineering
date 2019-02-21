@@ -43,14 +43,12 @@ class Header extends Component {
               style={{
                 maxWidth: '900px'
               }}>
-              <div className="lead-md font-weight-normal text-center mx-auto mb-6">
-                Coming soon...
-              </div>
-              <h1 className="text-center">
+              <h1 className="text-center mt-5">
                 Decentralized Web Accessibility
               </h1>
-              <Lead className="lead font-weight-normal text-center mx-auto mb-5">
-                Universe helps users, on all platforms, access the decentralized web.
+              <Lead 
+                className="lead font-weight-normal text-center mx-auto mb-5">
+                Universe is a blockchain agnostic, decentralized web accessibility platform.
               </Lead>
               <div className="text-center">
                 <a
@@ -69,7 +67,7 @@ class Header extends Component {
                   tabIndex="1">
                   Subscribe
                 </a>
-                <p>Subscribe to our mailing list for updates.</p>
+                <p>Subscribe to our mailing list for upcoming releases, news & more...</p>
               </div>
             </div>
           </Overlay>

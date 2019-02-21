@@ -6,7 +6,7 @@ const ListItem = styled.li`
   line-height: 25px;
 `;
 
-class FooterSocial extends Component {
+class Social extends Component {
   render() {
     return this.props.socialItems.map((item) => (
       <ListItem key={item.id} className={`${this.props.listAlign} mx-2`}>
@@ -24,4 +24,4 @@ class FooterSocial extends Component {
   }
 }
 
-export default FooterSocial;
+export default Social;

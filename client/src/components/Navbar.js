@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import NavbarToggler from '../components/NavbarToggler';
-import logo from './../img/universe-logo-white.svg';
+import logoWordmark from './../img/universe-wordmark-white.svg';
 import '../css/Navbar.css';
 
 const Nav = styled.nav`
@@ -28,7 +28,7 @@ class Navbar extends Component {
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">
             <img
-              src={logo} 
+              src={logoWordmark} 
               className="navbar-brand-img" 
               alt="Universe Logo"/>
           </a>
@@ -53,7 +53,7 @@ class Navbar extends Component {
                 marginRight: 0
               }}>
                 <img
-                  src={logo} 
+                  src={logoWordmark} 
                   className="navbar-brand-img" 
                   alt="Universe Logo"/>
               </a>

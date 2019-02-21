@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Page404 from './Page404';
+import Code404 from '../components/Code404';
 
 class NoMatch extends Component {
   render() {
@@ -10,7 +10,7 @@ class NoMatch extends Component {
             paddingTop: '65px'
           }}>
         </div>
-        <Page404 />
+        <Code404 />
       </div>
     );
   }

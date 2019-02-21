@@ -3,8 +3,8 @@ import CopyrightUpdate from 'copyright-update';
 import FooterColLeft from './FooterColLeft';
 import FooterColCenter from './FooterColCenter';
 import FooterColRight from './FooterColRight';
-import FooterSocial from './FooterSocial';
-import logo from './../img/universe-logo-white.svg';
+import Social from './Social';
+import logoWordmark from './../img/universe-wordmark-white.svg';
 import '../css/Footer.css';
 
 class Footer extends Component {
@@ -51,7 +51,7 @@ class Footer extends Component {
           <div className="mb-4b">
             <a href="/">
               <img
-                src={logo} 
+                src={logoWordmark} 
                 className="navbar-brand-img" 
                 alt="Universe Logo"
                 style={{
@@ -82,18 +82,37 @@ class Footer extends Component {
             </div>
           </div>
           <div className="text-white-50 mb-4">
-            <div className="row">
-              <ul className="inline-list ml-auto"
+            <div className="row d-flex align-items-end">
+              <ul className="inline-list"
                 style={{
                   paddingRight: '2px',
                   paddingLeft: '8px'
                 }}>
-                <FooterSocial 
+                <Social 
                   socialItems={this.state.socialItems}
                   className="text-white"
                   listAlign="list-inline-item"
                 />
               </ul>
+              <div className="subscribe ml-auto pl-3 pr-3">
+                <p className="text-white small-font-size-90 mt-4">
+                  Subscribe to my weekly newsletter.
+                </p>
+                <a
+                  className="btn btn-light btn-block mx-auto mb-4"
+                  style={{
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    letterSpacing: '.03em',
+                    textTransform: 'uppercase',
+                    padding: '12px 45px'
+                  }}
+                  href="/subscribe" 
+                  role="button"
+                  tabIndex="1">
+                  Subscribe
+                </a>
+              </div>
             </div>
           </div>
           <div className="container line bg-white mb-4c"></div>

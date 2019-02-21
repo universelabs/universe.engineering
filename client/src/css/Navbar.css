@@ -1,7 +1,11 @@
 /* Navbar */
 
+a.nav-link:hover {
+  color: #bdbdbd!important;
+}
+
 .navbar-brand-img {
-  width: 150px;
+  width: 100px;
 }
 
 /* Custom class required for navbars with fixed-* & container classes */
@@ -10,8 +14,8 @@
 }
 
 .navbar-nav {
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-top: 15px;
   margin-bottom: 35px;
   height: 100vh;
@@ -127,6 +131,12 @@ button.navbar-toggler {
   width: 100%;
 }
 
+.nav-button:hover {
+  color: #fff!important;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
@@ -146,7 +156,7 @@ button.navbar-toggler {
 
   .navbar-brand-img {
     padding: 0;
-    width: 160px;
+    width: 120px;
   }
 
   .nav-link {
@@ -176,7 +186,7 @@ button.navbar-toggler {
   }
   .nav-button {
     width: auto;
-    padding: 8px 16px;
+    padding: 8px 24px;
     margin-top: 1px;
     margin-left: 16px;
   }

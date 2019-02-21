@@ -1,18 +1,47 @@
 /* Footer */
 
+div.row.d-flex.align-items-end > ul.inline-list > li.list-inline-item.mx-2 > a {
+  font-size: 18px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+a:hover {
+  color: #616161!important;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-light:hover {
+  background-color: rgba(255,255,255,0);
+  color: #fff!important;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+}
+
 .footer-brand-img {
   width: 90px;
+}
+
+.subscribe {
+  width: 100%;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .subscribe {
+    width: 320px;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
   .footer-brand-img {
     padding: 0;
     width: 100px;
