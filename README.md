@@ -50,6 +50,7 @@
 - [Status](#status)
 - [Getting started](#getting-started)
 - [Contributing](#contributing)
+- [Roadmap](#roadmap)
 - [Community](#community)
 - [Maintainers](#maintainers)
 - [License](#license)
@@ -124,14 +125,22 @@ Moreover, if your pull request contains JavaScript patches or features, you
 must include relevant unit tests. All code should conform to the [Code Guidelines](CONTRIBUTING.md#code-guidelines).
 
 
+## Roadmap
+
+Universe Labs' mission is to become the largest open source node and key management network.
+
+View the Universe Roadmap to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
+
+[› Universe Roadmap page](https://github.com/universelabs/universe/blob/master/ROADMAP.md)
+
+
 ## Community
 
-Get updates on Meta's development and chat with the project maintainers and community members.
+Get updates on Universe's development and chat with the project maintainers and community members.
 
-- Follow [@universelabs on Twitter](https://twitter.com/universelabs).
-- Join the official [Universe Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE) chat room.
-
-For more details on how to get involved in the Universe Community visit the [Universe Community page](https://github.com/universelabs/universe/blob/master/COMMUNITY.md) and learn more about events, roadmap, weekly & daily scrum, past weekly community scrum calls, and more...
+- Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
+- Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
+- Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE).
 
 
 ## Maintainers
