@@ -61,7 +61,7 @@ class Roadmap extends Component {
             <li>Universe Meta (Universe's blockchain front-end framework)</li>
           </ul>
           <h5>Discovery</h5>
-          <p>We have been polling and collecting data off and on for the past 2 months, talking to decentralized app developers on what issues they are facing the most.</p>
+          <p>We have been polling and collecting data and talking to decentralized app developers on what issues they are facing the most.</p>
           <ul>
             <li>Users find it difficult to manage their keys.</li>
             <li>Develepers have a hard time on-boarding users and/or keeping users.</li>
