@@ -6,8 +6,8 @@ class FooterColRight extends Component {
       {
         "id": 1,
         "url": "/roadmap",
-        "text": "Project Roadmap",
-        "alt": "Project Roadmap"
+        "text": "Roadmap",
+        "alt": "Roadmap"
       },
       {
         "id": 2,
@@ -26,7 +26,7 @@ class FooterColRight extends Component {
   
   render() {
     return this.state.data.map((item) => (
-      <li key={item.id} className="text-white-50">
+      <li key={item.id} className="text-white-50 mb-1">
         <a 
           href={item.url} 
           alt={item.alt}
