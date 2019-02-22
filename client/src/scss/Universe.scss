@@ -57,6 +57,13 @@ $alert-color-level:                 0;
 
 $headings-font-weight:        800;
 
+$display-font-weight:         800;
+$display1-weight:             $display-font-weight;
+$display2-weight:             $display-font-weight;
+$display3-weight:             $display-font-weight;
+$display4-weight:             $display-font-weight;
+$display-line-height:         1.1;
+
 
 // Override default variables before the import
 // Import Bootstrap and its default variables
