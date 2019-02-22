@@ -7,10 +7,10 @@ const Overlay = styled.div`
   background: url(${Background});
   background-size: cover;
   background-position: center;
-  height: 580px;
+  height: 600px;
 
   @media (min-width: 768px) {
-    height: 780px;
+    height: 800px;
   }
 `;
 
