@@ -9,6 +9,8 @@ class Roadmap extends Component {
         <Navbar 
           colorScheme="bg-black"/>
         <div 
+          className="container">
+        <div 
           className="container text-left mr-auto mb-8 pb-8"
           style={{
             maxWidth: '850px'
@@ -75,6 +77,7 @@ class Roadmap extends Component {
             <li>User's key management to access all the blockchain networks.</li>
             <li>Compute, storage, bandwidth, staking, etc.</li>
           </ul>
+        </div>
         </div>
         <Footer />
       </div>
