@@ -1,8 +1,8 @@
 /* Navbar */
 
-a.nav-link:hover {
-  color: #bdbdbd!important;
-}
+.navbar {
+    height: 45px;
+  }
 
 .navbar-brand-img {
   width: 100px;
@@ -34,12 +34,14 @@ li.nav-item:last-child {
 }
 
 .nav-link {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   color: #fff;
   padding: 10px 25px;
+}
+
+a.nav-link:hover {
+  color: #bdbdbd!important;
 }
 
 .navbar-text {
@@ -121,10 +123,8 @@ button.navbar-toggler {
 }
 
 .nav-button {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
-  letter-spacing: .03em;
-  text-transform: uppercase;
   padding: 12px;
   margin-top: 16px;
   margin-left: 0;
@@ -147,7 +147,7 @@ button.navbar-toggler {
 @media (min-width: 768px) {
 
   .navbar {
-    height: 53px;
+    height: 80px;
   }
 
   .navbar-brand {
@@ -169,10 +169,8 @@ button.navbar-toggler {
   }
 
   .navbar-text {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     text-align: left;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -186,7 +184,7 @@ button.navbar-toggler {
   }
   .nav-button {
     width: auto;
-    padding: 8px 24px;
+    padding: 10px 24px;
     margin-top: 1px;
     margin-left: 16px;
   }

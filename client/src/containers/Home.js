@@ -10,10 +10,7 @@ class Home extends Component {
       <div style={{
         backgroundColor: '#fff'
       }}>
-        <Navbar 
-          colorScheme="navbar-dark"
-          style={{ height: '65px' }}
-          />
+        <Navbar colorScheme="navbar-dark" />
         <Hero />
         <Footer 
           style={{

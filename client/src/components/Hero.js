@@ -28,7 +28,7 @@ class Header extends Component {
     return (
       <div className="container-fluid pl-0 pr-0 hero"
         style={{
-          marginTop: '-65px'
+          marginTop: '-80px'
         }}>
         <div className="row no-gutters">
           <Overlay 

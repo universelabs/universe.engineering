@@ -19,6 +19,14 @@ const Div = styled.div`
   height: 70px;
 `;
 
+const Button = styled.a`
+  margin-top: 24px;
+
+  @media (min-width: 768px) {
+    margin-top: 0px;
+  }
+`;
+
 class Navbar extends Component {
   render() {
     return (
@@ -41,7 +49,10 @@ class Navbar extends Component {
                 d-flex 
                 align-items-center 
                 justify-content-center 
-                d-md-none">
+                d-md-none"
+              style={{
+                height: '45px'
+              }}>
               <a 
                 className="
                   navbar-brand 
@@ -59,11 +70,6 @@ class Navbar extends Component {
               </a>
             </Div>
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item d-md-none">
-                <a className="nav-link" href="/" >
-                  Home
-                </a>
-              </li>
               <li className="nav-item">
                 <a className="nav-link" href="/roadmap" >
                   Roadmap
@@ -77,12 +83,12 @@ class Navbar extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a 
-                  className="btn btn-sm btn-primary nav-button" 
+                <Button 
+                  className="btn btn-sm btn-light nav-button" 
                   href="/subscribe"
-                >
+                  >
                   Subscribe
-                </a>
+                </Button>
               </li>
             </ul>
           </div>

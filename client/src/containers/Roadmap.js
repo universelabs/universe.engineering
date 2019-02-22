@@ -7,7 +7,7 @@ class Roadmap extends Component {
     return (
       <div>
         <Navbar 
-          colorScheme="bg-dark"/>
+          colorScheme="bg-black"/>
         <div 
           className="container text-left mr-auto mb-8 pb-8"
           style={{
