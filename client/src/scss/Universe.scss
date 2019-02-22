@@ -20,7 +20,7 @@ $theme-colors: map-merge(
   $theme-colors
 );
 
-$body-color:                        #131417;
+$body-color:                        $black;
 $yiq-text-dark:                     $black;
 
 // $enable-gradients:                  true;
@@ -29,12 +29,12 @@ $navbar-dark-color:                 rgba(#fff, 1);
 $navbar-dark-hover-color:           #bdbdbd;
 $navbar-dark-active-color:          primary;
 
-$navbar-light-color:                 rgba(#000, 1);
-$navbar-light-hover-color:           rgba(#000, .5);
-$navbar-light-active-color:          primary;
+$navbar-light-color:                rgba(#000, 1);
+$navbar-light-hover-color:          rgba(#000, .5);
+$navbar-light-active-color:         primary;
 
-$light:         #fff; // !default
 
+$light:                             #fff;
 
 // Links
 
