@@ -82,9 +82,9 @@ class Navbar extends Component {
                   Contact
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item d-md-none">
                 <Button 
-                  className="btn btn-sm btn-light nav-button" 
+                  className="btn btn-sm btn-outline-light nav-button" 
                   href="/subscribe"
                   >
                   Subscribe

@@ -7,14 +7,9 @@ div.row.d-flex.align-items-end > ul.inline-list > li.list-inline-item.mx-2 > a {
 }
 
 a:hover {
-  color: #616161!important;
+  color: rgba(255,255,255,0.4)!important;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-}
-
-.btn-light:hover {
-  background-color: rgba(255,255,255,0);
-  color: #fff!important;
 }
 
 .line {
@@ -42,11 +37,15 @@ a:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .btn {
+    padding-top: 12px!important;
+    padding-bottom: 12px!important;
+  }
+
   .footer-brand-img {
     padding: 0;
     width: 100px;
   }
-  
 }
 
 /* Large devices (desktops, 992px and up) */

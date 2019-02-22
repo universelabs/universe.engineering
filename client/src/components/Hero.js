@@ -10,7 +10,7 @@ const Overlay = styled.div`
   height: 565px;
 
   @media (min-width: 768px) {
-    height: 725px;
+    height: 780px;
   }
 `;
 
@@ -52,13 +52,8 @@ class Header extends Component {
               </Lead>
               <div className="text-center">
                 <a
-                  className="btn btn-lg btn-light btn-block mx-auto mb-4c text-color-primary"
+                  className="btn btn-light btn-block mx-auto mb-4c"
                   style={{
-                    fontSize: '14px',
-                    fontWeight: '700',
-                    letterSpacing: '.03em',
-                    textTransform: 'uppercase',
-                    padding: '15px 56px',
                     maxWidth: '280px',
                     color: '#0d0075'
                   }}

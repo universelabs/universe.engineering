@@ -99,13 +99,6 @@ class Footer extends Component {
                 </p>
                 <a
                   className="btn btn-light btn-block mx-auto mb-4"
-                  style={{
-                    fontSize: '13px',
-                    fontWeight: '700',
-                    letterSpacing: '.03em',
-                    textTransform: 'uppercase',
-                    padding: '12px 45px'
-                  }}
                   href="/subscribe" 
                   role="button"
                   tabIndex="1">

@@ -34,14 +34,12 @@ li.nav-item:last-child {
 }
 
 .nav-link {
-  font-size: 15px;
-  font-weight: 700;
   color: #fff;
   padding: 10px 25px;
 }
 
 a.nav-link:hover {
-  color: #bdbdbd!important;
+  color: rgba(255,255,255,0.4)!important;
 }
 
 .navbar-text {
@@ -132,9 +130,7 @@ button.navbar-toggler {
 }
 
 .nav-button:hover {
-  color: #fff!important;
-  background-color: transparent;
-  border: 1px solid #fff;
+  color: #000!important;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -159,8 +155,11 @@ button.navbar-toggler {
     width: 120px;
   }
 
-  .nav-link {
-    padding: 8.5px 1rem;
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-top: 8.5px;
+    padding-right: 1rem;
+    padding-bottom: 8.5px;
+    padding-left: 1rem;
   }
 
   div#navbarBasic,
