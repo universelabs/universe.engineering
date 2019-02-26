@@ -1,3 +1,4 @@
+const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const morgan = require('morgan');
 const request = require('request');
@@ -6,6 +7,8 @@ const path = require('path');
 const config = require('./config');
 
 const app = express();
+
+app.use(sslRedirect());
 
 // Morgan http logging for debugging in terminal
 app.use(morgan('short'));
