@@ -7,10 +7,8 @@ import Footer from '../components/Footer';
 class Home extends Component {
   render() {
     return (
-      <div style={{
-        backgroundColor: '#fff'
-      }}>
-        <Navbar colorScheme="navbar-dark" />
+      <div>
+        <Navbar colorScheme="bg-black"/>
         <Hero />
         <Footer 
           style={{
