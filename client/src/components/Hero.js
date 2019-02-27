@@ -4,7 +4,7 @@ import Background from './../img/universe-rhombi.svg';
 
 
 const Overlay = styled.div`
-  height: 635px;
+  height: 575px;
 
   @media (min-width: 768px) {
     background: url(${Background});
@@ -58,21 +58,30 @@ const Overlay = styled.div`
 `;
 
 const Heading = styled.h1`
+  margin-top: 64px;
   margin-bottom: 18px;
 
   @media (max-width: 575.98px) {
     font-size: 9.5vw;
+  }
+
+  @media (min-width: 576px) {
+    font-size: 2.75rem;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 3.375rem;
   }
 `;
 
 const Lead = styled.p`
   font-size: 1.1rem;
   max-width: 550px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 
   @media (min-width: 576px) {
     font-size: 1.25rem;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
   }
 `;
 
@@ -103,7 +112,7 @@ class Header extends Component {
                 style={{
                   maxWidth: '650px'
                 }}>
-                <Heading className="mt-5">
+                <Heading>
                   Decentralized Web Accessibility
                 </Heading>
                 <Lead
@@ -114,7 +123,7 @@ class Header extends Component {
                   <Button
                     className="btn btn-black btn-block rounded-pill"
                     style={{
-                      maxWidth: '280px',
+                      maxWidth: '270px',
                       color: '#fff'
                     }}
                     href="/subscribe" 
@@ -122,7 +131,7 @@ class Header extends Component {
                     tabIndex="1">
                     Subscribe
                   </Button>
-                  <p>Subscribe to our mailing list for upcoming releases, news & more...</p>
+                  <p>Subscribe to our mailing list for updates.</p>
                 </div>
               </div>
             </div>
