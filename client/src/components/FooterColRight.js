@@ -11,7 +11,7 @@ class FooterColRight extends Component {
       },
       {
         "id": 2,
-        "url": "mailto:support@universe.engineering?subject=Mail from Universe.engineering",
+        "url": "/contact",
         "text": "Contact",
         "alt": "Contact"
       },

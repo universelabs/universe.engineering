@@ -33,7 +33,7 @@ class Subscribe extends Component {
                   <img
                     className="brand-img"
                     src={logo} 
-                    alt="Papriika Logo"
+                    alt="Universe Labs Logo"
                     style={{ marginLeft: '-7px' }}
                   />
                 </a>

@@ -36,8 +36,8 @@ input, .form-control {
   padding: 25px 20px;
   background-color: #F5F5F5; /* Light Steel */
   border: 2px solid #F5F5F5; /* Light Steel */
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .form-control:hover {
   background-color: #fff;

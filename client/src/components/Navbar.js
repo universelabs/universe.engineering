@@ -78,7 +78,7 @@ class Navbar extends Component {
               <li className="nav-item">
                 <a 
                   className="nav-link" 
-                  href="mailto:support@universe.engineering?subject=Mail from Universe.engineering">
+                  href="/contact">
                   Contact
                 </a>
               </li>

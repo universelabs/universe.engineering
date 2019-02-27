@@ -3,6 +3,7 @@ const express = require('express');
 const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 const path = require('path');
 const config = require('./config');
 
@@ -15,6 +16,7 @@ app.use(morgan('short'));
 
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
 // Static path
 app.use(express.static(path.join(__dirname, 'client/build')));
@@ -22,9 +24,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 // Subscribe route
 app.post('/', (req, res) => {
   const { firstName, lastName, email } = req.body;
-  // console.log(req.body);
-  // res.send('Hello, Guy');
-
+  
   // Validation
   if (!email) {
     res.redirect('/subscribe-error');
@@ -66,6 +66,60 @@ app.post('/', (req, res) => {
         res.redirect('/subscribe-error');
       }
     }
+  });
+});
+
+app.post('/send-email', (req, res) => {
+  const output = `
+  <p>
+    <strong>First name</strong><br/>
+    ${req.body.firstName}
+  </p>
+  <p>
+    <strong>Last name</strong><br/>
+    ${req.body.lastName}
+  </p>
+  <p>
+    <strong>Email</strong><br/>
+    ${req.body.email}
+  </p>
+  <p>
+    <strong>Message</strong><br/>
+    ${req.body.message}
+  </p>
+  `;
+
+  // Create reusable transporter object using the default SMTP transport
+  let transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
+    auth: {
+        user: `${config.gmailMailer}`,
+        pass: `${config.gmailSecret}`
+    }
+  });
+
+  // Setup email data with unicode symbols
+  let mailOptions = {
+    // Sender address
+    from: '"Universe support (no-reply)" <no-reply@universe.engineering.com>', 
+    // List of receivers
+    to: "support@universe.engineering",
+    // Subject line
+    subject: "New email from (universe.engineering) 📬",
+    // Plain text body
+    text: "New email from universe.engineering",
+    // HTML body
+    html: output
+  };
+
+  // send mail with defined transport object
+  transporter.sendMail(mailOptions, (error) => {
+    if (error) {
+      res.redirect('/email-error');
+    }
+    res.redirect('/email-success');
   });
 });
 
