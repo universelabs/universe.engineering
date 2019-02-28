@@ -4,7 +4,7 @@ import Background from './../img/universe-rhombi.svg';
 
 
 const Overlay = styled.div`
-  height: 650px;
+  height: 635px;
 
   @media (min-width: 768px) {
     background: url(${Background});
@@ -58,7 +58,7 @@ const Overlay = styled.div`
 `;
 
 const Heading = styled.h1`
-  margin-top: 80px;
+  margin-top: 72px;
   margin-bottom: 18px;
 
   @media (max-width: 575.98px) {
