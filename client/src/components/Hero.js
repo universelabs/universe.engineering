@@ -107,7 +107,7 @@ class Header extends Component {
               d-flex 
               align-items-center 
               ">
-            <div className="container my-auto">
+            <div className="container my-auto anima-fadein">
               <div 
                 style={{
                   maxWidth: '650px'
@@ -121,10 +121,19 @@ class Header extends Component {
                 </Lead>
                 <div className="">
                   <Button
-                    className="btn btn-black btn-block rounded-pill"
+                    className="
+                      btn 
+                      btn-black 
+                      btn-block 
+                      rounded-pill 
+                      fadein
+                      anima-fadein-delay-1200"
                     style={{
                       maxWidth: '270px',
-                      color: '#fff'
+                      color: '#fff',
+                      fontWeight: '600',
+                      letterSpacing: '1px',
+                      fontFamily: 'Source Code Pro, monospace'
                     }}
                     href="/subscribe" 
                     role="button"

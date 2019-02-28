@@ -122,6 +122,11 @@ dd {
   padding-right: 2em;
 }
 
+.anima-fadein-delay-1200 {
+  animation-delay: 1200ms;
+  opacity: 0;
+}
+
 .anima-fadein-delay-1700 {
   animation-delay: 1700ms;
   opacity: 0;
