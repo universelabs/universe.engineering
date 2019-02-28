@@ -4,7 +4,7 @@ import Background from './../img/universe-rhombi.svg';
 
 
 const Overlay = styled.div`
-  height: 575px;
+  height: 650px;
 
   @media (min-width: 768px) {
     background: url(${Background});
@@ -58,7 +58,7 @@ const Overlay = styled.div`
 `;
 
 const Heading = styled.h1`
-  margin-top: 64px;
+  margin-top: 80px;
   margin-bottom: 18px;
 
   @media (max-width: 575.98px) {
@@ -129,7 +129,7 @@ class Header extends Component {
                       fadein
                       anima-fadein-delay-1200"
                     style={{
-                      maxWidth: '270px',
+                      maxWidth: '255px',
                       color: '#fff',
                       fontWeight: '600',
                       letterSpacing: '1px',
