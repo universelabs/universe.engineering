@@ -103,7 +103,7 @@ app.post('/send-email', (req, res) => {
   // Setup email data with unicode symbols
   let mailOptions = {
     // Sender address
-    from: '"Universe support (no-reply)" <no-reply@universe.engineering.com>', 
+    from: '"Universe support (no-reply)" <no-reply@universe.engineering>', 
     // List of receivers
     to: "support@universe.engineering",
     // Subject line

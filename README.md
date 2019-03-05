@@ -1,7 +1,7 @@
 <div align="center">
   <h3>Universe website and web app</h3>
   <p>
-    Universe is a blockchain agnostic, decentralized web accessibility node network.
+    Universe is an open source, blockchain agnostic web3 access node network.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
