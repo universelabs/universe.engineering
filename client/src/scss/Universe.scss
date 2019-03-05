@@ -52,11 +52,12 @@ $body-color:                      $black;
 
 // Links
 
-$link-hover-color:                $gray-500;
+$link-hover-color:                $gray-600;
 $link-hover-decoration:           none;
 
 $link-transition:                 all .2s ease-in-out; // Custom
 a { transition: $link-transition }
+a.link-dark { color: #000; }
 
 // Typography
 

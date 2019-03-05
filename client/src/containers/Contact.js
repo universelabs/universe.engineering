@@ -66,7 +66,7 @@ class About extends Component {
               </p>
               <Social 
                 socialItems={this.state.socialItems}
-                className="lead"
+                className="lead link-dark"
                 listAlign="list-inline-item"
               />
             </div>
