@@ -89,7 +89,7 @@ const Button = styled.a`
   margin-bottom: 32px;
 
   @media (min-width: 576px) {
-    margin-bottom: 40px;
+    margin-bottom: 32px;
   }
 `;
 
