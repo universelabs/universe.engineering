@@ -96,7 +96,10 @@ $btn-font-family:                 $font-family-monospace;
 $btn-font-size:                   .875rem;
 $btn-letter-spacing:              .0625rem;   // Custom
 $btn-text-transform:              uppercase;  // Custom
-$btn-border-radius:               50rem !important; // Custom
+
+$btn-border-radius:               50rem;
+$btn-border-radius-lg:            50rem;
+$btn-border-radius-sm:            50rem;
 
 $btn-transition:                  color .2s ease-in-out, 
                                   background-color .2s ease-in-out, 
@@ -106,10 +109,10 @@ $btn-transition:                  color .2s ease-in-out,
 .btn {
   letter-spacing:    $btn-letter-spacing;
   text-transform:    $btn-text-transform;
-  border-radius:     $btn-border-radius;
 }
 
 // Navbar
+
 $navbar-dark-color:               rgba(#fff, 1);
 $navbar-dark-hover-color:         #bdbdbd;
 $navbar-dark-active-color:        primary;
