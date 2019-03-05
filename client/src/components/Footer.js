@@ -95,7 +95,7 @@ class Footer extends Component {
               </ul>
               <div className="subscribe ml-auto pl-3 pr-3">
                 <p className="text-white small-font-size-90 mt-4">
-                  Subscribe our mailing list.
+                  Subscribe to our mailing list.
                 </p>
                 <a
                   className="btn btn-white btn-block mx-auto mb-4"

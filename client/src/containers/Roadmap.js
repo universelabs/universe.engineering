@@ -22,7 +22,7 @@ class Roadmap extends Component {
             </p>
             <h5>Goals</h5>
             <ul>
-              <li>Become the largest blockchain agnostic edge/node and key management network.</li>
+              <li>Become the largest open source, blockchain agnostic edge/node and key management network.</li>
               <li>Offer the best UX for dApp on-boarding and key management software.</li>
               <li>Build and maintain a required protocol for handling transactions across the network.</li>
               <li>Build a large community of open source developers contributing and building node modules and apps on the Universe node network.</li>
@@ -35,7 +35,7 @@ class Roadmap extends Component {
             </ul>
             <p className="lead font-weight-bold">Universe Key Management / Node Software</p>
             <ul>
-              <li>Universe Key Managemet Express/React Web App v0.6.0-alpha.</li>
+              <li>Universe Key Management Express/React Web App v0.6.0-alpha.</li>
               <li>Universe Meta Front-end Framework v1.2.0.</li>
             </ul>
             <h5>Milestones</h5>
