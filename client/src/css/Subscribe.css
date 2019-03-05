@@ -52,7 +52,7 @@ input, .form-control {
   box-shadow: none;
 }
 .form-control::-webkit-input-placeholder {
-  color: #616161;;
+  color: #000;;
   transition: opacity 0.25s ease-in-out;
 }
 :hover::-webkit-input-placeholder {
