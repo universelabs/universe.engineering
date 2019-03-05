@@ -8,8 +8,18 @@
 .anima-fadein {
   animation: fade-in 1s ease-out forwards;
   opacity: 0;
-  transform: translateY(1em);
-  padding-right: 2em;
+  transform: translateY(.5rem);
+  padding-right: 2rem;
+}
+
+.anima-fadein-delay-800 {
+  animation-delay: 800ms;
+  opacity: 0;
+}
+
+.anima-fadein-delay-1000 {
+  animation-delay: 1000ms;
+  opacity: 0;
 }
 
 .anima-fadein-delay-1200 {

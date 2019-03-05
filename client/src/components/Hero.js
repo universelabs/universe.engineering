@@ -126,7 +126,7 @@ class Header extends Component {
                       btn-black 
                       btn-block 
                       fadein
-                      anima-fadein-delay-1200"
+                      anima-fadein-delay-800"
                     style={{
                       maxWidth: '255px'
                     }}
