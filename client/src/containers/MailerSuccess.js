@@ -27,9 +27,11 @@ class MailerSuccess extends Component {
                 <p className="mb-5">
                   Someone will respond within 24hrs. Have a great day!
                 </p>
+                <p className="font-weight-bold">
+                  What's next?
+                </p>
                 <p className="mb-4b">
-                  <a href="/subscribe" alt="Subscribe to newsletter" className="bg-black text-light mx-1">&nbsp;Subscribe&nbsp;</a> to our weekly newsletter<br />
-                  or follow us on <a href="http://twitter.com/universelabs" alt="@UniverseLabs on Twitter" className="bg-black text-light mx-1">&nbsp;Twitter (@UniverseLabs)&nbsp;</a>.
+                  <a href="https://github.com/universelabs/" alt="GitHub UniverseLabs (Universe Labs)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Star&nbsp;</a> the open source project. <a href="https://twitter.com/UniverseLabs" alt="Twitter Universe Labs (@UniverseLabs)" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Follow&nbsp;</a> Universe on Twitter. <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE" alt="Universe Labs – Slack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Join&nbsp;</a> the community. <a href="/subscribe" alt="Subscribe to newsletter" className="bg-black text-light mx-1">&nbsp;Subscribe&nbsp;</a> to the newsletter.
                 </p>
               </div>
               <div className="text-center mb-4">

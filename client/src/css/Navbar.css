@@ -38,10 +38,6 @@ li.nav-item:last-child {
   padding: 10px 25px;
 }
 
-a.nav-link:hover {
-  color: rgba(255,255,255,0.4)!important;
-}
-
 .navbar-text {
   font-size: 15px;
   width: 100%;

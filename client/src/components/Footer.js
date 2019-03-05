@@ -58,24 +58,24 @@ class Footer extends Component {
                 }}/>
             </a>
           </div>
-          <div className="">
+          <div className="text-white">
             <div className="row">
               <div className="col-sm-6 col-md-3 mb-4 ml-auto">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Products</li>
-                  <FooterColLeft className="text-white" />
+                  <li className="d-block mb-3">Products</li>
+                  <FooterColLeft />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Platforms</li>
-                  <FooterColCenter className="text-white" />
+                  <li className="d-block mb-3">Platforms</li>
+                  <FooterColCenter />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Community</li>
-                  <FooterColRight className="text-white" />
+                  <li className="d-block mb-3">Community</li>
+                  <FooterColRight />
                 </ul>
               </div>
             </div>
@@ -89,7 +89,6 @@ class Footer extends Component {
                 }}>
                 <Social 
                   socialItems={this.state.socialItems}
-                  className="text-white"
                   listAlign="list-inline-item"
                 />
               </ul>

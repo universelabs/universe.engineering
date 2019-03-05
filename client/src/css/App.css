@@ -1,10 +1,5 @@
 /* App.css */
 
-a:hover {
-  color: rgba(255,255,255,0.4)!important;
-  text-decoration: none;
-}
-
 a.text-light:hover, a.text-light:focus {
   color: #000!important;
   background-color: #e0e0e0!important;
