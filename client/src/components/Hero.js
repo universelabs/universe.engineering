@@ -125,15 +125,10 @@ class Header extends Component {
                       btn 
                       btn-black 
                       btn-block 
-                      rounded-pill 
                       fadein
                       anima-fadein-delay-1200"
                     style={{
-                      maxWidth: '255px',
-                      color: '#fff',
-                      fontWeight: '600',
-                      letterSpacing: '1px',
-                      fontFamily: 'Source Code Pro, monospace'
+                      maxWidth: '255px'
                     }}
                     href="/subscribe" 
                     role="button"

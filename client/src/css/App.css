@@ -1,66 +1,13 @@
 /* App.css */
 
 a:hover {
-  transition: all 0.2s ease-in-out;
-}
-
-.btn {
-  font-size: 14px;
-  font-weight: 700;                    
-  letter-spacing: .03em;
-  text-transform: uppercase;
-  padding: 14px 45px;
-}
-
-.btn-sm {
-  font-size: 12px;
-  line-height: 1.25;
-  font-weight: 700;                    
-  letter-spacing: .03em;
-  text-transform: uppercase;
-  padding: 10px 16px;
-}
-
-.btn-white {
-  color: #000;
-  background-color: #fff;
-  border-color: #fff;
-}
-
-.btn-white:hover, 
-.btn-white:focus, 
-.btn-white:focus-within,
-.btn-white:active {
-  background-color: rgba(255,255,255,0)!important;
-  color: #fff!important;
-}
-
-.btn-primary:hover {
-  color: #fff!important;
-}
-
-.btn-link:hover {
-  color: rgba(0,0,0,0.5)!important;
+  color: rgba(255,255,255,0.4)!important;
   text-decoration: none;
-}
-
-.btn-outline-black:hover {
-  color: #fff!important;
-}
-
-.btn-outline-white:hover {
-  color: #000!important;
 }
 
 a.text-light:hover, a.text-light:focus {
   color: #000!important;
   background-color: #e0e0e0!important;
-}
-
-.btn-black:hover {
-  color: #000!important;
-  background-color: transparent;
-  border-color: #000;
 }
 
 html {
@@ -108,37 +55,6 @@ dd {
   font-size: 16px;
 }
 
-/* Actions */
-
-.fadein {
-  animation: fade-in 1s ease-out forwards;
-  opacity: 0;
-}
-
-.anima-fadein {
-  animation: fade-in 1s ease-out forwards;
-  opacity: 0;
-  transform: translateY(1em);
-  padding-right: 2em;
-}
-
-.anima-fadein-delay-1200 {
-  animation-delay: 1200ms;
-  opacity: 0;
-}
-
-.anima-fadein-delay-1700 {
-  animation-delay: 1700ms;
-  opacity: 0;
-}
-
-@keyframes fade-in {
-  100% {
-    opacity: 1;
-    transform: none
-  }
-}
-
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
@@ -162,9 +78,21 @@ dd {
     position: absolute;
     margin-top: -17px;
     margin-left: 52px;
-    
   }
 }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  .container {
+    max-width: none;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
@@ -178,7 +106,6 @@ dd {
 /* Extra Extra small devices devices */
 @media (max-width:348px) {}
 
-
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {}
 
@@ -186,46 +113,10 @@ dd {
 @media (max-width: 767.98px) {}
 
 /* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-  .container {
-    max-width: none;
-  }
-}
+@media (max-width: 991.98px) {}
 
 /* Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {}
 
 /* Extra large devices (large desktops)*/
 /* No media query since the extra-large breakpoint has no upper bound on its width */
-
-/* Pattern Library */
-/* .typetemplate-boxy classes are for typography testing purposes only */
-
-.typetemplate-boxy-img-box {
-  height: 325px;
-  background-color: #212121;
-  margin: 2.75rem auto;
-}
-
-.typetemplate-boxy-line {
-  height: 1px;
-  width: 50%;
-  background-color: #555;
-  margin: 5.5rem auto;
-}
-
-.pattern-library-typography-footnote {
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.5);
-}
-
-.pattern-libarary-typography-code {
-  color: #000; 
-  font-weight: 600;
-  background-color: #E0E0E0;
-  border-radius: 2px;
-  padding: 2px 3px 1px 3px;
-  margin: auto 3px;
-}
-
-/* End typography testing */

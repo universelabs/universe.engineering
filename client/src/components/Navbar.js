@@ -84,7 +84,12 @@ class Navbar extends Component {
               </li>
               <li className="nav-item d-md-none">
                 <Button 
-                  className="btn btn-sm btn-outline-light nav-button" 
+                  className="
+                    btn 
+                    btn-sm 
+                    btn-outline-light 
+                    rounded-pill 
+                    nav-button" 
                   href="/subscribe"
                   >
                   Subscribe

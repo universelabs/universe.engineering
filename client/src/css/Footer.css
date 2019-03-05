@@ -6,12 +6,6 @@ div.row.d-flex.align-items-end > ul.inline-list > li.list-inline-item.mx-2 > a {
   margin-left: 3px;
 }
 
-a:hover {
-  color: rgba(255,255,255,0.4)!important;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-}
-
 .line {
   height: 1px;
   width: 100%;
@@ -47,6 +41,15 @@ a:hover {
     width: 100px;
   }
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}

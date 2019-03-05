@@ -1,0 +1,31 @@
+/* Pattern Library */
+/* .typetemplate-boxy classes are for typography testing purposes only */
+
+.typetemplate-boxy-img-box {
+  height: 325px;
+  background-color: #212121;
+  margin: 2.75rem auto;
+}
+
+.typetemplate-boxy-line {
+  height: 1px;
+  width: 50%;
+  background-color: #555;
+  margin: 5.5rem auto;
+}
+
+.pattern-library-typography-footnote {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.5);
+}
+
+.pattern-libarary-typography-code {
+  color: #000; 
+  font-weight: 600;
+  background-color: #E0E0E0;
+  border-radius: 2px;
+  padding: 2px 3px 1px 3px;
+  margin: auto 3px;
+}
+
+/* End typography testing */
