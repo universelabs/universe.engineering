@@ -22,11 +22,6 @@
   color: #fff!important;
 }
 
-.btn-link:hover {
-  color: rgba(0,0,0,0.5)!important;
-  text-decoration: none;
-}
-
 .btn-outline-black:hover {
   color: #fff!important;
 }

@@ -106,7 +106,7 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-          <div className="container line bg-white mb-4c"></div>
+          <div className="container line w-100 bg-white mb-4c"></div>
           <div className="small text-white-50 letter-space mb-2">
             <CopyrightUpdate 
               style={{
