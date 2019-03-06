@@ -5,7 +5,7 @@ import Social from '../components/Social';
 import ContactForm from '../components/ContactForm';
 import '../css/Subscribe.css';
 
-class About extends Component {
+class Contact extends Component {
   state = {
     socialItems: [
       {
@@ -78,4 +78,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Contact;
