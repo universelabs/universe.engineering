@@ -113,11 +113,11 @@ class Header extends Component {
                   maxWidth: '650px'
                 }}>
                 <Heading>
-                  Decentralized Web Accessibility
+                  Private Key Management. Simplified.
                 </Heading>
                 <Lead
                   className="lead font-weight-normal">
-                  Universe is an open source, blockchain agnostic web3 access node network.
+                  Universe’s protocol and hardware node provide end users with an easy to use platform for securing and using private keys and seed phrases.
                 </Lead>
                 <div className="">
                   <Button
@@ -135,7 +135,7 @@ class Header extends Component {
                     tabIndex="1">
                     Subscribe
                   </Button>
-                  <p>Subscribe to our mailing list for updates.</p>
+                  <p>Open source and blockchain agnostic.</p>
                 </div>
               </div>
             </div>
