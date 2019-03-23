@@ -1,0 +1,27 @@
+// Alerts
+//
+// Refactor to include new color variables as well as sizes
+
+$alert-border-radius:               0;
+$alert-bg-level:                    0;
+$alert-border-level:                0;
+$alert-color-level:                 0;
+
+@import "node_modules/bootstrap/scss/alert";
+
+.alert { 
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .13em;
+  padding: 15px;
+}
+
+.alert-small { 
+  font-size: 11px;
+  padding: 7px 15px;
+}
+
+.alert-black,
+.alert-primary {
+  color: #fff;
+}

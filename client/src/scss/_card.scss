@@ -1,0 +1,17 @@
+// Card
+
+$card-border-color:                 rgba($white, 1);
+$card-bg:                           $white;
+
+@import "node_modules/bootstrap/scss/card";
+
+@include respond-above(sm) {
+  .card {
+    max-width: 550px;
+  }
+
+  .card-body {
+    padding: 2.5rem;
+  }
+  
+}

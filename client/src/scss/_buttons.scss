@@ -1,0 +1,113 @@
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-`, `$btn-` variables.
+
+$input-btn-padding-y:             .875rem;
+$input-btn-padding-x:             2.8125rem;
+
+$input-btn-padding-y-sm:          .625rem;
+$input-btn-padding-x-sm:          1rem;
+$input-btn-font-size-sm:          .75rem;
+$input-btn-line-height-sm:        1.25;
+
+// Buttons
+//
+// For each button type, define text, background, and border color.
+
+
+$btn-padding-y:                   $input-btn-padding-y;
+$btn-padding-x:                   $input-btn-padding-x;
+$btn-font-family:                 $input-btn-font-family;
+$btn-font-size:                   .875rem;
+$btn-line-height:                 $input-btn-line-height;
+
+$btn-padding-y-sm:                $input-btn-padding-y-sm;
+$btn-padding-x-sm:                $input-btn-padding-x-sm;
+$btn-font-size-sm:                .875rem;
+$btn-line-height-sm:              $input-btn-line-height-sm;
+
+$btn-padding-y-lg:                $input-btn-padding-y-lg;
+$btn-padding-x-lg:                $input-btn-padding-x-lg;
+$btn-font-size-lg:                .875rem;
+$btn-line-height-lg:              $input-btn-line-height-lg;
+
+$btn-letter-spacing:              .0625rem;   // Custom
+$btn-text-transform:              uppercase;  // Custom
+$btn-font-weight:                 $font-weight-bold!important;
+
+$btn-border-radius:               4px;
+$btn-border-radius-lg:            4px;
+$btn-border-radius-sm:            4px;
+
+$btn-transition:                  color .2s ease-in-out, 
+                                  background-color .2s ease-in-out, 
+                                  border-color .2s ease-in-out, 
+                                  box-shadow .2s ease-in-out;
+
+.btn {
+  letter-spacing:    $btn-letter-spacing;
+  text-transform:    $btn-text-transform;
+}
+
+@import "node_modules/bootstrap/scss/buttons";
+
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white:hover, 
+.btn-white:focus, 
+.btn-white:focus-within,
+.btn-white:active {
+  background-color: rgba(255,255,255,0)!important;
+  color: #fff!important;
+}
+
+.btn-black:hover {
+  color: #000!important;
+  background-color: transparent;
+  border-color: #000;
+}
+
+@include respond-above(sm) {
+  .btn {
+    padding: 15px 56px;
+  }
+}
+
+.btn-open-source {
+  font-size: 11px;
+  line-height: 1.25;
+  padding-top: 6px;
+  padding-right: 28px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+}
+
+/* Heart */
+.btn-open-source>span {
+  font-size: 16px;
+  position: absolute;
+  margin-top: -16px;
+  margin-left: 49px;
+}
+
+@include respond-above(sm) {
+  .btn-open-source {
+    font-size: 12px;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+  }
+
+  /* Heart */
+  .btn-open-source>span {
+    font-size: 17px;
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 54px;
+  }
+}
