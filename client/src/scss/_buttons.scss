@@ -14,10 +14,9 @@ $input-btn-line-height-sm:        1.25;
 //
 // For each button type, define text, background, and border color.
 
-
 $btn-padding-y:                   $input-btn-padding-y;
 $btn-padding-x:                   $input-btn-padding-x;
-$btn-font-family:                 $input-btn-font-family;
+$btn-font-family:                 $font-family-monospace;
 $btn-font-size:                   .875rem;
 $btn-line-height:                 $input-btn-line-height;
 
@@ -35,9 +34,9 @@ $btn-letter-spacing:              .0625rem;   // Custom
 $btn-text-transform:              uppercase;  // Custom
 $btn-font-weight:                 600!important; // Semibold
 
-$btn-border-radius:               4px;
-$btn-border-radius-lg:            4px;
-$btn-border-radius-sm:            4px;
+$btn-border-radius:               50rem;
+$btn-border-radius-lg:            50rem;
+$btn-border-radius-sm:            50rem;
 
 $btn-transition:                  color .2s ease-in-out, 
                                   background-color .2s ease-in-out, 
