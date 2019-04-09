@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import NavbarToggler from '../components/NavbarToggler';
 import logoWordmark from './../img/universe-wordmark-white.svg';
-import '../css/Navbar.css';
 
 const Nav = styled.nav`
   padding-top: 0.15rem;

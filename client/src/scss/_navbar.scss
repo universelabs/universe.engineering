@@ -10,8 +10,12 @@ $navbar-light-hover-color:          rgba(#000, .5);
 
 /* Navbar */
 
+.navbar {
+  height: 45px;
+}
+
 .navbar-brand-img {
-  width: 90px;
+  width: 100px;
 }
 
 /* Custom class required for navbars with fixed-* & container classes */
@@ -20,8 +24,8 @@ $navbar-light-hover-color:          rgba(#000, .5);
 }
 
 .navbar-nav {
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-top: 15px;
   margin-bottom: 35px;
   height: 100vh;
@@ -40,10 +44,6 @@ li.nav-item:last-child {
 }
 
 .nav-link {
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
   color: #fff;
   padding: 10px 25px;
 }
@@ -127,8 +127,9 @@ button.navbar-toggler {
 }
 
 .nav-button {
-  font-size: 12px!important;
-  padding: 16px;
+  font-size: 14px;
+  padding: 12px;
+  margin-top: 16px;
   margin-left: 0;
   width: 100%;
 }
@@ -141,7 +142,7 @@ button.navbar-toggler {
 @media (min-width: 768px) {
 
   .navbar {
-    height: 53px;
+    height: 80px;
   }
 
   .navbar-brand {
@@ -150,7 +151,7 @@ button.navbar-toggler {
 
   .navbar-brand-img {
     padding: 0;
-    width: 100px;
+    width: 120px;
   }
 
   .nav-link {
@@ -163,10 +164,8 @@ button.navbar-toggler {
   }
 
   .navbar-text {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
     text-align: left;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -178,9 +177,11 @@ button.navbar-toggler {
     padding: 0; /* Resets padding on navbar dropdown */
     height: auto; /* Resets vh on small device dropdown */
   }
+  
   .nav-button {
     width: auto;
-    padding: 8px 16px!important;
+    padding: 10px 24px;
+    margin-top: 1px;
     margin-left: 16px;
   }
 }
