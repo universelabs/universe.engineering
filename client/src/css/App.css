@@ -1,5 +1,29 @@
 /* App.css */
 
+/* Table of contents
+/* -------------------------------
+/* Color system                   /* Pagination                           */
+/* Options                        /* Jumbotron                            */
+/* Spacing                        /* Cards                                */
+/* Body                           /* Tooltips                             */
+/* Links                          /* Popovers                             */
+/* Paragraphs                     /* Toasts                               */
+/* Grid breakpoints               /* Badges                               */
+/* Grid containers                /* Modals                               */
+/* Grid columns                   /* Alerts                               */
+/* Components                     /* Progress bars                        */
+/* Typography                     /* List group                           */
+/* Tables                         /* Image thumbnails                     */
+/* Buttons + Forms                /* Figures                              */
+/* Buttons                        /* Breadcrumbs                          */
+/* Forms                          /* Carousel                             */
+/* Form validation                /* Spinners                             */
+/* Z-index master list            /* Close                                */
+/* Navs                           /* Code                                 */
+/* Navbar                         /* Utilities                            */
+/* Dropdowns                      /* Printing                             */
+
+
 a.text-light:hover, a.text-light:focus {
   color: #000!important;
   background-color: #e0e0e0!important;
@@ -31,23 +55,6 @@ dd {
 
 .text-footer {
   font-size: 80%;
-}
-
-.btn-open-source {
-  font-size: 11px;
-  line-height: 1.25;
-  padding-top: 6px;
-  padding-right: 28px;
-  padding-bottom: 6px;
-  padding-left: 8px;
-}
-
-/* Heart */
-.btn-open-source > span {
-  position: absolute;
-  margin-top: -16px;
-  margin-left: 48px;
-  font-size: 16px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
