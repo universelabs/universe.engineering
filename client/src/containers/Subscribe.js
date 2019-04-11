@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
 import SubscribeForm from '../components/SubscribeForm';
-import '../css/Subscribe.css';
 import logoWordmark from './../img/universe-wordmark.svg';
 
 // Using a ES6 class component as it contains state.
