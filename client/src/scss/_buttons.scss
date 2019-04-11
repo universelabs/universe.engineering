@@ -38,6 +38,8 @@ $btn-letter-spacing:              .125em;   // Custom
 $btn-text-transform:              uppercase;  // Custom
 $btn-font-weight:                 $font-weight-bold;
 
+$btn-link-font-weight:            $font-weight-bold;
+
 $btn-border-radius:               50rem;
 $btn-border-radius-lg:            50rem;
 $btn-border-radius-sm:            50rem;
@@ -52,8 +54,11 @@ $btn-transition:                  color .2s ease-in-out,
   text-transform:    $btn-text-transform;
 }
 
-
 @import "node_modules/bootstrap/scss/buttons";
+
+.btn-link {
+  font-weight:       $btn-link-font-weight;
+}
 
 .btn-white {
   color: #000;
