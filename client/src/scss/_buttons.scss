@@ -87,12 +87,6 @@ $btn-transition:                  color .2s ease-in-out,
   color: #000!important;
 }
 
-.btn-subscribe {
-  font-size: 13px;
-  text-transform: uppercase;
-  padding: 15px 56px;
-}
-
 @include respond-above(sm) {
   .btn {
     padding: 15px 56px;

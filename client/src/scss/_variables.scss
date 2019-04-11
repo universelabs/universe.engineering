@@ -133,6 +133,10 @@ $display3-weight:                 $display-font-weight;
 $display4-weight:                 $display-font-weight;
 $display-line-height:             1.1;
 
+small, .small {
+  font-weight: unset; // unset's Bootstrap's font-weight
+}
+
 // Brand
 
 .brand-img {

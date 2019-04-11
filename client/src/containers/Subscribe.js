@@ -26,12 +26,12 @@ class Subscribe extends Component {
             justify-content-center
             pl-0 pr-0
           ">
-          <div className="card col-md-8">
+          <div className="card col-md-8 mt-4c mt-md-6">
             <div className="card-body">
               <Div className="mb-4">
-                <a href="/" className="brand">
+                <a href="/" className="d-block mb-4 mb-md-4b">
                   <img
-                    className="brand-img"
+                    className="brand-img brand-img-md-pull-left"
                     src={logo} 
                     alt="Universe Labs Logo"
                     style={{ marginLeft: '-7px' }}
@@ -46,17 +46,12 @@ class Subscribe extends Component {
               </Div>
               <SubscribeForm />
               <a
-                className="btn btn-link btn-subscribe btn-block mx-auto"
-                style={{
-                  textDecoration: 'none',
-                  maxWidth: '280px',
-                  marginTop: '16px'
-                }}
+                className="btn btn-link btn-subscribe btn-block mx-auto mt-3"
                 href="/" 
                 role="button">
                 Back to home
               </a>
-              <div className="text-center small letter-space mt-9 mb-4">
+              <div className="text-center small mt-9 mb-4">
                 <CopyrightUpdate 
                   style={{
                     display: 'inline-block'
