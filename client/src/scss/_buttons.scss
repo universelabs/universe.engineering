@@ -10,6 +10,8 @@ $input-btn-padding-x-sm:          1rem;
 $input-btn-font-size-sm:          .75rem;
 $input-btn-line-height-sm:        1.25;
 
+$input-btn-border-width:      $border-width;
+
 // Buttons
 //
 // For each button type, define text, background, and border color.
@@ -30,9 +32,11 @@ $btn-padding-x-lg:                $input-btn-padding-x-lg;
 $btn-font-size-lg:                .875rem;
 $btn-line-height-lg:              $input-btn-line-height-lg;
 
-$btn-letter-spacing:              .0625rem;   // Custom
+$btn-border-width:                $input-btn-border-width;
+
+$btn-letter-spacing:              .125em;   // Custom
 $btn-text-transform:              uppercase;  // Custom
-$btn-font-weight:                 600!important; // Semibold
+$btn-font-weight:                 $font-weight-semibold;
 
 $btn-border-radius:               50rem;
 $btn-border-radius-lg:            50rem;
@@ -47,6 +51,7 @@ $btn-transition:                  color .2s ease-in-out,
   letter-spacing:    $btn-letter-spacing;
   text-transform:    $btn-text-transform;
 }
+
 
 @import "node_modules/bootstrap/scss/buttons";
 
@@ -80,6 +85,12 @@ $btn-transition:                  color .2s ease-in-out,
 
 .btn-outline-white:hover {
   color: #000!important;
+}
+
+.btn-subscribe {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 15px 56px;
 }
 
 @include respond-above(sm) {

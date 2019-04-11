@@ -1,17 +1,5 @@
 // Type
-
-$font-family-monospace:           "Source Code Pro", monospace;
+//
+// Typography styles are variables located in _variables.scss
 
 @import "node_modules/bootstrap/scss/type";
-
-$font-weight-lighter:         lighter !default;
-$font-weight-ultralight:      100 !default;
-$font-weight-light:           200 !default;
-$font-weight-thin:            300 !default;
-$font-weight-normal:          400 !default;
-$font-weight-medium:          500 !default;
-$font-weight-semibold:        600 !default;
-$font-weight-bold:            700 !default;
-$font-weight-heavy:           800 !default;
-$font-weight-black:           900 !default;
-$font-weight-bolder:          bolder !default;

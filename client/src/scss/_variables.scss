@@ -11,7 +11,7 @@
 // Grid breakpoints               // Alerts _alert
 // Grid containers                // Progress bars
 // Grid columns                   // List group _list-group
-// Typography _type               // Image thumbnails _images
+// Typography                     // Image thumbnails _images
 // Tables _tabeles                // Figures
 // Buttons + Forms                // Breadcrumbs
 // Buttons                        // Carousel
@@ -52,6 +52,7 @@ $theme-colors: map-merge(
 
 $body-bg:                         $white;
 $body-color:                      $black;
+
 
 // Links
 
@@ -97,6 +98,41 @@ $link-hover-decoration:           none;
   background: $dark;
 }
 
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-monospace:           "Source Code Pro", monospace;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-ultralight:      100 !default;
+$font-weight-light:           200 !default;
+$font-weight-thin:            300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-heavy:           800 !default;
+$font-weight-black:           900 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-semibold;
+
+// Headings
+//
+// Style h1, h2, h3, h4, h5, h6 elements and 
+// .h1, .h2, .h3, .h4, .h5, .h6 classes.
+
+$headings-font-weight:        $font-weight-heavy;
+
+$display-font-weight:             800;
+$display1-weight:                 $display-font-weight;
+$display2-weight:                 $display-font-weight;
+$display3-weight:                 $display-font-weight;
+$display4-weight:                 $display-font-weight;
+$display-line-height:             1.1;
+
 // Brand
 
 .brand-img {
@@ -111,3 +147,7 @@ $link-hover-decoration:           none;
     margin-left: -2px;
   }
 }
+
+// Components
+
+$border-width:                2px;
