@@ -113,13 +113,10 @@ class Header extends Component {
                   maxWidth: '650px'
                 }}>
                 <Heading>
-                  Blockchain Access, Made Easy.
+                  Decentralized Web Access Made Easy.
                 </Heading>
-                <Lead
-                  className="lead font-weight-normal">
-                   - Sign up once and get access to leading Blockchains <br />
-                   - Access all of your keys and seeds in one place <br />
-                   - Storage locally on your hardware node
+                <Lead className="lead font-weight-normal">
+                  With Universe, users sign up once and gain access to leading blockchains. Universe's key manager gives you quick access to passphrases, private keys and seeds, all in one place.
                 </Lead>
                 <div className="">
                   <Button
@@ -137,7 +134,9 @@ class Header extends Component {
                     tabIndex="1">
                     Subscribe
                   </Button>
-                  <p>Open source and blockchain agnostic.</p>
+                  <p>
+                    Open source, blockchain agnostic key managment.
+                  </p>
                 </div>
               </div>
             </div>
