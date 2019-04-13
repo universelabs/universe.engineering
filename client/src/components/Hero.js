@@ -117,7 +117,9 @@ class Header extends Component {
                 </Heading>
                 <Lead
                   className="lead font-weight-normal">
-                   - Sign up once and get access to leading Blockchains <br>           - Access all of your keys and seeds in one place <br>                    - Storage locally on your hardware node
+                   - Sign up once and get access to leading Blockchains <br />
+                   - Access all of your keys and seeds in one place <br />
+                   - Storage locally on your hardware node
                 </Lead>
                 <div className="">
                   <Button
