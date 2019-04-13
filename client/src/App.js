@@ -9,8 +9,6 @@ import SubscribeSuccess from './containers/SubscribeSuccess';
 import MailerError from './containers/MailerError';
 import MailerSuccess from './containers/MailerSuccess';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './css/Buttons.css';
-import './css/Animations.css';
 import './css/App.css';
 
 class App extends Component {

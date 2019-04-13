@@ -19,20 +19,27 @@ class Footer extends Component {
       },
       {
         id: 2,
+        href: 'https://www.npmjs.com/package/@universelabs/meta',
+        alt: 'npm @universelabs (Universe Labs)',
+        icon: 'npm',
+        text: 'npm'
+      },
+      {
+        id: 3,
         href: 'https://twitter.com/UniverseLabs',
         alt: 'Twitter Universe Labs (@UniverseLabs)',
         icon: 'twitter',
         text: 'Twitter'
       },
       {
-        id: 3,
+        id: 4,
         href: 'https://medium.com/universelabs',
         alt: 'Universe Labs – Medium',
         icon: 'medium',
         text: 'Medium'
       },
       {
-        id: 4,
+        id: 5,
         href: 'https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE',
         alt: 'Universe Labs – Slack',
         icon: 'slack',
@@ -63,19 +70,19 @@ class Footer extends Component {
               <div className="col-sm-6 col-md-3 mb-4 ml-auto">
                 <ul className="list-unstyled my-2">
                   <li className="d-block mb-3">Products</li>
-                  <FooterColLeft />
+                  <FooterColLeft className="text-white" />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block mb-3">Platforms</li>
-                  <FooterColCenter />
+                  <FooterColCenter className="text-white" />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-4">
                 <ul className="list-unstyled my-2">
                   <li className="d-block mb-3">Community</li>
-                  <FooterColRight />
+                  <FooterColRight className="text-white" />
                 </ul>
               </div>
             </div>
@@ -90,6 +97,7 @@ class Footer extends Component {
                 <Social 
                   socialItems={this.state.socialItems}
                   listAlign="list-inline-item"
+                  className="text-white"
                 />
               </ul>
               <div className="subscribe ml-auto pl-3 pr-3">
@@ -97,10 +105,9 @@ class Footer extends Component {
                   Subscribe to our mailing list.
                 </p>
                 <a
-                  className="btn btn-white btn-block mx-auto mb-4"
+                  className="btn btn-outline-white btn-block mx-auto mb-4"
                   href="/subscribe" 
-                  role="button"
-                  tabIndex="1">
+                  role="button">
                   Subscribe
                 </a>
               </div>

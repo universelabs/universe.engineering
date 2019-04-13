@@ -1,8 +1,14 @@
-/* Navbar */
 
-.navbar {
-    height: 45px;
-  }
+// Navbar
+
+$navbar-dark-color:                 rgba(#fff, 1);
+
+$navbar-light-color:                rgba(#000, 1);
+$navbar-light-hover-color:          rgba(#000, .5);
+
+@import "node_modules/bootstrap/scss/navbar";
+
+/* Navbar */
 
 .navbar-brand-img {
   width: 100px;
@@ -125,14 +131,8 @@ button.navbar-toggler {
 }
 
 .nav-button:hover {
-  color: #000!important;
+  color: #fff!important;
 }
-
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query for `xs` since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -150,11 +150,8 @@ button.navbar-toggler {
     width: 120px;
   }
 
-  .navbar-expand-md .navbar-nav .nav-link {
-    padding-top: 8.5px;
-    padding-right: 1rem;
-    padding-bottom: 8.5px;
-    padding-left: 1rem;
+  .nav-link {
+    padding: 8.5px 1rem!important;
   }
 
   div#navbarBasic,
@@ -176,9 +173,10 @@ button.navbar-toggler {
     padding: 0; /* Resets padding on navbar dropdown */
     height: auto; /* Resets vh on small device dropdown */
   }
+  
   .nav-button {
     width: auto;
-    padding: 10px 24px;
+    padding: 10px 24px!important;
     margin-top: 1px;
     margin-left: 16px;
   }
@@ -190,24 +188,3 @@ button.navbar-toggler {
     min-width: unset;
   }
 }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
-
-/* Extra Extra small devices devices */
-@media (max-width:348px) {}
-
-/* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {}
-
-/* Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {}
-
-/* Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {}
-
-/* Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {}
-
-/* Extra large devices (large desktops)*/
-/* No media query since the extra-large breakpoint has no upper bound on its width */

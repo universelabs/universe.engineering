@@ -1,0 +1,157 @@
+// Variables
+
+// Table of contents
+// -------------------------------
+// Color system                   // Cards _card
+// Options                        // Tooltips _tooltip
+// Spacing                        // Popovers _popover
+// Body                           // Toasts
+// Links                          // Badges
+// Paragraphs                     // Modals
+// Grid breakpoints               // Alerts _alert
+// Grid containers                // Progress bars
+// Grid columns                   // List group _list-group
+// Typography                     // Image thumbnails _images
+// Tables _tabeles                // Figures
+// Buttons + Forms                // Breadcrumbs
+// Buttons                        // Carousel
+// Forms _forms                   // Spinners
+// Form validation                // Close
+// Z-index master list            // Code _code
+// Navs _navs                     // Utilities _utilities
+// Navbar _navbar                 // Printing
+// Dropdowns _dropdown            // Brand
+// Pagination                     // Components _components
+// Jumbotron _jumbotron
+
+@import "node_modules/bootstrap/scss/variables";
+
+// Color system
+
+$picotee-900:   #181846;
+$primary:       #1700c4;
+$secondary:     $gray-200;
+$light:         $white;
+$dark:          $black;
+
+$theme-colors: ();
+
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "black":      $black,
+    "picotee":    $picotee-900,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+// Body 
+
+$body-bg:                         $white;
+$body-color:                      $black;
+
+
+// Links
+
+$link-color:                      $dark;
+$link-hover-color:                $gray-600;
+$link-hover-decoration:           none;
+
+.link-dynamic-light,
+.link-dynamic-dark {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.link-dynamic-light:after,
+.link-dynamic-dark:after {
+  margin-top: -5px;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  transition: width .3s ease, background-color .3s ease;
+}
+
+.link-dynamic-light:after {
+  background-color: $light;
+}
+
+.link-dynamic-dark:after {
+  background-color: $dark;
+}
+
+.link-dynamic-light:hover:after,
+.link-dynamic-dark:hover:after {
+  width: 0;
+}
+
+.link-dynamic-light:hover:after {
+  background: $light;
+}
+
+.link-dynamic-dark:hover:after {
+  background: $dark;
+}
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-monospace:           "Source Code Pro", monospace;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-ultralight:      100 !default;
+$font-weight-light:           200 !default;
+$font-weight-thin:            300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-heavy:           800 !default;
+$font-weight-black:           900 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-semibold;
+
+// Headings
+//
+// Style h1, h2, h3, h4, h5, h6 elements and 
+// .h1, .h2, .h3, .h4, .h5, .h6 classes.
+
+$headings-font-weight:        $font-weight-heavy;
+
+$display-font-weight:             800;
+$display1-weight:                 $display-font-weight;
+$display2-weight:                 $display-font-weight;
+$display3-weight:                 $display-font-weight;
+$display4-weight:                 $display-font-weight;
+$display-line-height:             1.1;
+
+small, .small {
+  font-weight: unset; // unset's Bootstrap's font-weight
+}
+
+// Brand
+
+.brand-img {
+  width: 110px;
+}
+
+@include respond-above(sm) {
+  .brand-img {
+    width: 130px;
+  }
+  .brand-img-md-pull-left {
+    margin-left: -2px;
+  }
+}
+
+// Components
+
+$border-width:                2px;
