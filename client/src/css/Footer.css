@@ -14,10 +14,6 @@ div.row.d-flex.align-items-end > ul.inline-list > li.list-inline-item.mx-2 > a {
   width: 90px;
 }
 
-.subscribe {
-  width: 100%;
-}
-
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 

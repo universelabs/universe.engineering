@@ -88,7 +88,17 @@ $btn-transition:                  color .2s ease-in-out,
   color: #fff!important;
 }
 
-.btn-outline-white:hover {
+.btn-outline-white {
+  color: #fff;
+  background-color: rgba(255,255,255,0)!important;
+  border-color: #fff;
+}
+
+.btn-outline-white:hover, 
+.btn-outline-white:focus, 
+.btn-outline-white:focus-within,
+.btn-outline-white:active {
+  background-color: rgba(255,255,255,1)!important;
   color: #000!important;
 }
 

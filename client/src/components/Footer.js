@@ -5,7 +5,6 @@ import FooterColCenter from './FooterColCenter';
 import FooterColRight from './FooterColRight';
 import Social from './Social';
 import logoWordmark from './../img/universe-wordmark-white.svg';
-import '../css/Footer.css';
 
 class Footer extends Component {
   state = {
@@ -92,12 +91,12 @@ class Footer extends Component {
                   listAlign="list-inline-item"
                 />
               </ul>
-              <div className="subscribe ml-auto pl-3 pr-3">
+              <div className="w-100 ml-auto pl-3 pr-3">
                 <p className="text-white small-font-size-90 mt-4">
                   Subscribe to our mailing list.
                 </p>
                 <a
-                  className="btn btn-white btn-block mx-auto mb-4"
+                  className="btn btn-outline-white btn-block mx-auto mb-4"
                   href="/subscribe" 
                   role="button"
                   tabIndex="1">
