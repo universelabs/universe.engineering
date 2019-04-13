@@ -107,8 +107,7 @@ class Footer extends Component {
                 <a
                   className="btn btn-outline-white btn-block mx-auto mb-4"
                   href="/subscribe" 
-                  role="button"
-                  tabIndex="1">
+                  role="button">
                   Subscribe
                 </a>
               </div>

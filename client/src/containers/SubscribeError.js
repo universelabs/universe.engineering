@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
 import logoWordmark from './../img/universe-wordmark.svg';
 
-// Using a ES6 class component as it contains state.
 class SubscribeError extends Component {
   render() {
     return (
-      <div className="container-fluid pl-0 pr-0">
+      <div className="container-fluid anima-fadein pl-0 pr-0">
         <div 
           className="
             container-fluid 
