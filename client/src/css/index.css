@@ -1,6 +1,6 @@
-/* #a9c9fc;   Blue 2    -------- */
- ::selection{background:rgba(169,201,252,0.75);color:#000;}
- ::-moz-selection{background:rgba(169,201,252,0.75);color:#000;}
+/* #1d00f7;   indigo-500    -------- */
+ ::selection{background:rgba(29,0,247,0.99);color:#fff;}
+ ::-moz-selection{background:rgba(29,0,247,0.99);color:#fff;}
 
 * {
   -webkit-tap-highlight-color: transparent;
