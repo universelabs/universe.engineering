@@ -113,11 +113,11 @@ class Header extends Component {
                   maxWidth: '650px'
                 }}>
                 <Heading>
-                  Private Key Management. Simplified.
+                  Blockchain Access, Made Easy.
                 </Heading>
                 <Lead
                   className="lead font-weight-normal">
-                  Universe’s protocol and hardware node provide end users with an easy to use platform for securing and using private keys and seed phrases.
+                   - Sign up once and get access to leading Blockchains <br>           - Access all of your keys and seeds in one place <br>                    - Storage locally on your hardware node
                 </Lead>
                 <div className="">
                   <Button
