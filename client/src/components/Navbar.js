@@ -6,7 +6,6 @@ import logoWordmark from './../img/universe-wordmark-white.svg';
 const Nav = styled.nav`
   padding-top: 0.15rem;
   padding-bottom: 0.15rem;
-  background-color: transparent;
 
   @media (min-width: 768px) {
     padding-top: 0;
@@ -15,22 +14,14 @@ const Nav = styled.nav`
 `;
 
 const Div = styled.div`
-  height: 70px;
-`;
-
-const Button = styled.a`
-  margin-top: 24px;
-
-  @media (min-width: 768px) {
-    margin-top: 0px;
-  }
+  height: 45px;
 `;
 
 class Navbar extends Component {
   render() {
     return (
       <Nav 
-        className={`navbar navbar-expand-md ${this.props.colorScheme}`}
+        className={`navbar navbar-expand-md navbar-dark bg-dark ${this.props.colorScheme}`}
         style={this.props.style}>
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">
@@ -48,10 +39,7 @@ class Navbar extends Component {
                 d-flex 
                 align-items-center 
                 justify-content-center 
-                d-md-none"
-              style={{
-                height: '45px'
-              }}>
+                d-md-none">
               <a 
                 className="
                   navbar-brand 
@@ -82,17 +70,17 @@ class Navbar extends Component {
                 </a>
               </li>
               <li className="nav-item d-md-none">
-                <Button 
+                <a 
                   className="
                     btn 
                     btn-sm 
-                    btn-outline-light 
+                    btn-outline-white 
                     rounded-pill 
                     nav-button" 
                   href="/subscribe"
                   >
                   Subscribe
-                </Button>
+                </a>
               </li>
             </ul>
           </div>

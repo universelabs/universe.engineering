@@ -10,10 +10,6 @@ $navbar-light-hover-color:          rgba(#000, .5);
 
 /* Navbar */
 
-.navbar {
-  height: 45px;
-}
-
 .navbar-brand-img {
   width: 100px;
 }
@@ -155,7 +151,7 @@ button.navbar-toggler {
   }
 
   .nav-link {
-    padding: 8.5px 1rem;
+    padding: 8.5px 1rem!important;
   }
 
   div#navbarBasic,
@@ -180,7 +176,7 @@ button.navbar-toggler {
   
   .nav-button {
     width: auto;
-    padding: 10px 24px;
+    padding: 10px 24px!important;
     margin-top: 1px;
     margin-left: 16px;
   }
