@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
 import logoWordmark from './../img/universe-wordmark.svg';
 
-// Using a ES6 class component as it contains state.
 class SubscribeSuccess extends Component {
   render() {
     return (

@@ -3,7 +3,6 @@ import CopyrightUpdate from 'copyright-update';
 import SubscribeForm from '../components/SubscribeForm';
 import logoWordmark from './../img/universe-wordmark.svg';
 
-// Using a ES6 class component as it contains state.
 class Subscribe extends Component {
   render() {
     return (
