@@ -6,10 +6,6 @@ div.row.d-flex.align-items-end > ul.inline-list > li.list-inline-item.mx-2 > a {
   margin-left: 3px;
 }
 
-.line {
-  height: 1px;
-}
-
 .footer-brand-img {
   width: 90px;
 }
@@ -30,11 +26,6 @@ div.row.d-flex.align-items-end > ul.inline-list > li.list-inline-item.mx-2 > a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .btn {
-    padding-top: 12px!important;
-    padding-bottom: 12px!important;
-  }
-
   .footer-brand-img {
     padding: 0;
     width: 100px;

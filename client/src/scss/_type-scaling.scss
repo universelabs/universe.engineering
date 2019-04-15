@@ -1,183 +1,4 @@
-// Override Meta after the import
-@import 'node_modules/@universelabs/meta/scss/meta.scss';
-
-// Universe
-
-// Table of contents
-// -------------------------------
-// Color system                   // Pagination
-// Options                        // Jumbotron
-// Spacing                        // Cards
-// Body                           // Tooltips
-// Links                          // Popovers
-// Paragraphs                     // Toasts
-// Grid breakpoints               // Badges
-// Grid containers                // Modals
-// Grid columns                   // Alerts
-// Components                     // Progress bars
-// Typography                     // List group
-// Tables                         // Image thumbnails
-// Buttons + Forms                // Figures
-// Buttons                        // Breadcrumbs
-// Forms                          // Carousel
-// Form validation                // Spinners
-// Z-index master list            // Close
-// Navs                           // Code
-// Navbar                         // Utilities
-// Dropdowns                      // Printing
-
-// Color system
-
-$theme-colors: (
-  "primary":   #1700c4,
-  "secondary": #eee,
-  "black":     #000,
-);
-
-$theme-colors: map-merge(
-  (
-    "primary":    $primary,
-    "black":      $black
-  ),
-  $theme-colors
-);
-
-$light:                           #fff;
-$yiq-text-dark:                   $black;
-
-// Body 
-
-$body-bg:                         $white;
-$body-color:                      $black;
-
-// Links
-
-$link-hover-color:                $gray-600;
-$link-hover-decoration:           none;
-
-$link-transition:                 all .2s ease-in-out; // Custom
-a { transition: $link-transition }
-a.link-dark { color: #000; }
-
-// Typography
-
-$font-family-monospace:           "Source Code Pro", monospace;
-
-// Headings
-//
-// Style h1, h2, h3, h4, h5, h6 elements and 
-// .h1, .h2, .h3, .h4, .h5, .h6 classes.
-
-$headings-font-weight:            800;
-
-$display-font-weight:             800;
-$display1-weight:                 $display-font-weight;
-$display2-weight:                 $display-font-weight;
-$display3-weight:                 $display-font-weight;
-$display4-weight:                 $display-font-weight;
-$display-line-height:             1.1;
-
-// Buttons + Forms
-//
-// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
-
-$input-btn-padding-y:             .875rem;
-$input-btn-padding-x:             2.8125rem;
-
-$input-btn-padding-y-sm:          .625rem;
-$input-btn-padding-x-sm:          1rem;
-$input-btn-font-size-sm:          .75rem;
-$input-btn-line-height-sm:        1.25;
-
-// Buttons
-// More styles in Buttons.css
-
-$btn-font-family:                 $font-family-monospace;
-$btn-font-size:                   .875rem;
-$btn-letter-spacing:              .0625rem;   // Custom
-$btn-text-transform:              uppercase;  // Custom
-
-$btn-border-radius:               50rem;
-$btn-border-radius-lg:            50rem;
-$btn-border-radius-sm:            50rem;
-
-$btn-transition:                  color .2s ease-in-out, 
-                                  background-color .2s ease-in-out, 
-                                  border-color .2s ease-in-out, 
-                                  box-shadow .2s ease-in-out;
-
-.btn {
-  letter-spacing:    $btn-letter-spacing;
-  text-transform:    $btn-text-transform;
-}
-
-// Navbar
-
-$navbar-dark-color:               rgba(#fff, 1);
-$navbar-dark-hover-color:         #bdbdbd;
-$navbar-dark-active-color:        primary;
-
-$navbar-light-color:              rgba(#000, 1);
-$navbar-light-hover-color:        rgba(#000, .5);
-$navbar-light-active-color:       primary;
-
-// Alerts
-// Refactor to include new color variables as well as sizes
-
-$alert-border-radius:             0;
-$alert-bg-level:                  0;
-$alert-border-level:              0;
-$alert-color-level:               0;
-
-// Override default variables before the import
-// Import Bootstrap and its default variables
-
-// Custom.scss
-// Option B: Include parts of Bootstrap
-
-// Required
-@import "node_modules/bootstrap/scss/functions";
-@import "node_modules/bootstrap/scss/variables";
-@import "node_modules/bootstrap/scss/mixins";
-
-// Optional
-@import "node_modules/bootstrap/scss/reboot";
-@import "node_modules/bootstrap/scss/type";
-@import "node_modules/bootstrap/scss/images";
-@import "node_modules/bootstrap/scss/code";
-@import "node_modules/bootstrap/scss/grid";
-
-@import "node_modules/bootstrap/scss/tables";
-@import "node_modules/bootstrap/scss/forms";
-@import "node_modules/bootstrap/scss/buttons";
-@import "node_modules/bootstrap/scss/transitions";
-@import "node_modules/bootstrap/scss/dropdown";
-@import "node_modules/bootstrap/scss/button-group";
-@import "node_modules/bootstrap/scss/input-group";
-@import "node_modules/bootstrap/scss/custom-forms";
-@import "node_modules/bootstrap/scss/nav";
-@import "node_modules/bootstrap/scss/navbar";
-@import "node_modules/bootstrap/scss/card";
-// @import "node_modules/bootstrap/scss/breadcrumb";
-@import "node_modules/bootstrap/scss/pagination";
-@import "node_modules/bootstrap/scss/badge";
-@import "node_modules/bootstrap/scss/jumbotron";
-@import "node_modules/bootstrap/scss/alert";
-@import "node_modules/bootstrap/scss/progress";
-@import "node_modules/bootstrap/scss/media";
-@import "node_modules/bootstrap/scss/list-group";
-// @import "node_modules/bootstrap/scss/close";
-// @import "node_modules/bootstrap/scss/toasts";
-// @import "node_modules/bootstrap/scss/modal";
-@import "node_modules/bootstrap/scss/tooltip";
-@import "node_modules/bootstrap/scss/popover";
-// @import "node_modules/bootstrap/scss/carousel";
-// @import "node_modules/bootstrap/scss/spinners";
-@import "node_modules/bootstrap/scss/utilities";
-// @import "node_modules/bootstrap/scss/print";
-
-
-// Meta Type Scaling Overrides
+// Type
 
 // Complex Type Scaling
 //
@@ -312,6 +133,12 @@ $paragraph-letter-spacing:             0;
     line-height: $line-height-heading-base; // Variable base setting
     margin-bottom: $margin-bottom-base;
   }
+  .h1-editorial { margin-top: $font-size-h1 * $margin-top-base; }
+  .h2-editorial { margin-top: $font-size-h2 * $margin-top-base; }
+  .h3-editorial { margin-top: $font-size-h3 * $margin-top-base; }
+  .h4-editorial { margin-top: $font-size-h4 * $margin-top-base; }
+  .h5-editorial { margin-top: $font-size-h5 * $margin-top-base; }
+  .h6-editorial { margin-top: $font-size-h6 * $margin-top-base; }
 }
 
 @mixin create-display-type-scale($scale) {
@@ -324,6 +151,8 @@ $paragraph-letter-spacing:             0;
   $font-size-display-3: $font-size-display-4 * $the-display-type-scale;
   $font-size-display-2: $font-size-display-3 * $the-display-type-scale;
   $font-size-display-1: $font-size-display-2 * $the-display-type-scale;
+
+  $top-margin-display-editorial: $font-size-display-base * $margin-top-base;
 
   // Add the created font sizes to the elements and classes
   .display-4 {
@@ -341,6 +170,12 @@ $paragraph-letter-spacing:             0;
   .display-1 {
     font-size: $font-size-display-1;
     margin-bottom: 1.75rem;
+  }
+  .display-4-editorial, 
+  .display-3-editorial, 
+  .display-2-editorial, 
+  .display-1-editorial {
+    margin-top: $top-margin-display-editorial;
   }
 }
 
@@ -369,6 +204,9 @@ $paragraph-letter-spacing:             0;
     line-height: $line-height-lead-base - .1; // Scaled down by .05
     margin-bottom: $margin-bottom-base;
   }
+  .lead-editorial { margin-top: $font-size-lead-base * $margin-top-base; }
+  .lead-md-editorial { margin-top: $font-size-lead-md * $margin-top-base; }
+  .lead-lg-editorial { margin-top: $font-size-lead-lg * $margin-top-base; }
 }
 
 @mixin create-blockquote-type-scale($scale) {
@@ -396,6 +234,12 @@ $paragraph-letter-spacing:             0;
     line-height: $line-height-blockquote-base - .1; // Scaled down by .05
     margin-bottom: $margin-bottom-base;
   }
+  .blockquote-editorial 
+  { margin-top: $font-size-blockquote-base * $margin-top-base; }
+  .blockquote-md-editorial
+  { margin-top: $font-size-blockquote-md * $margin-top-base; }
+  .blockquote-lg-editorial 
+  { margin-top: $font-size-blockquote-lg * $margin-top-base; }
 }
 
 // The base heading and display font sizes to be used from 0px width viewports 

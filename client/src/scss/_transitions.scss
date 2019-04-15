@@ -1,4 +1,8 @@
-/* Animations */
+// Transitions & Animations
+
+@import "node_modules/bootstrap/scss/transitions";
+
+// Animations
 
 .fadein {
   animation: fade-in 1s ease-out forwards;
