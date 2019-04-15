@@ -1,6 +1,6 @@
 const sendEmail = require('express').Router();
 const nodemailer = require('nodemailer');
-const config = require('../../config')
+const config = require('../../config');
 
 sendEmail.post('/', (req, res) => {
   const output = `

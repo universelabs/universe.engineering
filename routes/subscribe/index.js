@@ -1,5 +1,6 @@
 const subscribe = require('express').Router();
 const request = require('request');
+const config = require('../../config');
 
 // Subscribe route
 subscribe.post('/', (req, res) => {
