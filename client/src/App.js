@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Home from './containers/Home';
+import Dashboard from './containers/Dashboard';
 import Roadmap from './containers/Roadmap';
+import SignUp from './containers/SignUp';
 import Contact from './containers/Contact';
+import Help from './containers/Help';
 import NoMatch from './containers/NoMatch';
 import Subscribe from './containers/Subscribe';
 import SubscribeError from './containers/SubscribeError';
@@ -30,8 +33,11 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/dashboard" component={Dashboard} />
             <Route path="/roadmap" component={Roadmap} />
+            <Route path="/sign-up" component={SignUp} />
             <Route path="/contact" component={Contact} />
+            <Route path="/help" component={Help} />
             <Route path="/subscribe" component={Subscribe} />
             <Route path="/subscribe-error" component={SubscribeError} />
             <Route path="/subscribe-success" component={SubscribeSuccess} />

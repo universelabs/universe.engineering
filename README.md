@@ -67,7 +67,8 @@
 ## Status
 
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
-[![universe.engineering version](https://img.shields.io/badge/dynamic/json.svg?label=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fclient%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering)
+[![universe.engineering server version](https://img.shields.io/badge/dynamic/json.svg?label=Server+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering/blob/master/package.json)
+[![universe.engineering client version](https://img.shields.io/badge/dynamic/json.svg?label=Client+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fclient%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering/blob/master/client/package.json)
 [![Build status](https://img.shields.io/circleci/project/github/universelabs/universe.engineering.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/universelabs/universe.engineering)
 [![dependencies status](https://img.shields.io/david/universelabs/universe.engineering.svg?label=dependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe.engineering)
 [![devDependencies status](https://img.shields.io/david/dev/universelabs/universe.engineering.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe.engineering?type=dev)

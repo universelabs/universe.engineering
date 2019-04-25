@@ -6,12 +6,9 @@ class Roadmap extends Component {
   render() {
     return (
       <div>
-        <Navbar colorScheme="bg-black"/>
+        <Navbar colorScheme="navbar-dark bg-dark bg-black"/>
         <div style={{ marginLeft: '6px', marginRight: '6px' }}>
-          <div className="container text-left mr-auto mb-8 pb-8"
-            style={{
-              maxWidth: '850px'
-            }}>
+          <div className="container text-left mr-auto mb-8 pb-8">
             <h3 className="h1-editorial mb-4b">Universe Project Roadmap</h3>
             <p>
               The following is the Universe Project Roadmap defining the project, technology, goals, and future milestones.

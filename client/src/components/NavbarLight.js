@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import NavbarToggler from '../components/NavbarToggler';
-import logoWordmarkLight from './../img/universe-wordmark-white.svg';
+import logoWordmarkDark from './../img/universe-wordmark.svg';
 
 const Nav = styled.nav`
   padding-top: 0.15rem;
@@ -17,7 +17,7 @@ const Div = styled.div`
   height: 45px;
 `;
 
-class Navbar extends Component {
+class NavbarLight extends Component {
   render() {
     return (
       <Nav 
@@ -26,7 +26,7 @@ class Navbar extends Component {
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">
             <img
-              src={logoWordmarkLight} 
+              src={logoWordmarkDark} 
               className="navbar-brand-img" 
               alt="Universe Logo"/>
           </a>
@@ -51,22 +51,38 @@ class Navbar extends Component {
                 marginRight: 0
               }}>
                 <img
-                  src={logoWordmarkLight} 
+                  src={logoWordmarkDark} 
                   className="navbar-brand-img" 
                   alt="Universe Logo"/>
               </a>
             </Div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/roadmap" >
-                  Roadmap
+                <a 
+                  className="nav-link text-black" 
+                  href="/dashboard" >
+                  Dashboard
                 </a>
               </li>
               <li className="nav-item">
                 <a 
-                  className="nav-link" 
-                  href="/contact">
-                  Contact
+                  className="nav-link disabled" 
+                  href="/" >
+                  Settings
+                </a>
+              </li>
+              <li className="nav-item">
+                <a 
+                  className="nav-link text-black" 
+                  href="/help">
+                  Help
+                </a>
+              </li>
+              <li className="nav-item">
+                <a 
+                  className="nav-link text-black" 
+                  href="/">
+                  Log out
                 </a>
               </li>
               <li className="nav-item d-md-none">
@@ -90,4 +106,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavbarLight;

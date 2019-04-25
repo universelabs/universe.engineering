@@ -93,7 +93,7 @@ const Button = styled.a`
   }
 `;
 
-class Header extends Component {
+class Hero extends Component {
   render() {
     return (
       <div className="container-fluid pl-0 pr-0 hero"
@@ -147,4 +147,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Hero;

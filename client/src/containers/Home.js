@@ -8,7 +8,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Navbar colorScheme="bg-black"/>
+        <Navbar colorScheme="navbar-dark bg-dark bg-black"/>
         <Hero />
         <Footer 
           style={{
