@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
-import NavbarLight from '../components/NavbarLight';
-import Hero from '../components/Hero';
+import Modal from '../components/Modal';
 
 // Using a ES6 class component as it contains state.
-class Home extends Component {
+class SignUp extends Component {
+  componentDidMount(){
+    document.title = "Sign up"
+  }
+
   render() {
     return (
-      <div>
-        <NavbarLight colorScheme="navbar-light bg-light bg-white"/>
-        <Hero />
+      <div className="d-flex w-100 h-100 mx-auto flex-column"
+        style={{
+          backgroundColor: '#FAFAFA'
+        }}>
+        <Modal />
       </div>
     );
   }
 }
 
-export default Home;
+export default SignUp;

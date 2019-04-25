@@ -58,15 +58,31 @@ class NavbarLight extends Component {
             </Div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/roadmap" >
-                  Roadmap
+                <a 
+                  className="nav-link text-black" 
+                  href="/dashboard" >
+                  Dashboard
                 </a>
               </li>
               <li className="nav-item">
                 <a 
-                  className="nav-link" 
-                  href="/contact">
-                  Contact
+                  className="nav-link disabled" 
+                  href="/" >
+                  Settings
+                </a>
+              </li>
+              <li className="nav-item">
+                <a 
+                  className="nav-link text-black" 
+                  href="/help">
+                  Help
+                </a>
+              </li>
+              <li className="nav-item">
+                <a 
+                  className="nav-link text-black" 
+                  href="/">
+                  Log out
                 </a>
               </li>
               <li className="nav-item d-md-none">
