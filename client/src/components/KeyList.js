@@ -8,7 +8,7 @@ class KeyList extends Component {
           Blockstack Keys
         </a>
         <a href="#" className="list-group-item list-group-item-action">Solid Keys</a>
-        <a href="#" className="list-group-item list-group-item-action">MetaMaks Keys</a>
+        <a href="#" className="list-group-item list-group-item-action">MetaMask (Ethereum) Keys</a>
       </div>
     );
   }
