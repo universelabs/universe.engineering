@@ -23,7 +23,7 @@ class Dashboard extends Component {
             marginBottom: 0
           }}
           >
-          <strong>WARNING:</strong> Do not store more than <strong>$10</strong> on your keys.
+          <strong>WARNING:</strong> Product in Alpha - <strong>DO NOT</strong> store more than <strong>$10</strong> on your keys.
         </Alert>
         <div style={{ marginLeft: '6px', marginRight: '6px' }}>
           <div 
