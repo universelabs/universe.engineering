@@ -4,7 +4,7 @@ class SignUpForm extends Component {
   render() {
     return (
       <form action="/subscribe" method="POST">
-        <div className="form-group mb-5">
+        <div className="form-group mb-4c">
           <label htmlFor="firstName" className="d-none">
             First name 
             <span className="font-italic">
@@ -15,7 +15,7 @@ class SignUpForm extends Component {
             name="firstName"
             type="text"
             id="firstName"
-            className="form-control mb-3"
+            className="form-control mb-2"
             placeholder="First name (optional)"
             autoComplete="off"
             tabIndex="1"
@@ -23,24 +23,6 @@ class SignUpForm extends Component {
             aria-controls="first-name"
             aria-label="What is your first name?"
             aria-activedescendant="first-name-item-0" />
-          <label htmlFor="lastName" className="d-none">
-            Last name
-            <span className="font-italic">
-              &nbsp;- Optional
-            </span>
-          </label>
-          <input 
-            name="lastName"
-            type="text"
-            id="lastName"
-            className="form-control mb-3"
-            placeholder="Last name (optional)"
-            autoComplete="off"
-            tabIndex="2"
-            aria-invalid="false"
-            aria-controls="last-name"
-            aria-label="What is your last name?"
-            aria-activedescendant="last-name-item-0" />
           <label htmlFor="email" className="d-none">
             Email address
           </label>
@@ -48,37 +30,16 @@ class SignUpForm extends Component {
             name="email"
             type="text"
             id="email"
-            className="form-control mb-3"
+            className="form-control mb-2"
             placeholder="Email address"
             required={true}
             autoComplete="off"
-            tabIndex="3"
+            tabIndex="2"
             autoCapitalize="none"
             aria-invalid="false"
             aria-controls="email"
             aria-label="What is your email address?"
             aria-activedescendant="email-item-0" />
-        </div>
-        <p className="lead font-weight-bold text-center mb-5">
-          Continue to quickly sign up on all major blockchains.
-        </p>
-        <div className="form-group mb-4b">
-          <label htmlFor="username" className="d-none">
-            Username
-          </label>
-          <input 
-            name="username"
-            type="text"
-            id="username"
-            className="form-control mb-3"
-            placeholder="Username"
-            required={true}
-            autoComplete="off"
-            tabIndex="4"
-            aria-invalid="false"
-            aria-controls="username"
-            aria-label="Choose a username."
-            aria-activedescendant="username-item-0" />
           <label htmlFor="password" className="d-none">
             Password
           </label>
@@ -86,11 +47,11 @@ class SignUpForm extends Component {
             name="password"
             type="password"
             id="password"
-            className="form-control mb-3"
+            className="form-control mb-2"
             placeholder="Password"
             required={true}
             autoComplete="off"
-            tabIndex="5"
+            tabIndex="3"
             aria-invalid="false"
             aria-controls="password"
             aria-label="Choose a strong password."
@@ -98,32 +59,16 @@ class SignUpForm extends Component {
           <label htmlFor="passphrase" className="d-none">
             Passphrase
           </label>
-          <textarea 
-            name="passphrase"
-            type="text"
-            id="passphrase"
-            rows="5"
-            className="form-control"
-            placeholder="Passphrase"
-            required={true}
-            autoComplete="off"
-            tabIndex="6"
-            autoCapitalize="none"
-            aria-invalid="false"
-            aria-controls="passphrase"
-            aria-label="Choose a 12 word passphrase."
-            aria-activedescendant="email-item-0" />
         </div>
         <div>
           <a
             className="btn btn-black btn-subscribe btn-block"
             href="/dashboard" 
             role="button"
-            tabIndex="7">
+            tabIndex="4">
             Get started!
           </a>
         </div>
-        
       </form>
     );
   }
