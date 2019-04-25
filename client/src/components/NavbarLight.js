@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import NavbarToggler from '../components/NavbarToggler';
+import NavbarTogglerLight from '../components/NavbarTogglerLight';
 import logoWordmarkDark from './../img/universe-wordmark.svg';
 
 const Nav = styled.nav`
@@ -30,9 +30,13 @@ class NavbarLight extends Component {
               className="navbar-brand-img" 
               alt="Universe Logo"/>
           </a>
-          <NavbarToggler 
-            className="d-flex align-items-right navbar-toggler-light"/>
-          <div className="collapse navbar-collapse" id="navbarBasic">
+          <NavbarTogglerLight 
+            className="
+              d-flex 
+              align-items-right 
+              navbar-toggler-dark"
+            />
+          <div className="collapse navbar-collapse" id="navbarBasicLight">
             <Div 
               className="
                 container 
@@ -90,7 +94,7 @@ class NavbarLight extends Component {
                   className="
                     btn 
                     btn-sm 
-                    btn-outline-white 
+                    btn-outline-black 
                     rounded-pill 
                     nav-button" 
                   href="/subscribe"
