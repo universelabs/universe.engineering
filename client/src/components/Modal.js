@@ -41,13 +41,14 @@ class Modal extends Component {
                 </p>
               </div>
               <SignUpForm />
-              <a
-                className="btn btn-link btn-subscribe btn-block mx-auto mt-3"
-                href="/" 
-                role="button">
-                Back to home
-              </a>
-              <div className="text-center small mt-9 mb-4">
+              <div className="text-center mt-6 mb-2">
+                <a
+                  className="small" 
+                  href="/">
+                  Terms and Conditions
+                </a>
+              </div>
+              <div className="text-center small mb-2">
                 <CopyrightUpdate 
                   style={{
                     display: 'inline-block'
