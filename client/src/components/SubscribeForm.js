@@ -5,7 +5,7 @@ class SubscribeForm extends Component {
     return (
       <form action="/subscribe" method="POST">
         <div className="form-group">
-          <label htmlFor="email">
+          <label htmlFor="email" className="d-none">
             Email address
           </label>
           <input 
