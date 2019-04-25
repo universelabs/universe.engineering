@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import NavbarToggler from '../components/NavbarToggler';
-import logoWordmarkLight from './../img/universe-wordmark-white.svg';
+import logoWordmarkDark from './../img/universe-wordmark.svg';
 
 const Nav = styled.nav`
   padding-top: 0.15rem;
@@ -17,7 +17,7 @@ const Div = styled.div`
   height: 45px;
 `;
 
-class Navbar extends Component {
+class NavbarLight extends Component {
   render() {
     return (
       <Nav 
@@ -26,7 +26,7 @@ class Navbar extends Component {
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">
             <img
-              src={logoWordmarkLight} 
+              src={logoWordmarkDark} 
               className="navbar-brand-img" 
               alt="Universe Logo"/>
           </a>
@@ -51,7 +51,7 @@ class Navbar extends Component {
                 marginRight: 0
               }}>
                 <img
-                  src={logoWordmarkLight} 
+                  src={logoWordmarkDark} 
                   className="navbar-brand-img" 
                   alt="Universe Logo"/>
               </a>
@@ -90,4 +90,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar;
+export default NavbarLight;

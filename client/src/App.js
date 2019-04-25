@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './containers/Home';
+import SignUp from './containers/SignUp';
 import Roadmap from './containers/Roadmap';
 import Contact from './containers/Contact';
 import NoMatch from './containers/NoMatch';
@@ -31,6 +32,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/roadmap" component={Roadmap} />
+            <Route path="/sign-up" component={SignUp} />
             <Route path="/contact" component={Contact} />
             <Route path="/subscribe" component={Subscribe} />
             <Route path="/subscribe-error" component={SubscribeError} />

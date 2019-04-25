@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar';
+import NavbarLight from '../components/NavbarLight';
 import Hero from '../components/Hero';
-import Footer from '../components/Footer';
 
 // Using a ES6 class component as it contains state.
 class Home extends Component {
   render() {
     return (
       <div>
-        <Navbar colorScheme="navbar-dark bg-dark bg-black"/>
+        <NavbarLight colorScheme="navbar-light bg-light bg-white"/>
         <Hero />
-        <Footer 
-          style={{
-            backgroundColor: '#000'
-          }}/>
       </div>
     );
   }
