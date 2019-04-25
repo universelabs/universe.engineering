@@ -74,10 +74,12 @@ $btn-transition:                  color .2s ease-in-out,
   color: #fff!important;
 }
 
-.btn-black:hover {
+.btn-black:hover, 
+.btn-black:focus, 
+.btn-black:focus-within,
+.btn-black:active {
+  background-color: rgba(255,255,255,0)!important;
   color: #000!important;
-  background-color: transparent;
-  border-color: #000;
 }
 
 .btn-primary:hover {
