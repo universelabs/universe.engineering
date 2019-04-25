@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavbarLight from '../components/NavbarLight';
 import KeyList from '../components/KeyList';
+import Alert from '../components/Alert';
 
 class Dashboard extends Component {
   componentDidMount(){
@@ -14,6 +15,16 @@ class Dashboard extends Component {
           backgroundColor: '#FAFAFA'
         }}>
         <NavbarLight colorScheme="navbar-light bg-light bg-white"/>
+        <Alert
+          size=""
+          color="alert-danger"
+          className="text-center"
+          style={{
+            marginBottom: 0
+          }}
+          >
+          <strong>WARNING:</strong> Do not store more than <strong>$10</strong> on your keys.
+        </Alert>
         <div style={{ marginLeft: '6px', marginRight: '6px' }}>
           <div 
             className="container text-left mb-8 pb-8">

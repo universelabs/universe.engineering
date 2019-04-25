@@ -10,10 +10,10 @@ $alert-color-level:                 0;
 @import "node_modules/bootstrap/scss/alert";
 
 .alert { 
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: .13em;
-  padding: 15px;
+  letter-spacing: .03em;
+  padding: 16px 15px;
 }
 
 .alert-small { 
@@ -21,7 +21,17 @@ $alert-color-level:                 0;
   padding: 7px 15px;
 }
 
+.alert-big { 
+  font-size: 16px;
+  padding: 24px 15px;
+}
+
 .alert-black,
-.alert-primary {
+.alert-primary,
+.alert-danger {
   color: #fff;
+}
+
+.alert-danger {
+  background-color: #ff0000;
 }
