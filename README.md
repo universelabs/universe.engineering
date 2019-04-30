@@ -80,7 +80,7 @@
 Quickly start by cloning the repository to your local machine
 
 ```
-$ git clone git@github.com:guylepage3/lepage.cc.git
+$ git clone git@github.com:universelabs/universe.engineering.git
 ```
 
 Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)
@@ -92,7 +92,7 @@ $ brew install node
 Add dependencies for the [Express.js](https://expressjs.com/) server
 
 ```
-$ cd lepage.cc
+$ cd universe.engineering
 $ npm install
 ```
 
