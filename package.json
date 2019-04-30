@@ -5,11 +5,11 @@
     "node": "11.9.0",
     "npm": "6.8.0"
   },
-  "description": "Universe.engineering web server",
+  "description": "universe.engineering web server",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/papriika/papriika.com.git"
+    "url": "https://github.com/universelabs/universe.engineering.git"
   },
   "homepage": ".",
   "bugs": {
