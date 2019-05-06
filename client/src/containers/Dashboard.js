@@ -10,16 +10,16 @@ class Dashboard extends Component {
 
   render() {
     return (
-      <div className="d-flex w-100 h-100 mx-auto flex-column"
+      <div 
+        className="
+          d-flex 
+          w-100 
+          h-100 
+          mx-auto 
+          flex-column"
         style={{
           backgroundColor: '#FAFAFA'
         }}>
-        <NavbarLight 
-          colorScheme="
-            navbar-light 
-            bg-light 
-            bg-white"
-          />
         <Alert
           size=""
           color="alert-danger"
@@ -29,6 +29,12 @@ class Dashboard extends Component {
           }}>
           <strong>WARNING:</strong> Product in Alpha - <strong>DO NOT</strong> store more than <strong>$10</strong> on your keys.
         </Alert>
+        <NavbarLight 
+          colorScheme="
+            navbar-light 
+            bg-light 
+            bg-white"
+          />
         <div 
           style={{
             marginLeft: '6px',
@@ -40,10 +46,10 @@ class Dashboard extends Component {
               text-left 
               mb-8 pb-8"
             >
-            <h3 className="h1-editorial mb-4b">
+            <h3 className="mt-5 mt-md-7 mb-3 mb-md-4">
               Your Keys
             </h3>
-            <p className="mb-5">
+            <p className="mb-4b">
               Your keys for your various platforms are below.
             </p>
             <div className="list-group">

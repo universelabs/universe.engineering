@@ -8,6 +8,10 @@ $navbar-dark-hover-color:           $gray-600;
 
 /* Navbar */
 
+.navbar {
+  min-height: 43.5px;
+}
+
 .navbar-brand-img {
   width: 100px;
 }
@@ -138,7 +142,7 @@ button.navbar-toggler {
 @media (min-width: 768px) {
 
   .navbar {
-    height: 80px;
+    min-height: 80px;
   }
 
   .navbar-brand {
