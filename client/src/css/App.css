@@ -33,6 +33,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.App {
+  height: 100%;
+}
+
 ul {
   margin-top: 1rem;
 }
