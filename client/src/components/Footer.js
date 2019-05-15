@@ -105,7 +105,7 @@ class Footer extends Component {
                   Subscribe to our mailing list.
                 </p>
                 <a
-                  className="btn btn-outline-white btn-block mx-auto mb-4"
+                  className="btn btn-sm btn-outline-white btn-block mx-auto mb-4"
                   href="/subscribe" 
                   role="button">
                   Subscribe
