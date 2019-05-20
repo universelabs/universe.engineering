@@ -14,9 +14,15 @@ class Modal extends Component {
             mx-auto 
             d-none 
             d-md-block 
-            mb-5
+            mb-4c
           ">
-          <a href="/" className="d-block mt-5 mb-3">
+          <a 
+            href="/" 
+            className="
+              d-block 
+              mt-5 
+              mb-3
+            ">
             <img
               className="brand-img"
               src={logoWordmark} 
@@ -45,22 +51,31 @@ class Modal extends Component {
             justify-content-center
             pl-0 pr-0
           ">
-          <div className="card col-md-8"
+          <div className="card col-md-8 rounded"
             style={{
-              maxWidth: '515px'
+              maxWidth: '500px'
             }}>
             <div className="card-body">
-              <div className="text-center text-md-left mb-4">
+              <div 
+                className="
+                  text-center 
+                  mb-4">
                 <a 
                   href="/" 
-                  className="d-block d-md-none mb-4 mb-md-4c">
+                  className="
+                    d-block 
+                    d-md-none 
+                    mb-4 
+                    mt-4
+                  ">
                   <img
-                    className="brand-img brand-img-md-pull-left"
+                    className="
+                      brand-img"
                     src={logoWordmark} 
                     alt="Universe Labs Logo"
                   />
                 </a>
-                <div className="text-center">
+                <div>
                   <div 
                     className="
                       font-weight-bold 
@@ -83,8 +98,8 @@ class Modal extends Component {
                       lead 
                       text-center 
                       mb-4c 
-                      mt-md-3 
-                      mb-md-5"
+                      mt-md-1 
+                      mb-md-4c"
                     style={{
                       fontWeight: '800'
                     }}>
