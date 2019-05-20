@@ -116,7 +116,7 @@ $font-weight-heavy:           800 !default;
 $font-weight-black:           900 !default;
 $font-weight-bolder:          bolder !default;
 
-$font-weight-base:            $font-weight-semibold;
+$font-weight-base:            $font-weight-bold;
 
 // Headings
 //
@@ -139,7 +139,7 @@ small, .small {
 // Brand
 
 .brand-img {
-  width: 110px;
+  width: 115px;
 }
 
 @include respond-above(sm) {

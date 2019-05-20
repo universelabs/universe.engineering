@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import Modal from '../components/Modal';
+
+const Background = styled.div`
+  background-color: #fff;
+
+  @media (min-width: 768px) {
+    background-color: #FAFAFA;
+  }
+`;
 
 // Using a ES6 class component as it contains state.
 class SignUp extends Component {
@@ -9,12 +18,17 @@ class SignUp extends Component {
 
   render() {
     return (
-      <div className="d-flex w-100 h-100 mx-auto flex-column"
+      <Background 
+        className="
+          d-flex 
+          mx-auto 
+          flex-column 
+        "
         style={{
-          backgroundColor: '#FAFAFA'
+          minHeight: '100vh'
         }}>
         <Modal />
-      </div>
+      </Background>
     );
   }
 }

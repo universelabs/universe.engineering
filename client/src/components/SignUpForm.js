@@ -4,7 +4,7 @@ class SignUpForm extends Component {
   render() {
     return (
       <form action="/subscribe" method="POST">
-        <div className="form-group mb-4c">
+        <div className="form-group">
           <label htmlFor="firstName" className="d-none">
             First name 
             <span className="font-italic">
@@ -62,7 +62,7 @@ class SignUpForm extends Component {
         </div>
         <div>
           <a
-            className="btn btn-black btn-subscribe btn-block"
+            className="btn btn-lg btn-black btn-subscribe btn-block"
             href="/dashboard" 
             role="button"
             tabIndex="4">
