@@ -123,7 +123,7 @@ class Modal extends Component {
               <div className="text-center mt-6 mb-2">
                 <a
                   className="small font-weight-bold" 
-                  href="/">
+                  href="/terms-conditions">
                   Terms and Conditions
                 </a>
               </div>

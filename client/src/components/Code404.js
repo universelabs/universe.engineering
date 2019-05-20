@@ -35,7 +35,7 @@ class Code404 extends Component {
                 </p>
                 <a
                   className="btn btn-secondary btn-subscribe mx-auto"
-                  href="/subscribe" 
+                  href="/" 
                   role="button"
                   tabIndex="1">
                   Back to Home
