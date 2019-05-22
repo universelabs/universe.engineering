@@ -28,27 +28,27 @@ sendEmail.post('/', (req, res) => {
     port: 465,
     secure: true,
     auth: {
-        user: `${config.gmailMailer}`,
-        pass: `${config.gmailSecret}`
+      user: `${config.gmailMailer}`,
+      pass: `${config.gmailSecret}`
     }
   });
 
   // Setup email data with unicode symbols
   let mailOptions = {
     // Sender address
-    from: '"Universe support (no-reply)" <no-reply@universe.engineering>', 
+    from: '"Universe support (no-reply)" <no-reply@universe.engineering>',
     // List of receivers
-    to: "support@universe.engineering",
+    to: 'support@universe.engineering',
     // Subject line
-    subject: "New email from (universe.engineering) 📬",
+    subject: 'New email from (universe.engineering) 📬',
     // Plain text body
-    text: "New email from universe.engineering",
+    text: 'New email from universe.engineering',
     // HTML body
     html: output
   };
 
   // send mail with defined transport object
-  transporter.sendMail(mailOptions, (error) => {
+  transporter.sendMail(mailOptions, error => {
     if (error) {
       res.redirect('/email-error');
     }
