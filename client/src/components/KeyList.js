@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class KeyList extends Component {
   state = {
-    data : [
+    data: [
       {
         id: 1,
         href: '#',
@@ -19,18 +19,18 @@ class KeyList extends Component {
         text: 'MetaMask (Ethereum) Keys'
       }
     ]
-  }
-  
+  };
+
   render() {
-    return this.state.data.map((item) => (
-      <li className="list-group-item list-group-item-action" 
-        key={item.id} 
+    return this.state.data.map(item => (
+      <li
+        className="list-group-item list-group-item-action"
+        key={item.id}
         style={{
           cursor: 'pointer'
-        }}>
-        <a 
-          href={item.url} 
-          alt="Key, passphrase or seed">
+        }}
+      >
+        <a href={item.url} alt="Key, passphrase or seed">
           {item.text}
         </a>
       </li>

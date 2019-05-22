@@ -8,7 +8,7 @@ class SubscribeForm extends Component {
           <label htmlFor="email" className="d-none">
             Email address
           </label>
-          <input 
+          <input
             name="email"
             type="text"
             id="email"
@@ -21,10 +21,16 @@ class SubscribeForm extends Component {
             aria-invalid="false"
             aria-controls="email"
             aria-label="What is your email address?"
-            aria-activedescendant="email-item-0" />
+            aria-activedescendant="email-item-0"
+          />
         </div>
         <div>
-          <input type="submit" value="Subscribe" tabIndex="4" className="btn btn-black btn-subscribe btn-block"/>
+          <input
+            type="submit"
+            value="Subscribe"
+            tabIndex="4"
+            className="btn btn-black btn-subscribe btn-block"
+          />
         </div>
       </form>
     );

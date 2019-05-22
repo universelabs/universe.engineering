@@ -6,12 +6,10 @@ class ContactForm extends Component {
       <form action="/send-email" method="POST">
         <div className="form-group">
           <label htmlFor="firstName" className="d-none">
-            First name 
-            <span className="font-italic">
-              &nbsp;- Optional
-            </span>
+            First name
+            <span className="font-italic">&nbsp;- Optional</span>
           </label>
-          <input 
+          <input
             name="firstName"
             type="text"
             id="firstName"
@@ -22,14 +20,13 @@ class ContactForm extends Component {
             aria-invalid="false"
             aria-controls="first-name"
             aria-label="What is your first name?"
-            aria-activedescendant="first-name-item-0" />
+            aria-activedescendant="first-name-item-0"
+          />
           <label htmlFor="lastName" className="d-none">
             Last name
-            <span className="font-italic">
-              &nbsp;- Optional
-            </span>
+            <span className="font-italic">&nbsp;- Optional</span>
           </label>
-          <input 
+          <input
             name="lastName"
             type="text"
             id="lastName"
@@ -40,11 +37,12 @@ class ContactForm extends Component {
             aria-invalid="false"
             aria-controls="last-name"
             aria-label="What is your last name?"
-            aria-activedescendant="last-name-item-0" />
+            aria-activedescendant="last-name-item-0"
+          />
           <label htmlFor="email" className="d-none">
             Email address
           </label>
-          <input 
+          <input
             name="email"
             type="text"
             id="email"
@@ -57,11 +55,12 @@ class ContactForm extends Component {
             aria-invalid="false"
             aria-controls="email"
             aria-label="What is your email address?"
-            aria-activedescendant="email-item-0" />
+            aria-activedescendant="email-item-0"
+          />
           <label htmlFor="message" className="d-none">
             Message
           </label>
-          <textarea 
+          <textarea
             name="message"
             type="text"
             id="message"
@@ -73,19 +72,21 @@ class ContactForm extends Component {
             aria-invalid="false"
             aria-controls="message"
             aria-label="What is your message?"
-            aria-activedescendant="message-item-0" 
+            aria-activedescendant="message-item-0"
             style={{
               paddingTop: '15px'
-            }}/>
+            }}
+          />
         </div>
-        <input 
-          type="submit" 
-          value="Submit" 
-          tabIndex="5" 
+        <input
+          type="submit"
+          value="Submit"
+          tabIndex="5"
           className="btn btn-black btn-subscribe ml-auto"
           style={{
             marginTop: '24px'
-          }}/>
+          }}
+        />
       </form>
     );
   }

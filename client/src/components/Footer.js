@@ -40,29 +40,32 @@ class Footer extends Component {
       },
       {
         id: 5,
-        href: 'https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE',
+        href:
+          'https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE',
         alt: 'Universe Labs – Slack',
         icon: 'slack',
         text: 'Slack'
       }
     ]
-  }
+  };
 
   render() {
     return (
-      <footer 
+      <footer
         className={`container-fluid ${this.props.className}`}
-        style={{backgroundColor: '#000'}}>
+        style={{ backgroundColor: '#000' }}
+      >
         <div className="container pt-6 pb-6">
           <div className="mb-4b">
             <a href="/">
               <img
-                src={logoWordmark} 
-                className="navbar-brand-img" 
+                src={logoWordmark}
+                className="navbar-brand-img"
                 alt="Universe Logo"
                 style={{
                   marginLeft: '-3px'
-                }}/>
+                }}
+              />
             </a>
           </div>
           <div className="text-white">
@@ -89,12 +92,14 @@ class Footer extends Component {
           </div>
           <div className="text-white-50 mb-4">
             <div className="row d-flex align-items-end">
-              <ul className="inline-list"
+              <ul
+                className="inline-list"
                 style={{
                   paddingRight: '2px',
                   paddingLeft: '8px'
-                }}>
-                <Social 
+                }}
+              >
+                <Social
                   socialItems={this.state.socialItems}
                   listAlign="list-inline-item"
                   className="text-white"
@@ -106,16 +111,17 @@ class Footer extends Component {
                 </p>
                 <a
                   className="btn btn-sm btn-outline-white btn-block mx-auto mb-4"
-                  href="/subscribe" 
-                  role="button">
+                  href="/subscribe"
+                  role="button"
+                >
                   Subscribe
                 </a>
               </div>
             </div>
           </div>
-          <div className="container line w-100 bg-white mb-4c"></div>
+          <div className="container line w-100 bg-white mb-4c" />
           <div className="small text-white-50 letter-space mb-2">
-            <CopyrightUpdate 
+            <CopyrightUpdate
               style={{
                 display: 'inline-block'
               }}

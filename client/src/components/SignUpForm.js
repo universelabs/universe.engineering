@@ -6,12 +6,10 @@ class SignUpForm extends Component {
       <form action="/subscribe" method="POST">
         <div className="form-group">
           <label htmlFor="firstName" className="d-none">
-            First name 
-            <span className="font-italic">
-              &nbsp;- Optional
-            </span>
+            First name
+            <span className="font-italic">&nbsp;- Optional</span>
           </label>
-          <input 
+          <input
             name="firstName"
             type="text"
             id="firstName"
@@ -22,11 +20,12 @@ class SignUpForm extends Component {
             aria-invalid="false"
             aria-controls="first-name"
             aria-label="What is your first name?"
-            aria-activedescendant="first-name-item-0" />
+            aria-activedescendant="first-name-item-0"
+          />
           <label htmlFor="email" className="d-none">
             Email address
           </label>
-          <input 
+          <input
             name="email"
             type="text"
             id="email"
@@ -39,11 +38,12 @@ class SignUpForm extends Component {
             aria-invalid="false"
             aria-controls="email"
             aria-label="What is your email address?"
-            aria-activedescendant="email-item-0" />
+            aria-activedescendant="email-item-0"
+          />
           <label htmlFor="password" className="d-none">
             Password
           </label>
-          <input 
+          <input
             name="password"
             type="password"
             id="password"
@@ -55,7 +55,8 @@ class SignUpForm extends Component {
             aria-invalid="false"
             aria-controls="password"
             aria-label="Choose a strong password."
-            aria-activedescendant="password-item-0" />
+            aria-activedescendant="password-item-0"
+          />
           <label htmlFor="passphrase" className="d-none">
             Passphrase
           </label>
@@ -63,9 +64,10 @@ class SignUpForm extends Component {
         <div>
           <a
             className="btn btn-lg btn-black btn-subscribe btn-block"
-            href="/dashboard" 
+            href="/dashboard"
             role="button"
-            tabIndex="4">
+            tabIndex="4"
+          >
             Get started!
           </a>
         </div>

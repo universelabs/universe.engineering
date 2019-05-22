@@ -5,7 +5,7 @@ const config = require('../../config');
 // Subscribe route
 subscribe.post('/', (req, res) => {
   const { firstName, lastName, email } = req.body;
-  
+
   // Validation
   if (!email) {
     res.redirect('/subscribe-error');
@@ -32,16 +32,16 @@ subscribe.post('/', (req, res) => {
     url: 'https://us20.api.mailchimp.com/3.0/lists/428e146c99',
     method: 'POST',
     headers: {
-      Authorization: `auth ${config.mailchimpAPI}`,
+      Authorization: `auth ${config.mailchimpAPI}`
     },
     body: postData
   };
 
   request(options, (err, response, body) => {
-    if(err) {
+    if (err) {
       res.redirect('/subscribe-error');
     } else {
-      if(response.statusCode === 200) {
+      if (response.statusCode === 200) {
         res.redirect('/subscribe-success');
       } else {
         res.redirect('/subscribe-error');

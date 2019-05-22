@@ -13,7 +13,7 @@ app.use(sslRedirect());
 app.use(morgan('short'));
 
 // Bodyparser middleware
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Static path
@@ -23,20 +23,20 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 app.use('/', routes);
 
 //Production mode
-if(process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, 'client/build')));
   //
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname = 'client', 'build', 'index.html'));
-  })
+    res.sendFile(path.resolve((__dirname = 'client'), 'build', 'index.html'));
+  });
 }
 
 //Build mode
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/public/index.html'));
-})
+  res.sendFile(path.join(__dirname + '/client/public/index.html'));
+});
 
 //Server setup
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => console.log(`Server listening on ${ PORT }`))
+app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
