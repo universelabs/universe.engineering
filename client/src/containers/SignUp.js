@@ -6,19 +6,19 @@ const Background = styled.div`
   background-color: #fff;
 
   @media (min-width: 768px) {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
   }
 `;
 
 // Using a ES6 class component as it contains state.
 class SignUp extends Component {
-  componentDidMount(){
-    document.title = "Sign up"
+  componentDidMount() {
+    document.title = 'Sign up';
   }
 
   render() {
     return (
-      <Background 
+      <Background
         className="
           d-flex 
           mx-auto 
@@ -26,7 +26,8 @@ class SignUp extends Component {
         "
         style={{
           minHeight: '100vh'
-        }}>
+        }}
+      >
         <Modal />
       </Background>
     );

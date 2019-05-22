@@ -17,7 +17,7 @@ import './css/App.css';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {};
     this.connecToServer = this.connecToServer.bind(this);
   }
   connecToServer() {

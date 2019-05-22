@@ -8,16 +8,14 @@ const ListItem = styled.li`
 
 class Social extends Component {
   render() {
-    return this.props.socialItems.map((item) => (
+    return this.props.socialItems.map(item => (
       <ListItem key={item.id} className={`${this.props.listAlign} mx-2`}>
-        <a 
-          href={item.href} 
+        <a
+          href={item.href}
           alt={item.alt}
-          className={`${this.props.className}`}>
-          <FontAwesomeIcon 
-            className="mr-1" 
-            icon={[`fab`, `${item.icon}`]}
-            />
+          className={`${this.props.className}`}
+        >
+          <FontAwesomeIcon className="mr-1" icon={[`fab`, `${item.icon}`]} />
         </a>
       </ListItem>
     ));

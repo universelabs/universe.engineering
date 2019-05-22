@@ -20,85 +20,82 @@ const Div = styled.div`
 class NavbarLight extends Component {
   render() {
     return (
-      <Nav 
+      <Nav
         className={`navbar navbar-expand-md ${this.props.colorScheme}`}
-        style={this.props.style}>
+        style={this.props.style}
+      >
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">
             <img
-              src={logoWordmarkDark} 
-              className="navbar-brand-img" 
-              alt="Universe Logo"/>
+              src={logoWordmarkDark}
+              className="navbar-brand-img"
+              alt="Universe Logo"
+            />
           </a>
-          <NavbarTogglerLight 
+          <NavbarTogglerLight
             className="
               d-flex 
               align-items-right 
               navbar-toggler-dark"
-            />
+          />
           <div className="collapse navbar-collapse" id="navbarBasicLight">
-            <Div 
+            <Div
               className="
                 container 
                 d-flex 
                 align-items-center 
                 justify-content-center 
-                d-md-none">
-              <a 
+                d-md-none"
+            >
+              <a
                 className="
                   navbar-brand 
                   d-flex 
                   align-items-center 
-                  justify-content-center" 
+                  justify-content-center"
                 href="/"
                 style={{
-                marginRight: 0
-              }}>
+                  marginRight: 0
+                }}
+              >
                 <img
-                  src={logoWordmarkDark} 
-                  className="navbar-brand-img" 
-                  alt="Universe Logo"/>
+                  src={logoWordmarkDark}
+                  className="navbar-brand-img"
+                  alt="Universe Logo"
+                />
               </a>
             </Div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a 
-                  className="nav-link text-black" 
-                  href="/dashboard" >
+                <a className="nav-link text-black" href="/dashboard">
                   Dashboard
                 </a>
               </li>
               <li className="nav-item">
-                <a 
-                  className="nav-link disabled" 
-                  href="/" >
+                <a className="nav-link disabled" href="/">
                   Settings
                 </a>
               </li>
               <li className="nav-item">
-                <a 
-                  className="nav-link text-black" 
-                  href="/help">
+                <a className="nav-link text-black" href="/help">
                   Help
                 </a>
               </li>
               <li className="nav-item">
-                <a 
-                  className="nav-link text-black" 
-                  href="/">
+                <a className="nav-link text-black" href="/">
                   Log out
                 </a>
               </li>
               <li className="nav-item d-md-none">
-                <a 
+                <a
                   className="
                     btn 
                     btn-sm 
                     btn-outline-black 
                     rounded-pill 
-                    nav-button" 
+                    nav-button"
                   href="/subscribe"
-                  >
+                >
                   Subscribe
                 </a>
               </li>

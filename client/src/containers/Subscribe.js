@@ -7,21 +7,22 @@ class Subscribe extends Component {
   render() {
     return (
       <div className="container-fluid pl-0 pr-0">
-        <div 
+        <div
           className="
             container-fluid 
             d-flex 
             align-items-center 
             justify-content-center
             pl-0 pr-0
-          ">
+          "
+        >
           <div className="card col-md-8 mt-4c mt-md-6">
             <div className="card-body">
               <div className="text-center text-md-left mb-4">
                 <a href="/" className="d-block mb-4 mb-md-4c">
                   <img
                     className="brand-img brand-img-md-pull-left"
-                    src={logoWordmark} 
+                    src={logoWordmark}
                     alt="Universe Labs Logo"
                     style={{ marginLeft: '-7px' }}
                   />
@@ -30,18 +31,20 @@ class Subscribe extends Component {
                   Universe is a decentralized web accessibility node network.
                 </p>
                 <p>
-                  Subscribe to our mailing list for upcoming releases, news & more...
+                  Subscribe to our mailing list for upcoming releases, news &
+                  more...
                 </p>
               </div>
               <SubscribeForm />
               <a
                 className="btn btn-link btn-subscribe btn-block mx-auto mt-3"
-                href="/" 
-                role="button">
+                href="/"
+                role="button"
+              >
                 Back to home
               </a>
               <div className="text-center small mt-9 mb-4">
-                <CopyrightUpdate 
+                <CopyrightUpdate
                   style={{
                     display: 'inline-block'
                   }}

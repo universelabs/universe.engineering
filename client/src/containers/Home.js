@@ -8,12 +8,13 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Navbar colorScheme="navbar-dark bg-dark bg-black"/>
+        <Navbar colorScheme="navbar-dark bg-dark bg-black" />
         <Hero />
-        <Footer 
+        <Footer
           style={{
             backgroundColor: '#000'
-          }}/>
+          }}
+        />
       </div>
     );
   }
