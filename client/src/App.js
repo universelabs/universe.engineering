@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Home from './containers/Home';
-import Dashboard from './containers/Dashboard';
 import Roadmap from './containers/Roadmap';
 import Contact from './containers/Contact';
 import Help from './containers/Help';
@@ -32,7 +31,6 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/dashboard" component={Dashboard} />
             <Route path="/roadmap" component={Roadmap} />
             <Route path="/contact" component={Contact} />
             <Route path="/help" component={Help} />
