@@ -11,90 +11,92 @@ class Roadmap extends Component {
           <div className="container text-left mr-auto mb-8 pb-8">
             <h3 className="h1-editorial mb-4b">Universe Project Roadmap</h3>
             <p>
+              <i>Last updated: Aug 3, 2019</i>
+            </p>
+            <p>
               The following is the Universe Project Roadmap defining the
               project, technology, goals, and future milestones.
             </p>
             <h5>Project Overview</h5>
             <p>
-              Universe Labs' mission is to become the largest open source node
-              and key management network.
+              Universe Labs' mission is to become the world's largest open source key management network.
             </p>
             <h5>Goals</h5>
             <ul>
               <li>
-                Become the largest open source, blockchain agnostic edge/node
-                and key management network.
+                Abstraction of private key, key assets, passwords and usernames on both the traditional web2.0 and NEW decentralized web3.0 for end users.
               </li>
               <li>
-                Offer the best UX for dApp on-boarding and key management
-                software.
+                Become the largest blockchain agnostic edge/node and key management network.
               </li>
               <li>
-                Build and maintain a required protocol for handling transactions
-                across the network.
+                Offer the best UX for DApp key management.
               </li>
               <li>
-                Build a large community of open source developers contributing
-                and building node modules and apps on the Universe node network.
+                Build and maintain software, hardware, and a peer-to-peer protocol for handling transactions across the network.
+              </li>
+              <li>
+                Build a large community of open source developers who contribute and integrate Universe's API & SDK.
               </li>
             </ul>
             <h5>Execution to date</h5>
             <p className="lead font-weight-bold">
-              Universe Protocol (Blockchain)
-            </p>
-            <ul>
-              <li>Universe Testnet v0.1.0-alpha. (Universe daemon & CLI).</li>
-              <li>One-line Install script (Linux).</li>
-            </ul>
-            <p className="lead font-weight-bold">
-              Universe Key Management / Node Software
+              Universe Key Management Software
             </p>
             <ul>
               <li>
-                Universe Key Management Express/React Web App v0.6.0-alpha.
+                Web App (v1.0.1-alpha.1) - Key management interface where users can sign up and use the copy/paste functionality to recover a Blockstack account.</li>
+              <li>Key Management Server & Storage (v1.0.0-alpha) - Universe's key management server and storage/keystore built in Go.</li>
+            </ul>
+            <p className="lead font-weight-bold">
+              Universe Mobile Device
+            </p>
+            <ul>
+              <li>
+                Mobile Device (v0.3.1-alpha) – A tiny Bluetooth device that caches a user's vault, acting as its decryption key to serve the web app.
               </li>
-              <li>Universe Meta Front-end Framework v1.2.0.</li>
+            </ul>
+            <p className="lead font-weight-bold">
+              Universe Stationary Node
+            </p>
+            <ul>
+              <li>
+                Stationary Node (v0.1.1-alpha) – A "home node" that will be used as cold storage, either locally or by interacting with a decentralized peer-to-peer storage swarm.
+              </li>
+            </ul>
+            <p className="lead font-weight-bold">
+              Universe Frontend Software
+            </p>
+            <ul>
+              <li>
+                Universe Meta (v1.7.8) - A front-end blockchain framework w/ 5,000+ downloads.
+              </li>
             </ul>
             <h5>Milestones</h5>
             <ul>
               <li>
-                Universe Key Management - Finish building out the key management
-                web client.
+                Universe Key Management - Finish building out authentication on the key management web client.
               </li>
               <li>
-                Universe Core - Universe Testnet v0.2.0-alpha (improving the
-                design of the network for performance at the edges of the
-                network).
-              </li>
-              <li>Universe Core - Image Builder for Raspberry Pi's.</li>
-              <li>
-                Universe Growth - Raspberry Pi hackathons to get developers
-                building on Universe nodes.
-              </li>
-              <li>Universe Node - Launch the first Universe node device.</li>
-              <li>
-                Universe Growth - Distribute Universe nodes to dApp developers
-                and dApp users.
+                Universe Mobile Device - Build out Universe Mobile client software.
               </li>
               <li>
-                Universe Protocol - Design and develop a protocol that suites
-                the needs of the developers and users.
+                Universe Stationary Node - Image Builder for Raspberry Pi's.
+              </li>
+              <li>
+                Universe Growth - Raspberry Pi hackathons to get developers building on Universe nodes.
+              </li>
+              <li>
+                Universe Growth - Distribute Universe mobile devices and stationary nodes to DApp developers and DApp users.
+              </li>
+              <li>
+                Universe Peer-to-Peer Storage - Design and develop a peer-to-peer storage system for decentralization of keys.
               </li>
             </ul>
             <h5>Current Tech Stack</h5>
-            <p>
-              <a
-                href="https://github.com/universelabs/universe#status"
-                alt="Universe status"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                › Universe Status
-              </a>{' '}
-              for the lastest status of the Universe Tech Stack and
-              dependencies.
-            </p>
             <ul>
+              <li>C++</li>
+              <li>GoLang</li>
               <li>Blockstack Auth</li>
               <li>Raspian Linux</li>
               <li>Raspberry Pi Hardware</li>
@@ -102,39 +104,6 @@ class Roadmap extends Component {
               <li>Express</li>
               <li>React</li>
               <li>Universe Meta (Universe's blockchain front-end framework)</li>
-            </ul>
-            <h5>Discovery</h5>
-            <p>
-              We have been polling and collecting data and talking to
-              decentralized app developers on what issues they are facing the
-              most.
-            </p>
-            <ul>
-              <li>Users find it difficult to manage their keys.</li>
-              <li>
-                Develepers have a hard time on-boarding users and/or keeping
-                users.
-              </li>
-              <li>
-                Users do not want to go through the long process to sign up for
-                an app.
-              </li>
-            </ul>
-            <p>
-              We've taken these findings to develop a strategy to assist
-              decentralized systems in adoption.
-            </p>
-            <h5>Use Cases</h5>
-            <p>Examples of what the network can be used for</p>
-            <ul>
-              <li>
-                Similarly to the AOL in the 90's, On-board users with node
-                devices that are always on device.
-              </li>
-              <li>
-                User’s key management to access all the blockchain networks.
-              </li>
-              <li>Compute, storage, bandwidth, staking, etc.</li>
             </ul>
           </div>
         </div>
