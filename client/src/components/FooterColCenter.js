@@ -12,20 +12,26 @@ class FooterColCenter extends Component {
       {
         id: 2,
         url: '/',
-        text: 'Blockstack',
-        alt: 'Blockstack'
-      },
-      {
-        id: 3,
-        url: '/',
         text: 'Bitcoin',
         alt: 'Bitcoin'
       },
       {
+        id: 3,
+        url: '/',
+        text: 'Blockstack',
+        alt: 'Blockstack'
+      },
+      {
         id: 4,
         url: '/',
-        text: 'Lightning',
-        alt: 'Lightning'
+        text: 'Tezos',
+        alt: 'Tezos'
+      },
+      {
+        id: 5,
+        url: '/',
+        text: 'And more...',
+        alt: 'And more...'
       }
     ]
   };
