@@ -95,15 +95,33 @@ class Roadmap extends Component {
             </ul>
             <h5>Current Tech Stack</h5>
             <ul>
-              <li>C++</li>
-              <li>GoLang</li>
-              <li>Blockstack Auth</li>
-              <li>Raspian Linux</li>
-              <li>Raspberry Pi Hardware</li>
-              <li>Node</li>
-              <li>Express</li>
-              <li>React</li>
-              <li>Universe Meta (Universe's blockchain front-end framework)</li>
+              <li>
+                C++
+              </li>
+              <li>
+                GoLang
+              </li>
+              <li>
+                Blockstack Auth
+              </li>
+              <li>
+                Raspian Linux
+              </li>
+              <li>
+                Raspberry Pi Hardware
+              </li>
+              <li>
+                Node
+              </li>
+              <li>
+                Express
+              </li>
+              <li>
+                React
+              </li>
+              <li>
+                Universe Meta (Universe's blockchain front-end framework)
+              </li>
             </ul>
           </div>
         </div>
