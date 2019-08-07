@@ -149,6 +149,16 @@ Get updates on Universe's development and chat with the project maintainers and 
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
 
+**Modestos Kaffes**
+
+- <https://twitter.com/modkaffes>
+- <https://github.com/modkaffes>
+
+**Dan Trevino**
+
+- <https://twitter.com/dantrevino>
+- <https://github.com/dantrevino>
+
 
 ## License
 
