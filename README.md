@@ -1,5 +1,5 @@
 <div align="center">
-  <h3>Universe website</h3>
+  <h3>Universe Website</h3>
   <p>
     Universe is a key management solution for decentralized platforms.
     <br/>
