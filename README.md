@@ -1,7 +1,7 @@
 <div align="center">
-  <h3>Universe Website</h3>
+  <h3>Universe website</h3>
   <p>
-    Universe is a key management solution for decentralized platforms.
+    Universe is a decentralized login platform for Web 2 and Web 3.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
@@ -153,11 +153,6 @@ Get updates on Universe's development and chat with the project maintainers and 
 
 - <https://twitter.com/modkaffes>
 - <https://github.com/modkaffes>
-
-**Dan Trevino**
-
-- <https://twitter.com/dantrevino>
-- <https://github.com/dantrevino>
 
 
 ## License
