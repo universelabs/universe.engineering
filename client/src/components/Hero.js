@@ -179,7 +179,10 @@ class Hero extends Component {
                   maxWidth: '650px'
                 }}
               >
-                <Heading>Decentralized Login Made Easy.</Heading>
+                <Heading>
+                  Decentralized <br />
+                  Login Made Easy.
+                </Heading>
                 <Lead className="lead font-weight-normal">
                   Universe is a decentralized login platform for Web 2 and Web 3. Users sign up once and gain access to both decentralized and web 2 platforms and applications.
                 </Lead>
@@ -200,7 +203,9 @@ class Hero extends Component {
                   >
                     Subscribe
                   </Button>
-                  <p>We're Open Source. <a href="https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md" alt="Learn how to contribute">Learn how to contribute</a>.</p>
+                  <p>
+                    We're <a href="https://github.com/universelabs/universe" alt="Universe Labs Open Source (Github)">Open Source</a>. <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE" alt="Universe Labs – Slack">Join the community</a>.
+                  </p>
                 </div>
               </div>
             </div>
