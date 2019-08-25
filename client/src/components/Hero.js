@@ -179,11 +179,9 @@ class Hero extends Component {
                   maxWidth: '650px'
                 }}
               >
-                <Heading>Decentralized Web Access Made Easy.</Heading>
+                <Heading>Decentralized Login Made Easy.</Heading>
                 <Lead className="lead font-weight-normal">
-                  With Universe, users sign up once and gain access to leading
-                  blockchains. Universe's key manager gives you quick access to
-                  passphrases, private keys and seeds, all in one place.
+                  Universe is a decentralized login platform for Web 2 and Web 3. Users sign up once and gain access to both decentralized and web 2 platforms and applications.
                 </Lead>
                 <div className="">
                   <Button
@@ -202,7 +200,7 @@ class Hero extends Component {
                   >
                     Subscribe
                   </Button>
-                  <p>Open source, blockchain agnostic key managment.</p>
+                  <p>We're Open Source. <a href="https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md" alt="Learn how to contribute">Learn how to contribute</a>.</p>
                 </div>
               </div>
             </div>
