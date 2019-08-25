@@ -11,7 +11,7 @@ class Roadmap extends Component {
           <div className="container text-left mr-auto mb-8 pb-8">
             <h3 className="h1-editorial mb-4b">Universe Project Roadmap</h3>
             <p>
-              <i>Last updated: Aug 3, 2019</i>
+              <i>Last updated: Aug 25, 2019</i>
             </p>
             <p>
               The following is the Universe Project Roadmap defining the
@@ -19,7 +19,7 @@ class Roadmap extends Component {
             </p>
             <h5>Project Overview</h5>
             <p>
-              Universe Labs' mission is to become the world's largest open source key management network.
+              Universe's mission is to become the largest login platform.
             </p>
             <h5>Goals</h5>
             <ul>
@@ -69,7 +69,7 @@ class Roadmap extends Component {
             </p>
             <ul>
               <li>
-                Universe Meta (v1.7.8) - A front-end blockchain framework w/ 5,000+ downloads.
+                Universe Meta (v1.7.8) - A front-end blockchain framework w/ 3,000+ downloads.
               </li>
             </ul>
             <h5>Milestones</h5>
