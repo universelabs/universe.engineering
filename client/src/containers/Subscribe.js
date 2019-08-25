@@ -28,7 +28,7 @@ class Subscribe extends Component {
                   />
                 </a>
                 <p className="lead font-weight-bold">
-                  Universe is a decentralized web accessibility node network.
+                  Universe is a decentralized login platform focusing on Web 3.
                 </p>
                 <p>
                   Subscribe to our mailing list for upcoming releases, news &
