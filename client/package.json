@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "universe.engineering web client",
   "license": "MIT",
   "repository": {
@@ -35,7 +35,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@universelabs/meta": "1.7.8",
     "bootstrap": "^4.3.1",
-    "copyright-update": "^1.4.0",
+    "copyright-update": "^1.4.1",
     "jquery": "3.4.1",
     "jquery-ui-dist": "^1.12.1",
     "node-sass": "^4.12.0",
