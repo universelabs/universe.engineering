@@ -1,7 +1,7 @@
 <div align="center">
   <h3>Universe website</h3>
   <p>
-    Universe is a decentralized login platform for Web 2 and Web 3.
+    Universe is a decentralized login platform for Web 2.0 and Web 3.0.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
