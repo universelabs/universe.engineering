@@ -184,7 +184,7 @@ class Hero extends Component {
                   Login Made Easy.
                 </Heading>
                 <Lead className="lead font-weight-normal">
-                  Universe is a decentralized login platform for Web 2.0 and Web 3.0. Users sign up once and gain access to both the decentralized and traditional web.
+                  Universe is a decentralized login (DLI) protocol and recovery platform for Web 2.0 and Web 3.0. Users sign up once and gain access to both the decentralized and traditional web.
                 </Lead>
                 <div className="">
                   <Button
