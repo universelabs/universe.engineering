@@ -1,7 +1,7 @@
 <div align="center">
   <h3>Universe website</h3>
   <p>
-    Universe is a decentralized login protocol (DLI) and decentralized private key recovery network advancing Web 3.0.
+    Universe is a decentralized login (DLI) and private key recovery network for Web 3.0.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
