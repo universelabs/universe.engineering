@@ -1,7 +1,7 @@
 <div align="center">
   <h3>Universe website</h3>
   <p>
-    Universe is a decentralized login and private key recovery protocol.
+    Universe website is the best place to visit for those interested in Universe.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
