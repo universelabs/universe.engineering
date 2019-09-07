@@ -184,7 +184,7 @@ class Hero extends Component {
                   Login Made Easy.
                 </Heading>
                 <Lead className="lead font-weight-normal">
-                  Universe is a decentralized login (DLI) and private key recovery network for Web 3.0. Users sign up once and never have to deal with key assets and/or passwords again.
+                  Universe is a decentralized login (DLI) and private key recovery network for Web 3.0. Users sign up once. Never deal with passwords or keys again.
                 </Lead>
                 <div className="">
                   <Button
