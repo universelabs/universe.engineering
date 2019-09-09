@@ -61,7 +61,7 @@ class Roadmap extends Component {
                 <span className="font-weight-black">Charlotte Pan</span>, <i>UX & Product</i> – UX & Product Designer with a passion for data visualization, front-end development, and designing products that make users’ lives easier.
               </li>
               <li>
-                <span className="font-weight-black">Sean O’Connor</span>, <i>Marketing & Product</i> – <a href="https://consensys.net/" alt="ConsenSys" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;ConsenSys&nbsp;</a> Product Marketer. Launched several consumer-facing DApps. Recently, Sean has been focused on improving Web3 UX and Advisor at Parsons School of Design.
+                <span className="font-weight-black">Sean O’Connor</span>, <i>Marketing & Product</i> – <a href="https://consensys.net/" alt="ConsenSys" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;ConsenSys&nbsp;</a> Product Marketer. Launched several consumer-facing DApps. Recently, Sean has been focused on improving Web 3.0 UX and Advisor at Parsons School of Design.
               </li>
             </ul>
             <p className="lead font-weight-bold">
