@@ -40,7 +40,7 @@ class Roadmap extends Component {
               </li>
             </ul>
             <h5>Progress & Status</h5>
-            <p className="lead font-weight-bold">
+            <p className="lead font-weight-black">
               Team
             </p>
             <p>We spent a couple months working on building a talented team of computer scientists, blockchain engineers, developers, designers and marketers.</p>
