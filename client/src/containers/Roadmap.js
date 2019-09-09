@@ -52,16 +52,16 @@ class Roadmap extends Component {
                 <span className="font-weight-black">Itamar Reif</span>, <i><span className="font-weight-black">Co-founder</span>, Protocol Engineer</i> – Itamar is a 3rd year student at NYU currently working towards a Joint Major in Computer Science & Economics. Focus/interest in distributed systems and algorithmic game theory.
               </li>
               <li>
-                <span className="font-weight-black">Jacob Gadikian</span>, <i><span className="font-weight-black">Co-founder</span>, Blockchain & Hardware Engineer</i> – Tendermint/Cosmos blockchain developer. Formerly Co-founder of the Dawn Network, an early decentralized social network. Co-founder of bitcoin mine.
+                <span className="font-weight-black">Jacob Gadikian</span>, <i><span className="font-weight-black">Co-founder</span>, Blockchain & Hardware Engineer</i> – <a href="https://tendermint.com/" alt="Tendermint" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Tendermint&nbsp;</a>/<a href="https://cosmos.network/" alt="Cosmos" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Cosmos&nbsp;</a> blockchain developer. Formerly Co-founder of the <a href="https://github.com/dawn-network" alt="Dawn Network" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Dawn Network&nbsp;</a>, an early decentralized social network. Co-founder of bitcoin mine.
               </li>
               <li>
-                <span className="font-weight-black">Modestos Kaffes</span>, <i>Front-End Engineer & Designer</i> – Ethereum DApp developer, Front-end software engineer with a strong design background and an eye for detail. 3+ yrs designer & engineer at Workable.
+                <span className="font-weight-black">Modestos Kaffes</span>, <i>Front-End Engineer & Designer</i> – Ethereum DApp developer, Front-end software engineer with a strong design background and an eye for detail. 3+ yrs designer & engineer at <a href="https://www.workable.com/" alt="Workable" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Workable&nbsp;</a>.
               </li>
               <li>
                 <span className="font-weight-black">Charlotte Pan</span>, <i>UX & Product</i> – UX & Product Designer with a passion for data visualization, front-end development, and designing products that make users’ lives easier.
               </li>
               <li>
-                <span className="font-weight-black">Sean O’Connor</span>, <i>Marketing & Product</i> – ConsenSys Product Marketer. Launched several consumer-facing DApps. Recently, Sean has been focused on improving Web3 UX and Advisor at Parsons School of Design.
+                <span className="font-weight-black">Sean O’Connor</span>, <i>Marketing & Product</i> – <a href="https://consensys.net/" alt="ConsenSys" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;ConsenSys&nbsp;</a> Product Marketer. Launched several consumer-facing DApps. Recently, Sean has been focused on improving Web3 UX and Advisor at Parsons School of Design.
               </li>
             </ul>
             <p className="lead font-weight-bold">
