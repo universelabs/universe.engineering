@@ -6,9 +6,27 @@ class Roadmap extends Component {
   render() {
     return (
       <div>
-        <Navbar colorScheme="navbar-dark bg-dark bg-black" />
-        <div style={{ marginLeft: '6px', marginRight: '6px' }}>
-          <div className="container text-left mr-auto mb-8 pb-8">
+        <Navbar 
+          colorScheme="
+            navbar-dark 
+            bg-dark 
+            bg-black" 
+            />
+        <div 
+          style={{ 
+            marginLeft: '6px', 
+            marginRight: '6px' 
+          }}>
+          <div 
+            className="
+              container 
+              text-left 
+              mr-auto 
+              mb-8 
+              pb-8"
+            style={{
+              maxWidth: '800px'
+            }}>
             <h3 className="h1-editorial mb-4b">Universe Project Roadmap</h3>
             <p>
               <i>Last updated: Sep 9, 2019</i>
@@ -46,22 +64,22 @@ class Roadmap extends Component {
             <p>We spent a couple months working on building a talented team of computer scientists, blockchain engineers, developers, designers and marketers.</p>
             <ul>
               <li className="pb-2">
-                <span className="font-weight-black">Guy Lepage</span>, <i><span className="font-weight-black">Co-founder</span>, UX/UI Designer & Developer</i> (<a href="https://lepage.cc/about" alt="Guy Lepage Full Bio" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Full Bio&nbsp;</a>) – Guy was the 1st hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Blockstack PBC&nbsp;</a>, designer and 1 of 2 developers of the first <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Blockstack Browser&nbsp;</a>. (assisted in the raising of over <a href="https://venturebeat.com/2017/12/04/blockstack-raises-52-million-to-build-a-parallel-internet-where-you-own-all-your-data/" alt="$50mm in a token distribution" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;$50mm in a token distribution&nbsp;</a> from investors such as USV, Naval Ravikant, Winklevoss', etc.).
+                <span className="font-weight-black">Guy Lepage</span>, <i><span className="font-weight-black">Co-founder</span>, UX/UI Designer & Developer</i> (<a href="https://lepage.cc/about" alt="Guy Lepage Full Bio" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Bio</a>) – Guy was the 1st hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Blockstack PBC</a>, designer and 1 of 2 developers of the first <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Blockstack Browser</a>. (assisted in the raising of over <a href="https://venturebeat.com/2017/12/04/blockstack-raises-52-million-to-build-a-parallel-internet-where-you-own-all-your-data/" alt="$50mm in a token distribution" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">$50mm in a token distribution</a> from investors such as USV, Naval Ravikant, Winklevoss', etc.).
               </li>
               <li className="pb-2">
                 <span className="font-weight-black">Itamar Reif</span>, <i><span className="font-weight-black">Co-founder</span>, Protocol Engineer</i> – Itamar is a C++ computer scientist and 3rd year student at NYU currently working towards a Joint Major in Computer Science & Economics. Focus/interest in distributed systems and algorithmic game theory.
               </li>
               <li className="pb-2">
-                <span className="font-weight-black">Jacob Gadikian</span>, <i><span className="font-weight-black">Co-founder</span>, Blockchain & Hardware Engineer</i> – <a href="https://tendermint.com/" alt="Tendermint" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Tendermint&nbsp;</a>/<a href="https://cosmos.network/" alt="Cosmos" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Cosmos&nbsp;</a> blockchain developer. Formerly Co-founder of the <a href="https://github.com/dawn-network" alt="Dawn Network" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Dawn Network&nbsp;</a>, an early decentralized social network. Co-founder of bitcoin mine.
+                <span className="font-weight-black">Jacob Gadikian</span>, <i><span className="font-weight-black">Co-founder</span>, Blockchain & Hardware Engineer</i> – <a href="https://tendermint.com/" alt="Tendermint" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Tendermint</a>/<a href="https://cosmos.network/" alt="Cosmos" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Cosmos</a> blockchain developer. Formerly Co-founder of the <a href="https://github.com/dawn-network" alt="Dawn Network" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Dawn Network</a>, an early decentralized social network. Co-founder of bitcoin mine.
               </li>
               <li className="pb-2">
-                <span className="font-weight-black">Modestos Kaffes</span>, <i>Front-End Engineer & Designer</i> – Ethereum DApp developer, Front-end software engineer with a strong design background and an eye for detail. 3+ yrs designer & engineer at <a href="https://www.workable.com/" alt="Workable" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Workable&nbsp;</a>.
+                <span className="font-weight-black">Modestos Kaffes</span>, <i>Front-End Engineer & Designer</i> – Ethereum DApp developer, Front-end software engineer with a strong design background and an eye for detail. 3+ yrs designer & engineer at <a href="https://www.workable.com/" alt="Workable" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Workable</a>.
               </li>
               <li className="pb-2">
                 <span className="font-weight-black">Charlotte Pan</span>, <i>UX & Product</i> – UX & Product Designer with a passion for data visualization, front-end development, and designing products that make users’ lives easier.
               </li>
               <li className="pb-2">
-                <span className="font-weight-black">Sean O’Connor</span>, <i>Marketing & Product</i> – <a href="https://consensys.net/" alt="ConsenSys" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;ConsenSys&nbsp;</a> Product Marketer. Launched several consumer-facing DApps. Recently, Sean has been focused on improving Web 3.0 UX and Advisor at Parsons School of Design.
+                <span className="font-weight-black">Sean O’Connor</span>, <i>Marketing & Product</i> – <a href="https://consensys.net/" alt="ConsenSys" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">ConsenSys</a> Product Marketer. Launched several consumer-facing DApps. Recently, Sean has been focused on improving Web 3.0 UX and Advisor at Parsons School of Design.
               </li>
             </ul>
             <p className="lead font-weight-black">
@@ -89,22 +107,22 @@ class Roadmap extends Component {
             <h5>Links</h5>
             <ul>
               <li className="pb-2">
-                <a href="https://github.com/universelabs/universe" alt="Universe (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Universe (GitHub)&nbsp;</a>
+                <a href="https://github.com/universelabs/universe" alt="Universe (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Universe (GitHub)</a>
               </li>
               <li className="pb-2">
-                <a href="https://github.com/universelabs/universe-core" alt="Universe Core (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Universe Core (GitHub)&nbsp;</a>
+                <a href="https://github.com/universelabs/universe-core" alt="Universe Core (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Universe Core (GitHub)</a>
               </li>
               <li className="pb-2">
-                <a href="https://github.com/universelabs/universe-webapp" alt="Universe Key Management Web App (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Universe Key Management Web App (GitHub)&nbsp;</a>
+                <a href="https://github.com/universelabs/universe-webapp" alt="Universe Key Management Web App (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Universe Key Management Web App (GitHub)</a>
               </li>
               <li className="pb-2">
-                <a href="https://github.com/universelabs/universe-key-manager" alt="Universe Key Manager (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Universe Key Manager (GitHub)&nbsp;</a>
+                <a href="https://github.com/universelabs/universe-key-manager" alt="Universe Key Manager (GitHub)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Universe Key Manager (GitHub)</a>
               </li>
               <li className="pb-2">
-                <a href="https://github.com/universelabs/meta" alt="Meta (Blockchain framework w/ 3,600+ downloads)" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Meta (Blockchain framework w/ 3,600+ downloads)&nbsp;</a>
+                <a href="https://github.com/universelabs/meta" alt="Meta (Blockchain framework w/ 3,600+ downloads)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Meta (Blockchain framework w/ 3,600+ downloads)</a>
               </li>
               <li className="pb-2">
-                <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE" alt="Community (Slack)" target="_blank" rel="noopener noreferrer" className="bg-black text-light">&nbsp;Community (Slack)&nbsp;</a>
+                <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE" alt="Community (Slack)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Community (Slack)</a>
               </li>
             </ul>
             <h5>Possible Future Technology</h5>
