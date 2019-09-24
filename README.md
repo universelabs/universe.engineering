@@ -1,18 +1,18 @@
 <div align="center">
   <h3>Universe website</h3>
   <p>
-    Universe website is the best place to visit for those interested in Universe.
+    Universe website is the best resource for all things Universe.
     <br/>
     <a href="https://universe.engineering">
       <strong>universe.engineering</strong>
     </a>
   </p>
   <p>
-    <a href="https://github.com/universelabs/universe.engineering/issues/new?labels=&template=bug_report.md" alt="Report a Bug (universe.engineering)">
+    <a href="https://github.com/universelabs/universe.engineering/issues/new?labels=&template=bug_report.md" alt="Report a Bug">
       Report bug
     </a>
     &middot;
-    <a href="https://github.com/universelabs/universe.engineering/issues/new?labels=&template=feature_request.md" alt="Request feature (universe.engineering)">
+    <a href="https://github.com/universelabs/universe.engineering/issues/new?labels=&template=feature_request.md" alt="Request feature">
       Request feature
     </a>
     &middot;
@@ -20,7 +20,7 @@
       Medium
     </a>
     &middot;
-    <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE">
+    <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg">
       Slack
     </a>
     <br/>
@@ -43,7 +43,6 @@
 
 <br/>
 
-
 ## Table of contents
 
 - [Quick start](#quick-start)
@@ -55,7 +54,6 @@
 - [Maintainers](#maintainers)
 - [License](#license)
 
-
 ## Quick start
 
 1. Quickly start by cloning the repository to your local machine `git clone git@github.com:universelabs/universe.engineering.git`.
@@ -63,15 +61,13 @@
 3. Add dependencies for both the back-end and client servers `npm install`.
 4. Start the local back-end and client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you `npm run dev`.
 
-
 ## Status
 
-[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
+[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg)
 [![universe.engineering version](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fclient%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering/blob/master/client/package.json)
 [![universe.engineering server version](https://img.shields.io/badge/dynamic/json.svg?label=Server+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering/blob/master/package.json)
 [![Build status](https://img.shields.io/circleci/project/github/universelabs/universe.engineering.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/universelabs/universe.engineering)
 [![Repository Size](https://img.shields.io/github/repo-size/universelabs/universe.engineering.svg?label=Repository+Size&colorA=%23212121&colorB=%23007BFF)](https://github.com/universelabs/universe.engineering)
-
 
 ## Getting started
 
@@ -115,7 +111,6 @@ $ npm run dev
 
 The app will and automatically start the Node/Express server on port http://localhost:5000/ as well as the client side server on port http://localhost:3000/. The app will also listen for changes and update automatically.
 
-
 ## Contributing
 
 Please read through our [contributing guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
@@ -123,15 +118,13 @@ Please read through our [contributing guidelines](https://github.com/universelab
 Moreover, if your pull request contains JavaScript patches or features, you
 must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md#code-guidelines).
 
-
 ## Roadmap
 
-Universe Labs' mission is to become the largest open source node and key management network.
+Universe Labs' mission is to become the largest decentralized login and decentralized private key recovery protocol.
 
 [› Universe Roadmap](https://github.com/universelabs/universe/blob/master/ROADMAP.md)
 
 View the Universe Roadmap to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
-
 
 ## Community
 
@@ -140,8 +133,7 @@ Get updates on Universe's development and chat with the project maintainers and 
 - Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
 - [Star this repo](https://github.com/universelabs/universe/stargazers)
 - Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
-- Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE).
-
+- Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg).
 
 ## Maintainers
 
@@ -149,11 +141,9 @@ Get updates on Universe's development and chat with the project maintainers and 
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
 
-**Modestos Kaffes**
-
-- <https://twitter.com/modkaffes>
-- <https://github.com/modkaffes>
-
+**Jacob Gadakian**
+- <https://twitter.com/gadikian>
+- <https://github.com/faddat>
 
 ## License
 
