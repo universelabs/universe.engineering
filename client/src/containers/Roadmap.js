@@ -122,7 +122,7 @@ class Roadmap extends Component {
                 <a href="https://github.com/universelabs/meta" alt="Meta (Blockchain framework w/ 3,600+ downloads)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Meta (Blockchain framework w/ 3,600+ downloads)</a>
               </li>
               <li className="pb-2">
-                <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg" alt="Community (Slack)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Community (Slack)</a>
+                <a href="https://universelabs-slackin.herokuapp.com/" alt="Community (Slack)" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Community (Slack)</a>
               </li>
             </ul>
             <h5>Possible Future Technology</h5>

@@ -18,7 +18,7 @@ class FooterColRight extends Component {
       {
         id: 3,
         url:
-          'https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg',
+          'https://universelabs-slackin.herokuapp.com/',
         text: 'Slack',
         alt: 'Slack'
       }

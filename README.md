@@ -20,7 +20,7 @@
       Medium
     </a>
     &middot;
-    <a href="https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg">
+    <a href="https://universelabs-slackin.herokuapp.com/">
       Slack
     </a>
     <br/>
@@ -63,7 +63,7 @@
 
 ## Status
 
-[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg)
+[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://universelabs-slackin.herokuapp.com/)
 [![universe.engineering version](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fclient%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering/blob/master/client/package.json)
 [![universe.engineering server version](https://img.shields.io/badge/dynamic/json.svg?label=Server+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse.engineering%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe.engineering/blob/master/package.json)
 [![Build status](https://img.shields.io/circleci/project/github/universelabs/universe.engineering.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/universelabs/universe.engineering)
@@ -133,7 +133,7 @@ Get updates on Universe's development and chat with the project maintainers and 
 - Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
 - [Star this repo](https://github.com/universelabs/universe/stargazers)
 - Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
-- Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNjA2MjM1NjAyNzI0LTUyYWZjM2I5M2VhMTU3YTY3ZGI0YTAwNDQwN2I1Mzc4Yjk3YTg2Y2IxOGMyMDljOTdkM2Y4NTM3ZTAwYzc3NTg).
+- Join the official Universe [Slack](https://universelabs-slackin.herokuapp.com/).
 
 ## Maintainers
 
