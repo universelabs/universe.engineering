@@ -53,7 +53,7 @@ class MailerSuccess extends Component {
                   </a>{' '}
                   Universe on Twitter.{' '}
                   <a
-                    href="https://universelabs-slackin.herokuapp.com/"
+                    href="https://slack.universe.engineering"
                     alt="Universe Labs – Slack"
                     target="_blank"
                     rel="noopener noreferrer"

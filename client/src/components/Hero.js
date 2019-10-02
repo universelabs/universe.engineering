@@ -204,7 +204,7 @@ class Hero extends Component {
                     Subscribe
                   </Button>
                   <p>
-                    We're <a href="https://github.com/universelabs/universe" alt="Universe Labs Open Source (Github)">Open Source</a>. <a href="https://universelabs-slackin.herokuapp.com/" alt="Universe Labs – Slack">Join the community</a>.
+                    We're <a href="https://github.com/universelabs/universe" alt="Universe Labs Open Source (Github)">Open Source</a>. <a href="https://slack.universe.engineering" alt="Universe Labs – Slack">Join the community</a>.
                   </p>
                 </div>
               </div>

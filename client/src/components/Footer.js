@@ -41,7 +41,7 @@ class Footer extends Component {
       {
         id: 5,
         href:
-          'https://universelabs-slackin.herokuapp.com/',
+          'https://slack.universe.engineering',
         alt: 'Universe Labs – Slack',
         icon: 'slack',
         text: 'Slack'
