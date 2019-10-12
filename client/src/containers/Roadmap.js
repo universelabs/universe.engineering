@@ -37,13 +37,10 @@ class Roadmap extends Component {
             </p>
             <h5>Project Overview</h5>
             <p>
-              Universe's mission is to become the world's largest decentralized login platform.
+              Universe's mission is to become the easiest and most used key recovery solution.
             </p>
             <h5>Goals</h5>
             <ul>
-              <li className="pb-2">
-                Decentralized Login (DLI) - Make login as secure as public key encryption and easier to use than passwords.
-              </li>
               <li className="pb-2">
                 Build out a strong and reliable core infrastructure and decentralized private key recovery protocol & network.
               </li>
