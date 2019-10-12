@@ -177,14 +177,14 @@ class Hero extends Component {
                   maxWidth: '650px'
                 }}>
                 <Heading>
-                  Key recovery <br />
-                  made easy.
+                  Go ahead. Lose
+                  your Private Keys.
                 </Heading>
                 <Lead className="lead font-weight-heavy"
                   style={{
                     letterSpacing: '-0.015em'
                   }}>
-                  Universe is a decentralized private key recovery solution using social sharing.
+                  We use a simple version of Shamir's Secret Sharing for private key recovery so you no longer have to worry about losing what you own.
                 </Lead>
                 <div className="">
                   <Button
