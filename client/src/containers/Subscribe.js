@@ -31,7 +31,7 @@ class Subscribe extends Component {
                   style={{
                     letterSpacing: '-0.015em'
                   }}>
-                  Universe is a frictionless private key recovery solution. Go ahead. Lose your private keys.
+                  Universe is a frictionless private key recovery solution.
                 </p>
                 <p
                   className="
