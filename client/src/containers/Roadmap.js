@@ -73,9 +73,6 @@ class Roadmap extends Component {
                 <span className="font-weight-black">Jacob Gadikian</span>, <i><span className="font-weight-black">Co-founder</span>, Blockchain & Hardware Engineer</i> – <a href="https://tendermint.com/" alt="Tendermint" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Tendermint</a>/<a href="https://cosmos.network/" alt="Cosmos" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Cosmos</a> blockchain developer. Formerly Co-founder of the <a href="https://github.com/dawn-network" alt="Dawn Network" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Dawn Network</a>, an early decentralized social network. Co-founder of bitcoin mine.
               </li>
               <li className="pb-2">
-                <span className="font-weight-black">Modestos Kaffes</span>, <i>Front-End Engineer & Designer</i> – Ethereum DApp developer, Front-end software engineer with a strong design background and an eye for detail. 3+ yrs designer & engineer at <a href="https://www.workable.com/" alt="Workable" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Workable</a>.
-              </li>
-              <li className="pb-2">
                 <span className="font-weight-black">Charlotte Pan</span>, <i>UX & Product</i> – UX & Product Designer with a passion for data visualization, front-end development, and designing products that make users’ lives easier.
               </li>
               <li className="pb-2">
