@@ -203,12 +203,36 @@ class Hero extends Component {
                     >
                     Subscribe
                   </Button>
-                  <p>
+                  <p
+                    className="mb-2"
+                    >
                     <a 
-                      href="https://slack.universe.engineering" 
+                      href="https://github.com/universelabs/universe.engineering"
                       alt="Universe Labs – Slack"
                       >
-                        We're Open Source
+                      <span
+                        className="small-font-size-80"
+                        style={{
+                          display: 'inline-block',
+                          backgroundColor: '#000',
+                          color: '#fff',
+                          paddingRight: '.6em',
+                          paddingLeft: '.6em',
+                          borderRadius: '10rem'
+                        }}>
+                          &nbsp;v1.0.0-alpha&nbsp;
+                      </span>
+                    </a>
+                      &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;
+                    <a 
+                      style={{
+                        position: 'relative',
+                        top: '2px'
+                      }}
+                      href="https://github.com/universelabs/universe" 
+                      alt="GitHub UniverseLabs (Universe Labs)"
+                      >
+                        Open Source
                     </a>
                   </p>
                 </div>
