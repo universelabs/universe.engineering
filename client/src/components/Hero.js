@@ -163,28 +163,28 @@ class Hero extends Component {
         className="container-fluid pl-0 pr-0 hero"
         style={{
           marginTop: '-80px'
-        }}
-      >
+        }}>
         <div className="row no-gutters">
           <Overlay
             className="
               container-fluid 
               d-flex 
-              align-items-center 
-              "
-          >
+              align-items-center"
+            >
             <div className="container my-auto anima-fadein">
               <div
                 style={{
                   maxWidth: '650px'
-                }}
-              >
+                }}>
                 <Heading>
-                  Decentralized <br />
-                  Login Made Easy.
+                  Key recovery <br />
+                  made easy.
                 </Heading>
-                <Lead className="lead font-weight-normal">
-                  Universe is a decentralized login and decentralized private key recovery protocol. Sign up for the Web 3.0 just once. Never deal with private keys again.
+                <Lead className="lead font-weight-heavy"
+                  style={{
+                    letterSpacing: '-0.015em'
+                  }}>
+                  Universe is a decentralized private key recovery solution using social sharing.
                 </Lead>
                 <div className="">
                   <Button
@@ -200,11 +200,16 @@ class Hero extends Component {
                     href="/subscribe"
                     role="button"
                     tabIndex="1"
-                  >
+                    >
                     Subscribe
                   </Button>
                   <p>
-                    We're <a href="https://github.com/universelabs/universe" alt="Universe Labs Open Source (Github)">Open Source</a>. <a href="https://slack.universe.engineering" alt="Universe Labs – Slack">Join the community</a>.
+                    <a 
+                      href="https://slack.universe.engineering" 
+                      alt="Universe Labs – Slack"
+                      >
+                        We're Open Source
+                    </a>
                   </p>
                 </div>
               </div>

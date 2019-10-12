@@ -105,22 +105,45 @@ class Footer extends Component {
                   className="text-white"
                 />
               </ul>
-              <div className="subscribe ml-auto pl-3 pr-3">
-                <p className="text-white small-font-size-90 mt-4">
+              <div 
+                className="
+                  subscribe 
+                  ml-auto 
+                  pl-3 
+                  pr-3"
+                >
+                <p 
+                  className="
+                    text-white 
+                    small-font-size-90 
+                    mt-4"
+                  >
                   Subscribe to our mailing list.
                 </p>
                 <a
-                  className="btn btn-sm btn-outline-white btn-block mx-auto mb-4"
+                  className="
+                    btn 
+                    btn-sm 
+                    btn-outline-white 
+                    btn-block mx-auto 
+                    mb-4"
                   href="/subscribe"
                   role="button"
-                >
+                  >
                   Subscribe
                 </a>
               </div>
             </div>
           </div>
           <div className="container line w-100 bg-white mb-4c" />
-          <div className="small text-white-50 letter-space mb-2">
+          <div 
+            className="
+              small 
+              font-weight-heavy
+              text-white-50 
+              letter-space 
+              mb-2"
+            >
             <CopyrightUpdate
               style={{
                 display: 'inline-block'
