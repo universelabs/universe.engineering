@@ -14,7 +14,7 @@ class Social extends Component {
           href={item.href}
           alt={item.alt}
           className={`${this.props.className}`}
-        >
+          >
           <FontAwesomeIcon className="mr-1" icon={[`fab`, `${item.icon}`]} />
         </a>
       </ListItem>

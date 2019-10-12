@@ -54,7 +54,7 @@ class Footer extends Component {
       <footer
         className={`container-fluid ${this.props.className}`}
         style={{ backgroundColor: '#000' }}
-      >
+        >
         <div className="container pt-6 pb-6">
           <div className="mb-4b">
             <a href="/">
@@ -97,8 +97,7 @@ class Footer extends Component {
                 style={{
                   paddingRight: '2px',
                   paddingLeft: '8px'
-                }}
-              >
+                }}>
                 <Social
                   socialItems={this.state.socialItems}
                   listAlign="list-inline-item"
@@ -147,9 +146,8 @@ class Footer extends Component {
             <CopyrightUpdate
               style={{
                 display: 'inline-block'
-              }}
-            />
-            &nbsp;Universe Labs Inc.
+              }}/>
+              &nbsp;Universe Labs Inc.
           </div>
         </div>
       </footer>

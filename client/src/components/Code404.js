@@ -40,13 +40,18 @@ class Code404 extends Component {
                   Back to Home
                 </a>
               </div>
-              <div className="text-center small mt-9 mb-4">
+              <div 
+                className="
+                  text-center 
+                  small 
+                  mt-9 
+                  mb-4"
+                >
                 <CopyrightUpdate
                   style={{
                     display: 'inline-block'
-                  }}
-                />
-                &nbsp;Universe Labs Inc.
+                  }}/>
+                  &nbsp;Universe Labs Inc.
               </div>
             </div>
           </div>

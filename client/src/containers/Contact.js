@@ -26,8 +26,7 @@ class Contact extends Component {
               pb-8"
             style={{
               maxWidth: '800px'
-            }}
-            >
+            }}>
             <div />
             <h3 
               className="

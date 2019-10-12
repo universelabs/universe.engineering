@@ -12,9 +12,9 @@ class MailerSuccess extends Component {
             d-flex 
             align-items-center 
             justify-content-center
-            pl-0 pr-0
-          "
-        >
+            pl-0 
+            pr-0"
+          >
           <div className="card col-md-8 mt-4c mt-md-6">
             <div className="card-body">
               <div className="text-center mb-4">
@@ -38,7 +38,7 @@ class MailerSuccess extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-black text-light mx-1"
-                  >
+                    >
                     &nbsp;Star&nbsp;
                   </a>{' '}
                   the open source project.{' '}
@@ -48,7 +48,7 @@ class MailerSuccess extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-black text-light mx-1"
-                  >
+                    >
                     &nbsp;Follow&nbsp;
                   </a>{' '}
                   Universe on Twitter.{' '}
@@ -81,17 +81,22 @@ class MailerSuccess extends Component {
                   href="/"
                   role="button"
                   tabIndex="1"
-                >
+                  >
                   Back to home
                 </a>
               </div>
-              <div className="text-center small letter-space mt-9 mb-4">
+              <div 
+                className="
+                  text-center 
+                  small 
+                  mt-9 
+                  mb-4"
+                >
                 <CopyrightUpdate
                   style={{
                     display: 'inline-block'
-                  }}
-                />
-                &nbsp;Universe Labs Inc.
+                  }}/>
+                  &nbsp;Universe Labs Inc.
               </div>
             </div>
           </div>

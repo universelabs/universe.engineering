@@ -28,8 +28,7 @@ class KeyList extends Component {
         key={item.id}
         style={{
           cursor: 'pointer'
-        }}
-      >
+        }}>
         <a href={item.url} alt="Key, passphrase or seed">
           {item.text}
         </a>

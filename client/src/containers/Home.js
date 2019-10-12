@@ -13,8 +13,7 @@ class Home extends Component {
         <Footer
           style={{
             backgroundColor: '#000'
-          }}
-        />
+          }}/>
       </div>
     );
   }

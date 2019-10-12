@@ -28,7 +28,7 @@ class NavbarTogglerLight extends Component {
         aria-expanded="false"
         aria-label="Toggle navigation"
         style={this.props.style}
-      >
+        >
         <span className={`icon-bar top-bar ${this.props.className}`} />
         <span className={`icon-bar bottom-bar ${this.props.className}`} />
       </button>

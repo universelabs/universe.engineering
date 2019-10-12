@@ -23,7 +23,7 @@ class Navbar extends Component {
       <Nav
         className={`navbar navbar-expand-md ${this.props.colorScheme}`}
         style={this.props.style}
-      >
+        >
         <div className="container">
           <a className="navbar-brand d-flex align-items-center" href="/">
             <img
@@ -41,7 +41,7 @@ class Navbar extends Component {
                 align-items-center 
                 justify-content-center 
                 d-md-none"
-            >
+              >
               <a
                 className="
                   navbar-brand 
@@ -51,8 +51,7 @@ class Navbar extends Component {
                 href="/"
                 style={{
                   marginRight: 0
-                }}
-              >
+                }}>
                 <img
                   src={logoWordmarkLight}
                   className="navbar-brand-img"
@@ -80,7 +79,7 @@ class Navbar extends Component {
                     rounded-pill 
                     nav-button"
                   href="/subscribe"
-                >
+                  >
                   Subscribe
                 </a>
               </li>

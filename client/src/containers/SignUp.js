@@ -22,12 +22,10 @@ class SignUp extends Component {
         className="
           d-flex 
           mx-auto 
-          flex-column 
-        "
+          flex-column"
         style={{
           minHeight: '100vh'
-        }}
-      >
+        }}>
         <Modal />
       </Background>
     );

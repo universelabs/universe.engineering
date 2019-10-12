@@ -8,7 +8,7 @@ class Alert extends Component {
           this.props.className
         }`}
         style={this.props.style}
-      >
+        >
         {this.props.children}
       </div>
     );
