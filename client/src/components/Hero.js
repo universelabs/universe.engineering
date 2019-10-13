@@ -206,23 +206,18 @@ class Hero extends Component {
                   <p
                     className="mb-2"
                     >
-                    <a 
-                      href="https://github.com/universelabs/universe.engineering"
-                      alt="Universe Labs – Slack"
-                      >
-                      <span
-                        className="small-font-size-80"
-                        style={{
-                          display: 'inline-block',
-                          backgroundColor: '#000',
-                          color: '#fff',
-                          paddingRight: '.6em',
-                          paddingLeft: '.6em',
-                          borderRadius: '10rem'
-                        }}>
-                          &nbsp;v1.0.0-alpha&nbsp;
-                      </span>
-                    </a>
+                    <span
+                      className="small-font-size-80"
+                      style={{
+                        display: 'inline-block',
+                        backgroundColor: '#000',
+                        color: '#fff',
+                        paddingRight: '.6em',
+                        paddingLeft: '.6em',
+                        borderRadius: '10rem'
+                      }}>
+                        &nbsp;v1.0.0-alpha&nbsp;
+                    </span>
                       &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;
                     <a 
                       style={{
