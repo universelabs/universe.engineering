@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "engines": {
     "node": "11.9.0",
     "npm": "6.8.0"
@@ -31,7 +31,8 @@
     "server": "nodemon server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "prod-build": "npm start --prefix build",
+    "prod": "concurrently \"npm run server\" \"npm run prod-build\""
   },
   "dependencies": {
     "body-parser": "^1.19.0",
