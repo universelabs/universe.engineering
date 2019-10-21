@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5a8c2b3d.chunk.css",
+    "main.js": "./static/js/main.368520b5.chunk.js",
+    "main.js.map": "./static/js/main.368520b5.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b4fd6341.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b4fd6341.js.map",
+    "static/js/2.d4de158f.chunk.js": "./static/js/2.d4de158f.chunk.js",
+    "static/js/2.d4de158f.chunk.js.map": "./static/js/2.d4de158f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.19a52eab69aa7e1019daecdebb21e3a4.js": "./precache-manifest.19a52eab69aa7e1019daecdebb21e3a4.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.5a8c2b3d.chunk.css.map": "./static/css/main.5a8c2b3d.chunk.css.map",
+    "static/media/universe-rhombi.svg": "./static/media/universe-rhombi.c3a64687.svg",
+    "static/media/universe-wordmark-white.svg": "./static/media/universe-wordmark-white.3223abd0.svg",
+    "static/media/universe-wordmark.svg": "./static/media/universe-wordmark.43494868.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4fd6341.js",
+    "static/js/2.d4de158f.chunk.js",
+    "static/css/main.5a8c2b3d.chunk.css",
+    "static/js/main.368520b5.chunk.js"
+  ]
+}
