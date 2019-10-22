@@ -7,7 +7,7 @@
 config/dev.js
 
 # production
-# /build
+/build
 
 # misc
 .DS_Store
