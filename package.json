@@ -30,9 +30,10 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
+    "client-build": "npm run build --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "prod-build": "npm start --prefix build",
-    "prod": "concurrently \"npm run server\" \"npm run prod-build\"",
+    "prod-pack": "concurrently \"npm run server\" \"serve -s client/build\"",
+    "prod": "npm install && npm install --prefix client && npm run build --prefix client && npm run prod-pack",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
@@ -42,7 +43,8 @@
     "heroku-ssl-redirect": "0.0.4",
     "morgan": "^1.9.1",
     "nodemailer": "6.3.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "serve": "11.2.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
