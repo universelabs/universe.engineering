@@ -47,6 +47,6 @@
     "serve": "11.3.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^2.0.2"
   }
 }
