@@ -44,7 +44,7 @@
     "morgan": "^1.9.1",
     "nodemailer": "6.3.0",
     "request": "^2.88.0",
-    "serve": "11.2.0"
+    "serve": "11.3.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
