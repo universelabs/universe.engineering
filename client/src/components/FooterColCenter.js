@@ -26,12 +26,6 @@ class FooterColCenter extends Component {
         url: '/',
         text: 'Tezos',
         alt: 'Tezos'
-      },
-      {
-        id: 5,
-        url: '/',
-        text: 'And more...',
-        alt: 'And more...'
       }
     ]
   };
