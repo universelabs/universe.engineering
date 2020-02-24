@@ -42,7 +42,7 @@
     "express": "^4.17.1",
     "heroku-ssl-redirect": "0.0.4",
     "morgan": "^1.9.1",
-    "nodemailer": "6.4.2",
+    "nodemailer": "6.4.3",
     "request": "^2.88.0",
     "serve": "11.3.0"
   },
