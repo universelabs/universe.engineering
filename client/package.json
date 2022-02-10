@@ -38,7 +38,7 @@
     "copyright-update": "^1.7.3",
     "jquery": "3.5.0",
     "jquery-ui-dist": "^1.12.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "popper.js": "1.16.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
